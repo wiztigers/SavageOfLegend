@@ -1,0 +1,420 @@
+= Savage Dawns
+:toc: left
+:toc-title: Table des matières
+:toclevels: 2
+
+
+
+== Compétences
+
+Combat (Agilité)
+Conduite (Agilité)
+Connaissance(~) (Intellect)
+Crochetage (Agilité)
+Discrétion (Agilité)
+Équitation (Agilité)
+Escalade (Force)
+Intimidation (Âme)
+Jeu (Intellect)
+Lancer (Agilité)
+Natation (Agilité)
+Navigation (Agilité)
+Perception (Intellect)
+Persuasion (Âme)
+Pilotage (Agilité)
+Pistage (Intellect)
+Recherche (Intellect)
+Réparation (Intellect)
+Réseaux (Intellect)
+Sarcasme (Intellect)
+Soins (Intellect)
+Survie (Intellect)
+Tir (Agilité)
+
+[[option_skills_made_easy]]
+[NOTE.option,caption="Règle optionnelle"]
+====
+*Compétences facilitées*
+
+Augmenter une Compétence dont la valeur est supérieure ou égale au Trait associé
+ou prendre une nouvelle Compétence à d4 se fait au même prix
+qu'augmenter une compétence dont la valeur est inférieure au Trait associé.
+
+Cette règle est valable lors de la création de personnage
+tout comme lors de sa progression.
+
+Cela signifie qu'à la création de personnage, chaque dé de Compétence coûte un point,
+quel que soit le dé et quelle que soit la valeur du trait associé.
+
+Lorsque le personnage bénéficie d'une Progression, celle-ci permet au personnage d'augmenter deux Compétences,
+et ce, quelle que soit leur nouvelle valeur et quelle que soit la valeur du trait associé.
+====
+
+[[option_knowledges]]
+[NOTE.option,caption="Règle optionnelle"]
+====
+*Expertises*
+
+La Compétence « Connaissance » disparaît.
+À la place, chaque personnage peut acquérir différentes Expertises.
+Chaque Expertise s'aquiert au prix d'un dé de Compétence, que ce soit à la création de personnage ou lors d'une Progression.
+Une Expertise n'a pas de dé associé : soit un personnage la possède, soit il ne la possède pas.
+
+Une Expertise permet au personnage qui la possède de tenter une action
+qui sort de l'usage habituel d'une Compétence ou d'un Trait donnés.
+
+Par exemple, une Expertise « Histoire » ou « Loi » permettra de tenter des tests de Culture générale ayant trait à ces sujets ;
+le test d'Intellect associé ne subira alors aucun malus.
+====
+
+
+
+[[karma]]
+== Karma
+
+Un adepte ne gagne aucun Jeton au début d'une session de jeu.
+À la place, il gagne un nombre de points de Karma égal à la taille de sa réserve de Karma.
+La réserve de Karma d'un personnage a une taille égale à *1 + le nombre de Promotions acquises*.
+
+Un point de Karma peuvent être dépensé pour :
+
+* Obtenir un bénéfice identique à celui d'un Jeton.
+* Obtenir un bonus de +2 à certains jets, dépendant de la <<disciplines,discipline>> du personnage.
+  Pour un jet donné, un maximum d'un seul point de Karma peut être utilisé de cette manière.
+
+Une seule fois par jour, un adepte peut effectuer un rituel karmique propre à sa discipline.
+Ce rituel lui permet de regagner un point de Karma.
+
+[[disciplines]]
+== Disciplines
+
+Chaque discipline est un Atout professionel tel que décrit page 63 de _Savage Worlds_.
+Ces atouts sont accessibles dès la création d'un personnage, ou bien plus tard, grâce à une Progression.
+
+À la discrétion du MJ, un adepte peut posséder plusieurs disciplines, jusqu'à une limite d'une par Rang.
+Quel que soit le nombre de disciplines qu'il possède, cela n'accroit pas la taille de sa <<karma,réserve de Karma>>.
+
+
+
+[[discipline_archer]]
+=== Archer
+
+*Prérequis :* Novice, Perception d6+, Tir d6+
+
+Un Archer acquiert l'atout Vigilance.
+
+Un Archer peut utiliser un point de Karma dans le cadre d'un jet de Tir.
+
+*Talents de discipline :* <<talent_flame_arrow,Flèche de feu>>, <<talent_true_shot,Tir infaillible>>, <<talent_multishot,Tir multiple>>.
+
+
+
+[[discipline_weaponsmith]]
+=== Armurier
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Armurier peut utiliser un point de Karma dans le cadre TODO
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_cavalryman]]
+=== Cavalier
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'Équitation, ou d'un jet effectué par sa monture.
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_horror_stalker]]
+=== Chasseur d'Horreurs
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre TODO
+
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_scout]]
+=== Éclaireur
+
+*Prérequis :* Novice, Perception d6+
+
+Un Éclaireur ajoute +2 à ses jets de Discrétion, Perception, Recherche et Survie.
+Ces bonus ne s'appliquent qu'en milieu sauvage.
+
+Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Perception ou de Survie.
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_sky_raider]]
+=== Écumeur du ciel
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet d'Intimidation, ou de n'importe quel jet effectué durant une bataille à bord d'un navir aérien.
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_elementalist]]
+=== Élémentaliste
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Élémentaliste peut utiliser un point de Karma dans le cadre TODO
+
+*Talents de discipline :* <<talent_unshakeable_earth,Enracinement>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
+
+
+
+[[discipline_warrior]]
+=== Guerrier
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Guerrier peut utiliser un point de Karma dans le cadre TODO
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_illusionist]]
+=== Illusionniste
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Illusionniste peut utiliser un point de Karma dans le cadre TODO
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_swordmaster]]
+=== Maître d'armes
+
+*Prérequis :* Novice, Combat d6+, Sarcasme d6+
+
+Un Maître d'arme gagne l'atout Charismatique, même s'il ne satisfait pas à ses prérequis.
+
+Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de dégâts d'une arme de corps à corps.
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_beastmaster]]
+=== Maître des animaux
+
+*Prérequis :* Novice, Vigueur d6+, Survie d6+
+
+Les animaux n'attaquent pas le personnage, à moins qu'il ne les attaque en premier lieu ou qu'ils ne soient enragés pour une raison quelconque.
+
+De plus, si un Maître des animaux passe un minimum de 10 minutes en compagnie d'un animal dont l'attitude envers lui est Neutre ou meilleure, cet animal peut s'attacher à lui et devenir son compagnon animal, si le Maître des animaux le désire.
+Un compagnon animal accompagne fidèlement le Maître des animaux et a une attitude Serviable envers lui.
+Au même moment, un Maître d'animaix peut s'attacher à un nombre d'animaux maximum égal à son Rang.
+
+Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet effectué par un de ses compagnons animaux.
+
+*Talents de discipline :* <<talent_chameleon,Caméléon>>, <<talent_claw_shape,Griffes>>, <<talent_animal_possession,Possession animale>>
+
+
+
+[[discipline_air_sailor]]
+=== Navigateur aérien
+
+*Prérequis :* Novice, Agilité d6+, Manœuvre aérienne d6+
+
+TODO
+
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de Manœuvre aérienne, ou de n'importe quel jet effectué durant une bataille à bord d'un navir aérien.
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_nethermancer]]
+=== Nécromancien
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Nécromancien peut utiliser un point de Karma dans le cadre TODO
+
+*Talents de discipline :* <<talent_lionheart,Cœur de lion>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
+
+
+
+[[discipline_wizard]]
+=== Sorcier
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+Un Sorcier peut utiliser un point de Karma dans le cadre TODO
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_troubadour]]
+=== Troubadour
+
+*Prérequis :* Novice, Âme d6+, Persuasion d6+
+
+Un Troubadour gagne l'atout Charismatique, même s'il ne satisfait pas à ses prérequis.
+
+Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de Persuasion, de Sarcasme ou de Recherche.
+
+*Talents de discipline :* TODO
+
+
+
+[[discipline_thief]]
+=== Voleur
+
+*Prérequis :* Novice, Agilité d6+, Discrétion d6+
+
+Un Voleur ajoute +2 à tous ses jets de Crochetage ou de Discrétion.
+
+Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de Crochetage ou de Discrétion.
+
+*Talents de discipline :* TODO
+
+
+
+
+
+[[talents]]
+== Talents
+
+Les talents sont des atouts étranges.
+Tout personnage peut acquérir un talent du moment qu'il en satisfait les prérequis
+et que ce talent figure dans la liste de ses talents de <<disciplines,discipline>>.
+
+[[talent_xxx]]
+=== XXX
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+[[talent_chameleon]]
+=== Caméléon
+
+*Prérequis :* Vétéran, Discrétion d6+
+
+Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de Discrétion égal à son Rang.
+
+[[talent_lionheart]]
+=== Cœur de lion
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+[[talent_unshakeable_earth]]
+=== Enracinement
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+[[talent_flame_arrow]]
+=== Flèche de feu
+
+*Prérequis :* Aguerri, Âme d6+
+
+Le personnage peut dépenser un point de Karma pour augmenter les dommage d'une arme à distance de +4.
+Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
+
+[[talent_claw_shape]]
+=== Griffes
+
+*Prérequis :* Novice
+
+Lorsqu'il effectue un jet de Combat à mains nues, le personnage est considéré comme armé.
+De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son Rang.
+
+[[talent_summoning]]
+=== Invocation
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+[[talent_spell_matrix]]
+=== Matrice de sorts
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+[[talent_animal_possession]]
+=== Possession animale
+
+*Prérequis :* Aguerri, Âme d6+
+
+Le personnage peut dépenser un point de Karma pour posséder un animal ayant une attitude Amicale ou meilleure envers lui.
+La possession a une durée maximale de Rang × 10 minutes.
+Pendant tout le temps que dure la possession, le corps du personnage tombe en catatonie.
+
+[[talent_true_shot]]
+=== Tir infaillible
+
+*Prérequis :* Novice
+
+Le personnage peut dépenser un ou plusieurs point de Karma pour réduire les malus d'un jet de Tir.
+Chaque point de Karma ainsi dépensé réduit le malus qui s'applique au jet de 2 points.
+Plusieurs points de Karma peuvent être dépensés de cette manière, avec un maximum d'un par Rang.
+
+Ce talent est une exception à la règle qui ne permet d'utiliser au maximum qu'un seul <<karma,point de Karma>> pour un jet.
+
+[[talent_multishot]]
+=== Tir multiple
+
+*Prérequis :* Vétéran
+
+Le personnage peut dépenser un point de Karma pour effectuer un jet de Tir supplémentaire ce round-ci.
+Dans un round donné, plusieurs points de Karma peuvent être dépensés de cette manière, avec un maximum d'un par Rang.
+
+[[talent_astral_sight]]
+=== Vision astrale
+
+*Prérequis :* Novice, TODO
+
+TODO
+
+[[talent_wind_catcher]]
+=== Vol plané
+
+*Prérequis :* Novice, Âme d6+
+
+TODO
