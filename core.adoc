@@ -8,7 +8,7 @@
 == Progression du personnage
 
 Tous les 5 XP, un personnage gagne un Cercle.
-Il bénéficie alors d'une Progression, qui lui permet de s'améliorer comme décrit page 70 de _Savage Worlds_.
+Il bénéficie alors d'une Progression (_Savage Worlds_ page 170).
 
 [[ranks]]
 .Tableau des rangs
@@ -100,11 +100,11 @@ le test d'Intellect associé ne subira alors aucun malus.
 
 Un adepte ne gagne aucun Jeton au début d'une session de jeu.
 À la place, il gagne un nombre de points de Karma égal à la taille de sa réserve de Karma.
-La réserve de Karma d'un personnage a une taille égale à *1 + le nombre de Promotions acquises*.
+La taille de la réserve de Karma d'un adepte est égale à son <<ranks,Cercle>>.
 
 Un point de Karma peuvent être dépensé pour :
 
-* Obtenir un bénéfice identique à celui d'un Jeton.
+* Obtenir un bénéfice identique à celui d'un Jeton (_Savage Worlds_ page 106).
 * Obtenir un bonus de +2 à certains jets, dépendant de la <<disciplines,discipline>> du personnage.
   Pour un jet donné, un maximum d'un seul point de Karma peut être utilisé de cette manière.
 
@@ -114,7 +114,7 @@ Ce rituel lui permet de regagner un point de Karma.
 [[disciplines]]
 == Disciplines
 
-Chaque discipline est un Atout professionel tel que décrit page 63 de _Savage Worlds_.
+Chaque discipline est un Atout professionel (_Savage Worlds_ page 63).
 Ces atouts sont accessibles dès la création d'un personnage, ou bien plus tard, grâce à une Progression.
 
 À la discrétion du MJ, un adepte peut posséder plusieurs disciplines, jusqu'à une limite d'une par Rang.
@@ -125,7 +125,7 @@ Quel que soit le nombre de disciplines qu'il possède, cela n'accroit pas la tai
 [[discipline_archer]]
 === Archer
 
-*Prérequis :* <<ranks,Novice>>, Perception d6+, Tir d6+
+*Prérequis :* <<ranks,Novice>>, Tir d8+
 
 Un Archer acquiert l'atout Vigilance.
 
@@ -197,7 +197,7 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Percepti
 
 TODO
 
-Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet d'Intimidation, ou de n'importe quel jet effectué durant une bataille à bord d'un navire aérien.
+Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'Intimidation, de Force, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
 
 *Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_fireblood,Sang de feu>>, <<talent_wind_catcher,Vol plané>>
 
@@ -219,13 +219,13 @@ Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de Sur
 [[discipline_warrior]]
 === Guerrier
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Combat d8+
 
-TODO
+Un Guerrier obtient un bonus de +1 à tous ses jets de dégâts au corps à corps.
 
-Un Guerrier peut utiliser un point de Karma dans le cadre TODO
+Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de Connaissance (Batailles).
 
-*Talents de discipline :* <<talent_temper_self,Endurcissement>>, TODO
+*Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_wood_skin,Peau de bois>>, <<talent_life_check,Ultime sursaut>>
 
 
 
@@ -249,7 +249,7 @@ Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de Persu
 
 Le Charisme d'un Maître d'armes est augmenté de 2.
 
-Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de dégâts d'une arme de corps à corps.
+Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de Sarcasme.
 
 *Talents de discipline :* TODO
 
@@ -279,7 +279,7 @@ Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet ef
 
 TODO
 
-Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de Manœuvre aérienne, ou de n'importe quel jet effectué durant une bataille à bord d'un navire aérien.
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de Manœuvre aérienne, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
 
 *Talents de discipline :* <<talent_great_leap,Bondissement>>, TODO, <<talent_wind_catcher,Vol plané>>
 
@@ -320,7 +320,7 @@ Le Charisme d'un Troubadour est augmenté de 2.
 
 Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de Persuasion, de Sarcasme ou de Recherche.
 
-*Talents de discipline :* <<talent_emotion_song,Chant d'émotion>>, <<talent_speak_language,Glossolalie>>, <<talent_item_history,Histoire des objets>>
+*Talents de discipline :* <<talent_emotion_song,Chant d'émotion>>, <<talent_speak_language,Glossolalie>>, <<talent_item_history,Histoire des objets>>, <<talent_winning_smile,Sourire ravageur>>
 
 
 
@@ -366,7 +366,7 @@ Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet d
 
 *Prérequis :* <<ranks,Gardien>>, Discrétion d10+
 
-Une fois par combat, le personnage peut dépenser un point de Karma pour effectuer une _Attaque surprise_, comme décrit page 120 de _Savage Worlds_, même s'il ne devrait pas y être autorisé.
+Une fois par combat, le personnage peut dépenser un point de Karma pour effectuer une _Attaque surprise_ (_Savage Worlds_ page 120), même si les circonstances ne devraient pas l'y autoriser.
 
 [[talent_great_leap]]
 === Bondissement
@@ -443,7 +443,8 @@ Si le jet est réussi, le personnage échappe totalement au piège.
 
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
-Le personnage peut dépenser un point de Karma pour augmenter les dommage d'une arme à distance de +4.
+Le personnage peut dépenser un point de Karma pour obtenir un bonus au jet de dégâts d'une attaque à distance.
+Le bonus aux dégâts obtenu est égal au Rang du personnage.
 Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
 
 [[talent_forge_item]]
@@ -503,6 +504,13 @@ Le personnage est considéré comme ayant toutes les connaissances existantes.
 Il doit pour cela avoir parcouru au moins une fois un livre renfermant l'information recherchée.
 Le personnage doit néanmoins dépenser un point de Karma pour se rappeler de l'information.
 
+[[talent_wood_skin]]
+=== Peau de bois
+
+*Prérequis :* <<ranks,Novice>>, Vigueur d6
+
+Le personnage peut dépenser un point de Karma pour bénéficier d'un bonus à sa Résistance égal à son Rang, pendant un nombre de rounds égal à son Rang.
+
 [[talent_versatility]]
 === Polyvalence
 
@@ -532,12 +540,19 @@ Dans le cadre de ce talent, ce jet ne lui prend qu'une action.
 Ce jet ne bénéficie d'aucun bonus ou malus du aux conditions de convalescence.
 Il souffre cependant des malus dus au blessures comme d'habitude.
 
+[[talent_winning_smile]]
+=== Sourire ravageur
+
+*Prérequis :* <<ranks,Gardien>>, Persuasion d8+
+
+Lors d'un jet de Persuasion, le personnage peut dépenser un point de Karma pour affecter un nombre d'Extras égal à son Rang.
+
 [[talent_true_shot]]
 === Tir infaillible
 
 *Prérequis :* <<ranks,Novice>>, Tir d6+
 
-Le personnage peut dépenser un ou plusieurs point de Karma pour réduire les malus d'un jet de Tir.
+Le personnage peut dépenser un ou plusieurs points de Karma pour réduire les malus d'un jet de Tir.
 Chaque point de Karma ainsi dépensé réduit le malus qui s'applique au jet de 2 points.
 Plusieurs points de Karma peuvent être dépensés de cette manière, avec un maximum d'un par Rang.
 
@@ -548,8 +563,19 @@ Ce talent est une exception à la règle qui ne permet d'utiliser au maximum qu'
 
 *Prérequis :* <<ranks,Gardien>>, Tir d10+
 
-Le personnage peut dépenser un point de Karma pour effectuer un jet de Tir supplémentaire ce round-ci.
-Dans un round donné, plusieurs points de Karma peuvent être dépensés de cette manière, avec un maximum d'un par Rang.
+Le personnage peut dépenser un ou plusieurs points de Karma pour augmenter la CdT de son arme à distance.
+La CdT de l'arme pour le round est égale au nombre de points de Karma dépensés +1.
+Le personnage peut dépenser au maximum un point de Karma par Rang de cette manière.
+
+[[talent_life_check]]
+=== Ultime sursaut
+
+*Prérequis :* <<ranks,Compagnon>>, Âme d8+, Vigueur d8+
+
+Lorsque le personnage sombre dans un État critique (_Savage Worlds_ page 116), mais avant d'effectuer le jet de Vigueur correspondant, il peut dépenser un point de Karma pour effectuer un jet d'Âme.
+Le malus de blessure ne s'applique pas à ce jet d'Âme.
+Si ce jet est réussi, il sort de cet État critique, avec son nombre maximal de blessures.
+Sur une relance, le personnage guérit en plus une de ses blessures.
 
 [[talent_astral_sight]]
 === Vision astrale
