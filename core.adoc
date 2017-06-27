@@ -138,13 +138,14 @@ Un Archer peut utiliser un point de Karma dans le cadre d'un jet de Tir.
 [[discipline_weaponsmith]]
 === Armurier
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Âme d6+, Réparation d6+
 
-TODO
+Le Charisme d'un Armurier est augmenté de 2.
+Il ne doit cependant jamais mentir, et toujours tenir sa parole, sous peine de perdre ce bénéfice.
 
-Un Armurier peut utiliser un point de Karma dans le cadre TODO
+Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de Réparation ou de Recherche.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_forge_item,Forgeage>>, <<talent_item_history,Histoire des objets>>
 
 
 
@@ -196,7 +197,7 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Percepti
 
 TODO
 
-Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet d'Intimidation, ou de n'importe quel jet effectué durant une bataille à bord d'un navir aérien.
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet d'Intimidation, ou de n'importe quel jet effectué durant une bataille à bord d'un navire aérien.
 
 *Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_fireblood,Sang de feu>>, <<talent_wind_catcher,Vol plané>>
 
@@ -224,7 +225,7 @@ TODO
 
 Un Guerrier peut utiliser un point de Karma dans le cadre TODO
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_temper_self,Endurcissement>>, TODO
 
 
 
@@ -246,7 +247,7 @@ Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de Persu
 
 *Prérequis :* <<ranks,Novice>>, Combat d6+, Sarcasme d6+
 
-Un Maître d'arme gagne l'atout Charismatique, même s'il ne satisfait pas à ses prérequis.
+Le Charisme d'un Maître d'armes est augmenté de 2.
 
 Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de dégâts d'une arme de corps à corps.
 
@@ -315,11 +316,11 @@ Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de Recherche.
 
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, Persuasion d6+
 
-Un Troubadour gagne l'atout Charismatique, même s'il ne satisfait pas à ses prérequis.
+Le Charisme d'un Troubadour est augmenté de 2.
 
 Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de Persuasion, de Sarcasme ou de Recherche.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_emotion_song,Chant d'émotion>>, <<talent_speak_language,Glossolalie>>, <<talent_item_history,Histoire des objets>>
 
 
 
@@ -382,6 +383,20 @@ Cette distance supplémentaire peut correspondre à un saut horizontal ou vertic
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de Discrétion égal à son Rang.
 
+[[talent_emotion_song]]
+=== Chant d'émotion
+
+*Prérequis :* <<ranks,Novice>>, Âme d6+
+
+Le personnage peut dépenser un point de Karma après avoir donné une représentation d'une durée d'une demie heure minimum,
+au cours de laquelle il peut utiliser la (ou les) forme(s) artistique(s) de son choix.
+Cependant, le personnage doit définir l'objet de la représentation, ainsi que le sentiment qu'il désire faire naître envers celui-ci.
+
+À l'issue de cette représentation, le personnage effectue un jet d'Âme.
+Si ce jet est réussi, le personnage gagne un bonus égal à son Rang à tout jet d'interaction sociale.
+Ce bonus n'est valable que contre un spectateur ayant été présent jusqu'à la fin de la représentation,
+et pour un jet faisant entrer en jeu à la fois le sentiment et l'objet de la représentation.
+
 [[talent_lionheart]]
 === Cœur de lion
 
@@ -389,12 +404,31 @@ Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet d
 
 Le personnage bénéficie d'un bonus de +2 sur ses jets de terreur.
 
+[[talent_enchanting]]
+=== Enchantement
+
+*Prérequis :* <<ranks,Gardien>>, Arcanes: magie
+
+Le personnage peut enchanter des objets magiques.
+Voir la section <<enchanting,Enchantement>> pour davantage de détails.
+
+[[talent_temper_self]]
+=== Endurcissement
+
+*Prérequis :* <<ranks,Gardien>>, Âme d8+, Vigueur d8+
+
+Le personnage peut dépenser un certain nombre de points de Karma après avoir effectué un rituel d'une demie-heure.
+Cela lui permet de gagner un bonus d'Armure égal au nombre de point de Karma dépensés,
+avec un maximum égal à son Rang.
+Le bonus d'Armure dure un nombre d'heures égal au Rang du personnage.
+
 [[talent_unshakeable_earth]]
 === Enracinement
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Force d6+
 
-TODO
+Le personnage peut dépenser un point de Karma pour gagner un bonus de +2 pour éviter d'être mis à terre.
+Ce bonus perdure alors jusqu'à ce qu'un de ses pieds quitte le sol.
 
 [[talent_trap_initiative]]
 === Esquive des pièges
@@ -402,15 +436,33 @@ TODO
 *Prérequis :* <<ranks,Compagnon>>, Agilité d6+, Perception d6+
 
 Le personnage peut dépenser un point de Karma pour avoir le droit d'effectuer un jet d'Agilité juste avant de subir les effets d'un piège.
-Si le jet est réussi, le personnage échape totalement au piège.
+Si le jet est réussi, le personnage échappe totalement au piège.
 
 [[talent_flame_arrow]]
 === Flèche de feu
 
-*Prérequis :* <<ranks,Compagnon>>, Âme d6+
+*Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
 Le personnage peut dépenser un point de Karma pour augmenter les dommage d'une arme à distance de +4.
 Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
+
+[[talent_forge_item]]
+=== Forgeage
+
+*Prérequis :* <<ranks,Novice>>, Réparation d6+
+
+Le personnage gagne le talent <<talent_enchanting,Enchantement>>, même s'il n'en satisfait pas les prérequis.
+Il ne peut cependant s'en servir que pour créer des objets magiques majoritairement en métal.
+Il peut utiliser sa Compétence Réparation pour effectuer son <<enchanting,jet d'enchantement>>.
+
+[[talent_speak_language]]
+=== Glossolalie
+
+*Prérequis :* <<ranks,Gardien>>, Intellect d6+
+
+Après avoir entendu parler une langue pendant au minimum 1 minute, le personnage peut dépenser un point de Karma pour apprendre cette langue de manière permanente.
+
+À la discrétion du MJ, le personnage peut réaffecter différemment les Promotions qu'il a précédement utilisées pour apprendre des langues.
 
 [[talent_claw_shape]]
 === Griffes
@@ -419,6 +471,14 @@ Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
 
 Lorsqu'il effectue un jet de Combat à mains nues, le personnage est considéré comme armé.
 De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son Rang.
+
+[[talent_item_history]]
+=== Histoire des objets
+
+*Prérequis :* <<ranks,Compagnon>>, Perception d6+, Recherche d6+
+
+Après avoir gardé auprès de lui un objet magique pendant une semaine, le personnage peut dépenser un point de Karma et effectuer un jet de Perception concernant cet objet.
+Le personnage apprend une <<magic_items,connaissance de recherche>> de l'objet par succès et par Relance.
 
 [[talent_summoning]]
 === Invocation
@@ -437,7 +497,7 @@ TODO
 [[talent_book_memory]]
 === Mémoire des livres
 
-*Prérequis :* <<ranks,Gardien>>, Intellect d6+
+*Prérequis :* <<ranks,Gardien>>, Intellect d8+, Recherche d8+
 
 Le personnage est considéré comme ayant toutes les connaissances existantes.
 Il doit pour cela avoir parcouru au moins une fois un livre renfermant l'information recherchée.
@@ -475,7 +535,7 @@ Il souffre cependant des malus dus au blessures comme d'habitude.
 [[talent_true_shot]]
 === Tir infaillible
 
-*Prérequis :* <<ranks,Novice>>
+*Prérequis :* <<ranks,Novice>>, Tir d6+
 
 Le personnage peut dépenser un ou plusieurs point de Karma pour réduire les malus d'un jet de Tir.
 Chaque point de Karma ainsi dépensé réduit le malus qui s'applique au jet de 2 points.
@@ -486,7 +546,7 @@ Ce talent est une exception à la règle qui ne permet d'utiliser au maximum qu'
 [[talent_multishot]]
 === Tir multiple
 
-*Prérequis :* <<ranks,Gardien>>
+*Prérequis :* <<ranks,Gardien>>, Tir d10+
 
 Le personnage peut dépenser un point de Karma pour effectuer un jet de Tir supplémentaire ce round-ci.
 Dans un round donné, plusieurs points de Karma peuvent être dépensés de cette manière, avec un maximum d'un par Rang.
@@ -502,5 +562,28 @@ Le personnage peut dépenser un point de Karma pour percevoir l'espace astral du
 === Vol plané
 
 *Prérequis :* <<ranks,Gardien>>, Âme d6+
+
+TODO
+
+
+
+
+
+[[thread_magic]]
+== Magie des sorts
+
+TODO
+
+
+
+
+
+[[magic_items]]
+== Objets magiques
+
+TODO
+
+[[enchanting]]
+=== Enchantement
 
 TODO
