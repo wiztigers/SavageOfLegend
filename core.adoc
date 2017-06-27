@@ -165,14 +165,14 @@ Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'Équitation
 [[discipline_horror_stalker]]
 === Chasseur d'Horreurs
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Âme d10+, Vigueur d8+, Combat d8+
 
-TODO
+Un Chasseur d'Horreurs obtient le talent <<talent_bear_mark,Résistance à la marque>>.
 
-Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre TODO
+Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de dégats effectués au cours d'un combat contre une Horreur ou une création d'Horreur.
 
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_spot_armor_flaw,Repérage du défaut de la cuirasse>>, <<talent_life_check,Ultime sursaut>>, <<talent_astral_sight,Vision astrale>>
 
 
 
@@ -612,6 +612,12 @@ Pendant tout le temps que dure la possession, le corps du personnage tombe en ca
 
 Le personnage peut dépenser un point de Karma et une action pour annuler un nombre de points d'Armure d'un adversaire au maximum égal à son Rang, pendant un round.
 
+[[talent_bear_mark]]
+=== Résistance à la marque
+
+*Prérequis :* <<ranks,Novice>>
+
+TODO
 
 [[talent_fireblood]]
 === Sang de feu
