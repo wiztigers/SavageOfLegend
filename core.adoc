@@ -185,7 +185,7 @@ Ces bonus ne s'appliquent qu'en milieu sauvage.
 
 Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Perception ou de Survie.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_chameleon,Caméléon>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_astral_sight,Vision astrale>>
 
 
 
@@ -306,7 +306,7 @@ Un Sorcier obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
 Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de Recherche.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_evidence_analysis,Analyse des indices>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_book_memory,Mémoire des livres>>, <<talent_astral_sight,Vision astrale>>
 
 
 
@@ -353,6 +353,13 @@ et qu'il trouve quelqu'un pour le lui apprendre.
 
 TODO
 
+[[talent_evidence_analysis]]
+=== Analyse des indices
+
+*Prérequis :* <<ranks,Compagnon>>, Perception d6+
+
+Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de Perception égal à son Rang.
+
 [[talent_surprise_strike]]
 === Attaque surprise
 
@@ -392,7 +399,7 @@ TODO
 [[talent_trap_initiative]]
 === Esquive des pièges
 
-*Prérequis :* <<ranks,Compagnon>>, Agilité d6+
+*Prérequis :* <<ranks,Compagnon>>, Agilité d6+, Perception d6+
 
 Le personnage peut dépenser un point de Karma pour avoir le droit d'effectuer un jet d'Agilité juste avant de subir les effets d'un piège.
 Si le jet est réussi, le personnage échape totalement au piège.
@@ -416,7 +423,7 @@ De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son 
 [[talent_summoning]]
 === Invocation
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Compagnon>>, TODO
 
 TODO
 
@@ -426,6 +433,15 @@ TODO
 *Prérequis :* <<ranks,Novice>>, TODO
 
 TODO
+
+[[talent_book_memory]]
+=== Mémoire des livres
+
+*Prérequis :* <<ranks,Gardien>>, Intellect d6+
+
+Le personnage est considéré comme ayant toutes les connaissances existantes.
+Il doit pour cela avoir parcouru au moins une fois un livre renfermant l'information recherchée.
+Le personnage doit néanmoins dépenser un point de Karma pour se rappeler de l'information.
 
 [[talent_versatility]]
 === Polyvalence
