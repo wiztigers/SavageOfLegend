@@ -131,7 +131,7 @@ Un Archer acquiert l'atout Vigilance.
 
 Un Archer peut utiliser un point de Karma dans le cadre d'un jet de Tir.
 
-*Talents de discipline :* <<talent_flame_arrow,Flèche de feu>>, <<talent_true_shot,Tir infaillible>>, <<talent_multishot,Tir multiple>>.
+*Talents de discipline :* <<talent_direction_arrow,Flèche de direction>>, <<talent_flame_arrow,Flèche de feu>>, <<talent_true_shot,Tir infaillible>>, <<talent_multishot,Tir multiple>>.
 
 
 
@@ -145,7 +145,7 @@ Il ne doit cependant jamais mentir, et toujours tenir sa parole, sous peine de p
 
 Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de Réparation ou de Recherche.
 
-*Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_forge_item,Forgeage>>, <<talent_item_history,Histoire des objets>>
+*Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_forge_item,Forgeage>>, <<talent_item_history,Histoire des objets>>, <<talent_spot_armor_flaw,Repérage du défaut de la cuirasse>>
 
 
 
@@ -186,7 +186,7 @@ Ces bonus ne s'appliquent qu'en milieu sauvage.
 
 Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Perception ou de Survie.
 
-*Talents de discipline :* <<talent_chameleon,Caméléon>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_astral_sight,Vision astrale>>
+*Talents de discipline :* <<talent_chameleon,Caméléon>>, <<talent_avoid_blow,Esquive>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_astral_sight,Vision astrale>>
 
 
 
@@ -195,11 +195,11 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Percepti
 
 *Prérequis :* <<ranks,Novice>>, Force d6+, Intimidation d6+
 
-TODO
+Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de Manœuvre aérienne.
 
 Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'Intimidation, de Force, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
 
-*Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_fireblood,Sang de feu>>, <<talent_wind_catcher,Vol plané>>
+*Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_crushing_blow,Broyage>>, <<talent_fireblood,Sang de feu>>, <<talent_wind_catcher,Vol plané>>
 
 
 
@@ -225,7 +225,7 @@ Un Guerrier obtient un bonus de +1 à tous ses jets de dégâts au corps à corp
 
 Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de Connaissance (Batailles).
 
-*Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_wood_skin,Peau de bois>>, <<talent_life_check,Ultime sursaut>>
+*Talents de discipline :* <<talent_crushing_blow,Broyage>>, <<talent_temper_self,Endurcissement>>, <<talent_wood_skin,Peau de bois>>, <<talent_life_check,Ultime sursaut>>
 
 
 
@@ -238,7 +238,7 @@ Un Illusioniste obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
 Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de Persuasion.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_dead_fall,Fausse mort>>, <<talent_false_sight,Faux semblants>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
 
 
@@ -251,7 +251,7 @@ Le Charisme d'un Maître d'armes est augmenté de 2.
 
 Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de Sarcasme.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_acrobatic_strike,Attaque acrobatique>>, <<talent_avoid_blow,Esquive>>, <<talent_maneuver,Dérobade>>, <<talent_winning_smile,Sourire ravageur>>
 
 
 
@@ -268,7 +268,7 @@ Au même moment, un Maître des animaux peut s'attacher à un nombre d'animaux m
 
 Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet effectué par un de ses compagnons animaux.
 
-*Talents de discipline :* <<talent_chameleon,Caméléon>>, <<talent_claw_shape,Griffes>>, <<talent_animal_possession,Possession animale>>
+*Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_chameleon,Caméléon>>, <<talent_claw_shape,Griffes>>, <<talent_animal_possession,Possession animale>>
 
 
 
@@ -277,11 +277,12 @@ Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet ef
 
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, Manœuvre aérienne d6+
 
-TODO
+Un Navigateur aérien obtient un bonus de +2 à tous ses jets de Manœuvre aérienne.
 
 Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de Manœuvre aérienne, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
 
-*Talents de discipline :* <<talent_great_leap,Bondissement>>, TODO, <<talent_wind_catcher,Vol plané>>
+*Talents de discipline :* <<talent_acrobatic_strike,Attaque acrobatique>>, <<talent_great_leap,Bondissement>>, <<talent_avoid_blow,Esquive>>, <<talent_wind_catcher,Vol plané>>
+
 
 
 
@@ -333,7 +334,7 @@ Un Voleur ajoute +2 à tous ses jets de Discrétion.
 
 Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de Crochetage ou de Discrétion.
 
-*Talents de discipline :* <<talent_surprise_strike,Attaque surprise>>, <<talent_great_leap,Bondissement>>, <<talent_trap_initiative,Esquive des pièges>>
+*Talents de discipline :* <<talent_surprise_strike,Attaque surprise>>, <<talent_avoid_blow,Esquive>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_dead_fall,Fausse mort>>
 
 
 
@@ -361,6 +362,13 @@ TODO
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de Perception égal à son Rang.
 
+[[talent_acrobatic_strike]]
+=== Attaque acrobatique
+
+*Prérequis :* <<ranks,Compagnon>>, Agilité d8+, Combat d8+
+
+Le personnage peut dépenser un point de Karma pour obtenir un bonus de +2 à un jet d'attaque au corps à corps.
+
 [[talent_surprise_strike]]
 === Attaque surprise
 
@@ -375,6 +383,14 @@ Une fois par combat, le personnage peut dépenser un point de Karma pour effectu
 
 Lors d'une course, le personnage peut ajouter un nombre de cases à son Allure égal à son Rang ×2.
 Cette distance supplémentaire peut correspondre à un saut horizontal ou vertical.
+
+[[talent_crushing_blow]]
+=== Broyage
+
+*Prérequis :* <<ranks,Gardien>>, Force d8+
+
+Le personnage peut dépenser un point de Karma pour obtenir un bonus au jet de dégâts d'une attaque au corps à corps.
+Le bonus aux dégâts obtenu est égal au Rang du personnage.
 
 [[talent_chameleon]]
 === Caméléon
@@ -404,12 +420,21 @@ et pour un jet faisant entrer en jeu à la fois le sentiment et l'objet de la re
 
 Le personnage bénéficie d'un bonus de +2 sur ses jets de terreur.
 
+[[talent_maneuver]]
+=== Dérobade
+
+*Prérequis :* <<ranks,Novice>>, Intellect d6+
+
+Le personnage peut dépenser un point de Karma et une action pour donner un malus à la Parade d'un adversaire.
+Le malus est égal au Rang du personnage, et dure un round.
+
 [[talent_enchanting]]
 === Enchantement
 
 *Prérequis :* <<ranks,Gardien>>, Arcanes: magie
 
 Le personnage peut enchanter des objets magiques.
+
 Voir la section <<enchanting,Enchantement>> pour davantage de détails.
 
 [[talent_temper_self]]
@@ -430,6 +455,17 @@ Le bonus d'Armure dure un nombre d'heures égal au Rang du personnage.
 Le personnage peut dépenser un point de Karma pour gagner un bonus de +2 pour éviter d'être mis à terre.
 Ce bonus perdure alors jusqu'à ce qu'un de ses pieds quitte le sol.
 
+[[talent_avoid_blow]]
+=== Esquive
+
+*Prérequis :* <<ranks,Compagnon>>, Agilité d8+
+
+Le personnage peut dépenser un point de Karma pour bénéficier pour un round des effets suivants:
+
+* un bonus de +1 à sa Parade
+* un bonus de +1 à ses jet d'Agilité pour échapper aux effets d'une attaque de zone
+* les ennemis qui le prennent pour cible ont un malus de -1 à leurs jets de Tir
+
 [[talent_trap_initiative]]
 === Esquive des pièges
 
@@ -437,6 +473,40 @@ Ce bonus perdure alors jusqu'à ce qu'un de ses pieds quitte le sol.
 
 Le personnage peut dépenser un point de Karma pour avoir le droit d'effectuer un jet d'Agilité juste avant de subir les effets d'un piège.
 Si le jet est réussi, le personnage échappe totalement au piège.
+
+[[talent_dead_fall]]
+=== Fausse mort
+
+*Prérequis :* <<ranks,Compagnon>>, Intellect d6+
+
+Ce talent est une illusion.
+
+Le personnage peut dépenser un point de Karma et une action pour simuler sa mort.
+Tous les autres personnages présents se comportent comme s'il avait été mortellement touché.
+Tant que l'état de Fausse mort dure, le personnage est À terre (_Savage Worlds page 118).
+L'état dure jusqu'à ce que le personnage décide d'y mettre fin, ou qu'il se déplace.
+
+Un personnage en état de Fausse mort peut effectuer n'importe quelle action.
+Chaque action entreprise met cependant fin à l'illusion, sauf si le personnage entreprend une action supplémentaire et réussit un jet de Discrétion pour chacune.
+
+[[talent_false_sight]]
+=== Faux semblants
+
+*Prérequis :* <<ranks,Novice>>, Intellect d6+
+
+Lorsqu'il lance un sort, le personnage peut choisir d'en faire un sort illusoire.
+Un sort illusoire coûte 1 point de pouvoir de moins à lancer, mais ses cibles ont une chance d'en anuler complètement les effets.
+
+Voir la section <<disbelief,Incrédulité>> pour davantage de détails.
+
+
+[[talent_direction_arrow]]
+=== Flèche de direction
+
+*Prérequis :* <<ranks,Compagnon>>, Recherche d6+
+
+Le personnage peut dépenser un point de karma pour bénéficier d'un bonus sur un jet de Recherche.
+Ce bonus est égal à son Rang, mais n'est valable que si le personnage cherche à localiser un objet ou une personne dont il possède un élément matériel.
 
 [[talent_flame_arrow]]
 === Flèche de feu
@@ -484,16 +554,21 @@ Le personnage apprend une <<magic_items,connaissance de recherche>> de l'objet p
 [[talent_summoning]]
 === Invocation
 
-*Prérequis :* <<ranks,Compagnon>>, TODO
+*Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
-TODO
+Le personnage peut invoquer des esprits.
+
+Voir la section <<summoning,Invocation>> pour davantage de détails.
 
 [[talent_spell_matrix]]
 === Matrice de sorts
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Arcanes (magie)
 
-TODO
+Le personnage acquiert une matrice de sorts supplémentaire.
+Ce talent peut être acheté plusieurs fois, mais un personnage ne peut posséder qu'un nombre maximum de matrices de sorts égal à son Rang.
+
+Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 
 [[talent_book_memory]]
 === Mémoire des livres
@@ -529,6 +604,14 @@ Il doit aussi toujours trouver un instructeur possédant ce talent et acceptant 
 Le personnage peut dépenser un point de Karma pour posséder un animal ayant une attitude Amicale ou meilleure envers lui.
 La possession a une durée maximale de Rang × 10 minutes.
 Pendant tout le temps que dure la possession, le corps du personnage tombe en catatonie.
+
+[[talent_spot_armor_flaw]]
+=== Repérage du défaut de la cuirasse
+
+*Prérequis :* <<ranks,Gardien>>, Perception d8+, Réparation d8+
+
+Le personnage peut dépenser un point de Karma et une action pour annuler un nombre de points d'Armure d'un adversaire au maximum égal à son Rang, pendant un round.
+
 
 [[talent_fireblood]]
 === Sang de feu
@@ -589,7 +672,10 @@ Le personnage peut dépenser un point de Karma pour percevoir l'espace astral du
 
 *Prérequis :* <<ranks,Gardien>>, Âme d6+
 
-TODO
+Le personnage peut dépenser un point de Karma pour annuler les dégâts dus à une chute.
+Cela fonctionne quelle que soit la distance de laquelle tombe le personnage.
+
+Chaque round durant son vol plané, le personnage peut utiliser une action pour se déplacer horizontalement d'une distance maximale égale à la moitié de la distance chutée ce round-ci.
 
 
 
@@ -597,6 +683,28 @@ TODO
 
 [[thread_magic]]
 == Magie des sorts
+
+TODO
+
+[[disbelief]]
+=== Incrédulité
+
+Certains sorts sont illusoires : leurs effets sont réels uniquement si leur cible y croit.
+Lorsqu'il est la cible d'un sort, que celui-ci soit réellement illusoire ou non, la cible peut tenter de percer à jour une éventuelle illusion.
+Elle effectue un jet d'incrédulité, qui consiste en un jet de Perception, d'Intellect ou d'Âme, au choix du personnage.
+Cela constitue une action.
+
+* Si le jet est réussi et que le sort est illusoire, celui-ci n'a aucun effet.
+  Avec une Relance, le personnage incrédule peut éventuellement entreprendre ses autres actions du round sans que celles-ci souffrent du malus d'actions multiples (_Savage Worlds_ page 112).
+* Si le jet échoue, le personnage subit pleinement les effets du sort illusoire.
+* Si le sort auquel le personnage résiste n'est pas une illusion, le personnage en subit pleinement les effets, que le jet d'incrédulité soit un succès ou non.
+
+
+
+
+
+[[summoning]]
+== Invocation
 
 TODO
 
