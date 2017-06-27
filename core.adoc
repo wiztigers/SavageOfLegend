@@ -262,9 +262,9 @@ Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Com
 
 Les animaux n'attaquent pas le personnage, à moins qu'il ne les attaque en premier lieu ou qu'ils ne soient enragés pour une raison quelconque.
 
-De plus, si un Maître des animaux passe un minimum de 10 minutes en compagnie d'un animal dont l'attitude envers lui est Neutre ou meilleure, cet animal peut s'attacher à lui et devenir son compagnon animal, si le Maître des animaux le désire.
-Un compagnon animal accompagne fidèlement le Maître des animaux et a une attitude Serviable envers lui.
-Au même moment, un Maître d'animaix peut s'attacher à un nombre d'animaux maximum égal à son Rang.
+De plus, si un Maître des animaux passe un minimum de 10 minutes en compagnie d'un animal dont l'attitude envers lui est Neutre ou meilleure, cet animal peut s'attacher à lui et devenir son compagnon, si le Maître des animaux le désire.
+Un compagnon animal accompagne fidèlement le personnage et a une attitude Serviable envers lui.
+Au même moment, un Maître des animaux peut s'attacher à un nombre d'animaux maximum égal à son Rang.
 
 Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet effectué par un de ses compagnons animaux.
 
