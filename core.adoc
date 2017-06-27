@@ -192,24 +192,24 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Percepti
 [[discipline_sky_raider]]
 === Écumeur du ciel
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Force d6+, Intimidation d6+
 
 TODO
 
 Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet d'Intimidation, ou de n'importe quel jet effectué durant une bataille à bord d'un navir aérien.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_fireblood,Sang de feu>>, <<talent_wind_catcher,Vol plané>>
 
 
 
 [[discipline_elementalist]]
 === Élémentaliste
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Âme d6+, Survie d6+
 
-TODO
+Un Élémentaliste obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Élémentaliste peut utiliser un point de Karma dans le cadre TODO
+Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de Survie.
 
 *Talents de discipline :* <<talent_unshakeable_earth,Enracinement>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
@@ -231,11 +231,11 @@ Un Guerrier peut utiliser un point de Karma dans le cadre TODO
 [[discipline_illusionist]]
 === Illusionniste
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Intellect d6+, Perception d6+
 
-TODO
+Un Illusioniste obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Illusionniste peut utiliser un point de Karma dans le cadre TODO
+Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de Persuasion.
 
 *Talents de discipline :* TODO
 
@@ -278,20 +278,20 @@ Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet ef
 
 TODO
 
-Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de Manœuvre aérienne, ou de n'importe quel jet effectué durant une bataille à bord d'un navir aérien.
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de Manœuvre aérienne, ou de n'importe quel jet effectué durant une bataille à bord d'un navire aérien.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_great_leap,Bondissement>>, TODO, <<talent_wind_catcher,Vol plané>>
 
 
 
 [[discipline_nethermancer]]
 === Nécromancien
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Âme d6+, Intimidation d6+
 
-TODO
+Un Nécromancien obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Nécromancien peut utiliser un point de Karma dans le cadre TODO
+Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'Intimidation.
 
 *Talents de discipline :* <<talent_lionheart,Cœur de lion>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
@@ -300,11 +300,11 @@ Un Nécromancien peut utiliser un point de Karma dans le cadre TODO
 [[discipline_wizard]]
 === Sorcier
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Intellect d6+, Recherche d6+
 
-TODO
+Un Sorcier obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Sorcier peut utiliser un point de Karma dans le cadre TODO
+Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de Recherche.
 
 *Talents de discipline :* TODO
 
@@ -313,7 +313,7 @@ Un Sorcier peut utiliser un point de Karma dans le cadre TODO
 [[discipline_troubadour]]
 === Troubadour
 
-*Prérequis :* <<ranks,Novice>>, Âme d6+, Persuasion d6+
+*Prérequis :* <<ranks,Novice>>, Intellect d6+, Persuasion d6+
 
 Un Troubadour gagne l'atout Charismatique, même s'il ne satisfait pas à ses prérequis.
 
@@ -328,11 +328,11 @@ Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de Persuasi
 
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, Discrétion d6+
 
-Un Voleur ajoute +2 à tous ses jets de Crochetage ou de Discrétion.
+Un Voleur ajoute +2 à tous ses jets de Discrétion.
 
 Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de Crochetage ou de Discrétion.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_surprise_strike,Attaque surprise>>, <<talent_great_leap,Bondissement>>, <<talent_trap_initiative,Esquive des pièges>>
 
 
 
@@ -353,19 +353,34 @@ et qu'il trouve quelqu'un pour le lui apprendre.
 
 TODO
 
+[[talent_surprise_strike]]
+=== Attaque surprise
+
+*Prérequis :* <<ranks,Gardien>>, Discrétion d10+
+
+Une fois par combat, le personnage peut dépenser un point de Karma pour effectuer une _Attaque surprise_, comme décrit page 120 de _Savage Worlds_, même s'il ne devrait pas y être autorisé.
+
+[[talent_great_leap]]
+=== Bondissement
+
+*Prérequis :* <<ranks,Novice>>, Force d6+
+
+Lors d'une course, le personnage peut ajouter un nombre de cases à son Allure égal à son Rang ×2.
+Cette distance supplémentaire peut correspondre à un saut horizontal ou vertical.
+
 [[talent_chameleon]]
 === Caméléon
 
-*Prérequis :* <<ranks,Gardien>>, Discrétion d6+
+*Prérequis :* <<ranks,Gardien>>, Discrétion d6+, Survie d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de Discrétion égal à son Rang.
 
 [[talent_lionheart]]
 === Cœur de lion
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Âme d6+
 
-TODO
+Le personnage bénéficie d'un bonus de +2 sur ses jets de terreur.
 
 [[talent_unshakeable_earth]]
 === Enracinement
@@ -373,6 +388,14 @@ TODO
 *Prérequis :* <<ranks,Novice>>, TODO
 
 TODO
+
+[[talent_trap_initiative]]
+=== Esquive des pièges
+
+*Prérequis :* <<ranks,Compagnon>>, Agilité d6+
+
+Le personnage peut dépenser un point de Karma pour avoir le droit d'effectuer un jet d'Agilité juste avant de subir les effets d'un piège.
+Si le jet est réussi, le personnage échape totalement au piège.
 
 [[talent_flame_arrow]]
 === Flèche de feu
@@ -423,6 +446,16 @@ Le personnage peut dépenser un point de Karma pour posséder un animal ayant un
 La possession a une durée maximale de Rang × 10 minutes.
 Pendant tout le temps que dure la possession, le corps du personnage tombe en catatonie.
 
+[[talent_fireblood]]
+=== Sang de feu
+
+*Prérequis :* <<ranks,Compagnon>>, Vigueur d6+
+
+Le personnage peut dépenser un point de Karma pour effectuer un jet de guérison naturelle.
+Dans le cadre de ce talent, ce jet ne lui prend qu'une action.
+Ce jet ne bénéficie d'aucun bonus ou malus du aux conditions de convalescence.
+Il souffre cependant des malus dus au blessures comme d'habitude.
+
 [[talent_true_shot]]
 === Tir infaillible
 
@@ -445,13 +478,13 @@ Dans un round donné, plusieurs points de Karma peuvent être dépensés de cett
 [[talent_astral_sight]]
 === Vision astrale
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Perception d6+
 
-TODO
+Le personnage peut dépenser un point de Karma pour percevoir l'espace astral durant un nombre de minutes égal à son type de dé de Perception.
 
 [[talent_wind_catcher]]
 === Vol plané
 
-*Prérequis :* <<ranks,Novice>>, Âme d6+
+*Prérequis :* <<ranks,Gardien>>, Âme d6+
 
 TODO
