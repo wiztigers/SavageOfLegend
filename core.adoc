@@ -152,13 +152,13 @@ Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de Réparatio
 [[discipline_cavalryman]]
 === Cavalier
 
-*Prérequis :* <<ranks,Novice>>, TODO
+*Prérequis :* <<ranks,Novice>>, Âme d6+, Équitation d6+
 
-TODO
+Quand un Cavalier combat sur sa monture, il utilise sa Compétence la plus haute entre Combat et Équitation, au lieu de la plus basse (_Savage Worlds_ pages 43,122).
 
 Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'Équitation, ou d'un jet effectué par sa monture.
 
-*Talents de discipline :* TODO
+*Talents de discipline :* <<talent_fearsome_charge,Charge terrifiante>>, <<talent_mount_attack,Fureur animale>>, <<talent_mount_durability,Longévité (monture)>>, <<talent_empathic_command,Ordre empathique>>
 
 
 
@@ -348,13 +348,6 @@ Tout personnage peut acquérir un talent du moment qu'il en satisfait les prére
 que ce talent figure dans la liste de ses talents de <<disciplines,discipline>>,
 et qu'il trouve quelqu'un pour le lui apprendre.
 
-[[talent_xxx]]
-=== XXX
-
-*Prérequis :* <<ranks,Novice>>, TODO
-
-TODO
-
 [[talent_evidence_analysis]]
 === Analyse des indices
 
@@ -412,6 +405,15 @@ Cependant, le personnage doit définir l'objet de la représentation, ainsi que 
 Si ce jet est réussi, le personnage gagne un bonus égal à son Rang à tout jet d'interaction sociale.
 Ce bonus n'est valable que contre un spectateur ayant été présent jusqu'à la fin de la représentation,
 et pour un jet faisant entrer en jeu à la fois le sentiment et l'objet de la représentation.
+
+[[talent_fearsome_charge]]
+=== Charge terrifiante
+
+*Prérequis :* <<ranks,Gardien>>, Équitation d6, Intimidation d6
+
+Alors que sa monture effectue une action de Course en ligne droite, le personnage peut dépenser un point de Karma et une action pour faire un jet d'Intimidation.
+Si le test d'Intimidation est un Succès, chaque adversaire présent la zone d'arrivée de la Course doit faire un test de Terreur (_Savage Worlds_ page 150).
+La zone d'arrivée doit être de taille équivalente à un Grand Gabarit (_Savage Worlds_ page 110) au maximum.
 
 [[talent_lionheart]]
 === Cœur de lion
@@ -526,6 +528,14 @@ Le personnage gagne le talent <<talent_enchanting,Enchantement>>, même s'il n'e
 Il ne peut cependant s'en servir que pour créer des objets magiques majoritairement en métal.
 Il peut utiliser sa Compétence Réparation pour effectuer son <<enchanting,jet d'enchantement>>.
 
+[[talent_mount_attack]]
+=== Fureur animale
+
+*Prérequis :* <<ranks,Gardien>>, Équitation d10+
+
+La monture du personnage peut attaquer même si son cavalier a effectué une action ce round-ci (_Savage Worlds_ page 246).
+La monture doit évidemment posséder un moyen de porter une attaque.
+
 [[talent_speak_language]]
 === Glossolalie
 
@@ -560,6 +570,28 @@ Le personnage peut invoquer des esprits.
 
 Voir la section <<summoning,Invocation>> pour davantage de détails.
 
+[[talent_durability]]
+=== Longévité
+
+*Prérequis :* <<ranks,Compagnon>>
+
+Le personnage gagne un niveau de blessure supplémentaire.
+Ce niveau impose un malus de blessure spécifique de -1.
+
+Ce talent peut être acquis une fois par Rang au maximum.
+
+Par exemple, un personnage ayant appris Longévité deux fois souffrira des malus de blessure suivants : -1 pour une, deux ou trois blessures encaissées, -2 à la quatrième blessure, et -3 à la cinquième blessure.
+Ce personnage sera au minimum un Gardien de sa discipline.
+
+[[talent_mount_durability]]
+=== Longévité (monture)
+
+*Prérequis :* <<ranks,Compagnon>>, Équitation d6+
+
+Le personnage peut dépenser un point de Karma pour faire bénéficier à sa monture d'un bonus d'Armure égal à son Rang, pendant un nombre de rounds égal à son Rang.
+
+De plus, la monture obtient le talent de Longévité.
+
 [[talent_spell_matrix]]
 === Matrice de sorts
 
@@ -578,6 +610,17 @@ Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 Le personnage est considéré comme ayant toutes les connaissances existantes.
 Il doit pour cela avoir parcouru au moins une fois un livre renfermant l'information recherchée.
 Le personnage doit néanmoins dépenser un point de Karma pour se rappeler de l'information.
+
+[[talent_empathic_command]]
+=== Ordre empathique
+
+*Prérequis :* <<ranks,Novice>>, Équitation d6+
+
+Si le personnage chevauche une monture ayant une attitude Serviable envers lui, cavalier et monture bénéficient des effets suivants :
+
+* La monture réussit automatiquement son jet de Terreur si son cavalier le réussit.
+  Si le jet de Terreur du cavalier est un échec, la monture fait son test normalement.
+* Le cavalier ne souffre jamais du malus de plateforme instable.
 
 [[talent_wood_skin]]
 === Peau de bois
@@ -617,7 +660,17 @@ Le personnage peut dépenser un point de Karma et une action pour annuler un nom
 
 *Prérequis :* <<ranks,Novice>>
 
-TODO
+Une Horreur tentant de marquer le personnage souffre d'un malus égal au Rang du personnage.
+
+* Si le jet de marquage est une réussite, le personnage souffre les effets habituels de la marque.
+  Cependant, le personnage peut choisir de résister à une Horreur qui tente d'utiliser ses pouvoirs à travers cette marque.
+  Pour cela, il dépense un point de Karma et effectue un jet d'Âme opposé à celle de l'Horreur.
+  Si l'Horreur remporte le test opposé, elle peut utiliser son pouvoir normalement.
+  Si c'est le personnage qui l'emporte, l'Horreur ne peut utiliser le pouvoir sur le personnage ... pour cette fois.
+  Si une Relance est obtenue sur le jet d'Âme, la marque est « isolée » (voir point suivant).
+* Si le jet de marquage est un échec, la marque est placée, mais est inoffensive pour le personnage.
+  La marque est « isolée », et l'Horreur ne peut pas s'en servir contre le personnage.
+  Le personnage, lui, peut dépenser un point de Karma pour savoir dans quelle direction et à quelle distance exactes se trouve l'Horreur la plus proche dont il a isolé la marque.
 
 [[talent_fireblood]]
 === Sang de feu
