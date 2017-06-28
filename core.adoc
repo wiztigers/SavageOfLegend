@@ -11,7 +11,7 @@ Tous les 5 XP, un personnage gagne un Cercle.
 Il bénéficie alors d'une Progression (_Savage Worlds_ page 170).
 
 [[ranks]]
-.Tableau des rangs
+.Cercle et Rang
 [width=40%, options="header"]
 |===
 |XP    |Cercle |Rang       |Équivalent
@@ -24,38 +24,87 @@ Il bénéficie alors d'une Progression (_Savage Worlds_ page 170).
 |===
 
 Pour qu'un adepte puisse passer au Rang supérieur, il lui est nécessaire de trouver un instructeur plus avancé dans sa discipline et qui accepte de l'entraîner.
-Cela n'est en général pas nécessaire pour un passage de Cercle.
+Cela n'est pas nécessaire pour les adeptes ayant atteint le Rang de Maître ou de Légende.
 
 Un adepte d'un Rang au moins égal à celui de Compagnon peut invoquer un maître fantôme.
 Chaque rituel du maître fantôme a une durée d'une nuit.
+Pour savoir si le rituel est un succès, le personnage effectue un jet d'Âme.
 
 
 
+[[skills]]
 == Compétences
 
-Combat (Agilité)
-Conduite (Agilité)
-Connaissance(~) (Intellect)
-Crochetage (Agilité)
-Discrétion (Agilité)
-Équitation (Agilité)
-Escalade (Force)
-Intimidation (Âme)
-Jeu (Intellect)
-Lancer (Agilité)
-Natation (Agilité)
-Navigation (Agilité)
-Perception (Intellect)
-Persuasion (Âme)
-Pilotage (Agilité)
-Pistage (Intellect)
-Recherche (Intellect)
-Réparation (Intellect)
-Réseaux (Intellect)
-Sarcasme (Intellect)
-Soins (Intellect)
-Survie (Intellect)
-Tir (Agilité)
+[[skill_melee_weapons]]
+=== Armes de mêlée (Agilité)
+Nouveau nom de la Compétence *Combat* (_Savage Worlds_ page 40), son usage est en tout point identique.
+
+[[skill_ranged_weapons]]
+=== Armes à distance (Agilité)
+Regroupe tous les usages des anciennes Compétences de *Lancer* (_Savage Worlds_ page 44) et de *Tir* (_Savage Worlds_ page 46).
+
+[[skill_lockpicking]]
+=== Crochetage (Agilité)
+Fonctionnement inchangé (_Savage Worlds_ page 42).
+
+[[skill_stealth]]
+=== Discrétion (Agilité)
+Fonctionnement inchangé (_Savage Worlds_ page 42).
+
+[[skill_riding]]
+=== Équitation (Agilité)
+Fonctionnement inchangé (_Savage Worlds_ page 43).
+
+[[skill_climbing]]
+=== Escalade (Force)
+Fonctionnement inchangé (_Savage Worlds_ page 43).
+
+[[skill_repair]]
+=== Forge (Intellect)
+Nouveau nom de la Compétence *Réparation* (_Savage Worlds_ page 45), son usage est en tout point identique.
+
+[[skill_intimidation]]
+=== Intimidation (Âme)
+Fonctionnement inchangé (_Savage Worlds_ page 43).
+
+[[skill_notice]]
+=== Perception (Intellect)
+Fonctionnement inchangé (_Savage Worlds_ page 44).
+
+[[skill_persuasion]]
+=== Persuasion (Âme)
+Fonctionnement inchangé (_Savage Worlds_ page 44).
+
+[[skill_investigation]]
+=== Renseignements (Intellect)
+Regroupe tous les usages des anciennes Compétences de *Recherche* et de *Réseaux* (_Savage Worlds_ page 45).
+
+[[skill_taunt]]
+=== Sarcasmes (Intellect)
+Nouveau nom de la Compétence *Sarcasme* (_Savage Worlds_ page 40), son usage est en tout point identique.
+
+[[skill_healing]]
+=== Soins (Intellect)
+Fonctionnement inchangé (_Savage Worlds_ page 46).
+
+[[skill_survival]]
+=== Survie (Intellect)
+Fonctionnement inchangé (_Savage Worlds_ page 46).
+
+[[knowledges]]
+=== Connaissances
+
+Un personnage peut acquérir une Connaissance au prix d'un dé de Compétence, que ce soit à la création de personnage ou lors d'une Progression.
+Une Connaissance n'a pas de dé associé : soit un personnage la possède, soit il ne la possède pas.
+
+Une Connaissance permet au personnage qui la possède de tenter une action qui sort de l'usage habituel d'une Compétence ou d'un Trait donnés.
+Voici quelques exemples :
+
+* Une Connaissance pure correspond en quelques sortes à l'ancienne Compétence Connaissance (_Savage Worlds_ page 41). Elle permet de tenter des tests de Culture générale ayant trait à ces sujets (_Savage Worlds_ page 40). +
+  Voici une liste non exhaustive de Connaissances que peut posséder un personnage : _Alchimie et potions_, _Animaux et créatures sauvages_, _Armes anciennes_, _Histoire de Barsaive_, _Batailles_, _Botanique_, _Châtiment_, connaissance d'une race, d'une culture ou d'une région au choix, _Horreurs_, _Légendes et héros_, maîtrise d'une langue au choix, _Thérans_.
+* Certaines Compétences du système de base de _Savage Worlds_ ont été reprises en tant que Connaissances. Ce sont : _Conduite_, _Jeu_, _Pistage_, _Natation_, _Navigation_.
+  Les Traits ou Compétences sur lesquels elles sont basées dépendent des circonstances.
+  Par défaut, le Trait de base de l'ancienne Compétence correspondante pourra être utilisé.
 
 [[option_skills_made_easy]]
 [NOTE.option,caption="Règle optionnelle"]
@@ -74,23 +123,6 @@ quel que soit le dé et quelle que soit la valeur du trait associé.
 
 Lorsque le personnage bénéficie d'une Progression, celle-ci permet au personnage d'augmenter deux Compétences,
 et ce, quelle que soit leur nouvelle valeur et quelle que soit la valeur du trait associé.
-====
-
-[[option_knowledges]]
-[NOTE.option,caption="Règle optionnelle"]
-====
-*Expertises*
-
-La Compétence « Connaissance » disparaît.
-À la place, chaque personnage peut acquérir différentes Expertises.
-Chaque Expertise s'aquiert au prix d'un dé de Compétence, que ce soit à la création de personnage ou lors d'une Progression.
-Une Expertise n'a pas de dé associé : soit un personnage la possède, soit il ne la possède pas.
-
-Une Expertise permet au personnage qui la possède de tenter une action
-qui sort de l'usage habituel d'une Compétence ou d'un Trait donnés.
-
-Par exemple, une Expertise « Histoire » ou « Loi » permettra de tenter des tests de Culture générale ayant trait à ces sujets ;
-le test d'Intellect associé ne subira alors aucun malus.
 ====
 
 
@@ -117,7 +149,7 @@ Ce rituel lui permet de regagner un point de Karma.
 Chaque discipline est un Atout professionel (_Savage Worlds_ page 63).
 Ces atouts sont accessibles dès la création d'un personnage, ou bien plus tard, grâce à une Progression.
 
-À la discrétion du MJ, un adepte peut posséder plusieurs disciplines, jusqu'à une limite d'une par Rang.
+À la discrétion du MJ, un adepte peut posséder plusieurs disciplines, jusqu'à une limite d'une par <<ranks,Rang>>.
 Quel que soit le nombre de disciplines qu'il possède, cela n'accroit pas la taille de sa <<karma,réserve de Karma>>.
 
 
@@ -125,11 +157,11 @@ Quel que soit le nombre de disciplines qu'il possède, cela n'accroit pas la tai
 [[discipline_archer]]
 === Archer
 
-*Prérequis :* <<ranks,Novice>>, Tir d8+
+*Prérequis :* <<ranks,Novice>>, <<skill_ranged_weapons,Armes à distance>> d8+
 
 Un Archer acquiert l'atout Vigilance.
 
-Un Archer peut utiliser un point de Karma dans le cadre d'un jet de Tir.
+Un Archer peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_ranged_weapons,Armes à distance>>.
 
 *Talents de discipline :* <<talent_direction_arrow,Flèche de direction>>, <<talent_flame_arrow,Flèche de feu>>, <<talent_true_shot,Tir infaillible>>, <<talent_multishot,Tir multiple>>.
 
@@ -138,12 +170,12 @@ Un Archer peut utiliser un point de Karma dans le cadre d'un jet de Tir.
 [[discipline_weaponsmith]]
 === Armurier
 
-*Prérequis :* <<ranks,Novice>>, Âme d6+, Réparation d6+
+*Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_repair,Forge>> d6+
 
 Le Charisme d'un Armurier est augmenté de 2.
 Il ne doit cependant jamais mentir, et toujours tenir sa parole, sous peine de perdre ce bénéfice.
 
-Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de Réparation ou de Recherche.
+Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_repair,Forge>> ou de <<skill_investigation,Renseignements>>.
 
 *Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_forge_item,Forgeage>>, <<talent_item_history,Histoire des objets>>, <<talent_spot_armor_flaw,Repérage du défaut de la cuirasse>>
 
@@ -152,11 +184,11 @@ Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de Réparatio
 [[discipline_cavalryman]]
 === Cavalier
 
-*Prérequis :* <<ranks,Novice>>, Âme d6+, Équitation d6+
+*Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_riding,Équitation>> d6+
 
-Quand un Cavalier combat sur sa monture, il utilise sa Compétence la plus haute entre Combat et Équitation, au lieu de la plus basse (_Savage Worlds_ pages 43,122).
+Quand un Cavalier combat sur sa monture, il utilise sa Compétence la plus haute entre <<skill_melee_weapons,Armes de mêlée>> et <<skill_riding,Équitation>>, au lieu de la plus basse (_Savage Worlds_ pages 43,122).
 
-Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'Équitation, ou d'un jet effectué par sa monture.
+Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_riding,Équitation>>, ou d'un jet effectué par sa monture.
 
 *Talents de discipline :* <<talent_fearsome_charge,Charge terrifiante>>, <<talent_mount_attack,Fureur animale>>, <<talent_mount_durability,Longévité (monture)>>, <<talent_empathic_command,Ordre empathique>>
 
@@ -165,11 +197,11 @@ Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'Équitation
 [[discipline_horror_stalker]]
 === Chasseur d'Horreurs
 
-*Prérequis :* <<ranks,Novice>>, Âme d10+, Vigueur d8+, Combat d8+
+*Prérequis :* <<ranks,Novice>>, Âme d10+, Vigueur d8+, <<skill_melee_weapons,Armes de mêlée>> d8+
 
 Un Chasseur d'Horreurs obtient le talent <<talent_bear_mark,Résistance à la marque>>.
 
-Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de dégats effectués au cours d'un combat contre une Horreur ou une création d'Horreur.
+Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>> ou de dégats effectués au cours d'un combat contre une Horreur ou une création d'Horreur.
 
 
 *Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_spot_armor_flaw,Repérage du défaut de la cuirasse>>, <<talent_life_check,Ultime sursaut>>, <<talent_astral_sight,Vision astrale>>
@@ -179,12 +211,12 @@ Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet de
 [[discipline_scout]]
 === Éclaireur
 
-*Prérequis :* <<ranks,Novice>>, Perception d6+
+*Prérequis :* <<ranks,Novice>>, <<skill_notice,Perception>> d6+
 
-Un Éclaireur ajoute +2 à ses jets de Discrétion, Perception, Recherche et Survie.
+Un Éclaireur ajoute +2 à ses jets de <<skill_stealth,Discrétion>>, <<skill_notice,Perception>>, <<skill_investigation,Renseignements>> et <<skill_survival,Survie>>.
 Ces bonus ne s'appliquent qu'en milieu sauvage.
 
-Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Perception ou de Survie.
+Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_notice,Perception>> ou de <<skill_survival,Survie>>.
 
 *Talents de discipline :* <<talent_chameleon,Caméléon>>, <<talent_avoid_blow,Esquive>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_astral_sight,Vision astrale>>
 
@@ -193,11 +225,11 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de Percepti
 [[discipline_sky_raider]]
 === Écumeur du ciel
 
-*Prérequis :* <<ranks,Novice>>, Force d6+, Intimidation d6+
+*Prérequis :* <<ranks,Novice>>, Force d6+, <<skill_intimidation,Intimidation>> d6+
 
 Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de Manœuvre aérienne.
 
-Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'Intimidation, de Force, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
+Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>, de Force, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
 
 *Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_crushing_blow,Broyage>>, <<talent_fireblood,Sang de feu>>, <<talent_wind_catcher,Vol plané>>
 
@@ -206,11 +238,11 @@ Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'Intimida
 [[discipline_elementalist]]
 === Élémentaliste
 
-*Prérequis :* <<ranks,Novice>>, Âme d6+, Survie d6+
+*Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_survival,Survie>> d6+
 
 Un Élémentaliste obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de Survie.
+Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_survival,Survie>>.
 
 *Talents de discipline :* <<talent_unshakeable_earth,Enracinement>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
@@ -219,11 +251,11 @@ Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de Sur
 [[discipline_warrior]]
 === Guerrier
 
-*Prérequis :* <<ranks,Novice>>, Combat d8+
+*Prérequis :* <<ranks,Novice>>, <<skill_melee_weapons,Armes de mêlée>> d8+
 
 Un Guerrier obtient un bonus de +1 à tous ses jets de dégâts au corps à corps.
 
-Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de Connaissance (Batailles).
+Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>> ou de Connaissance (Batailles).
 
 *Talents de discipline :* <<talent_crushing_blow,Broyage>>, <<talent_temper_self,Endurcissement>>, <<talent_wood_skin,Peau de bois>>, <<talent_life_check,Ultime sursaut>>
 
@@ -232,11 +264,11 @@ Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet de Combat ou 
 [[discipline_illusionist]]
 === Illusionniste
 
-*Prérequis :* <<ranks,Novice>>, Intellect d6+, Perception d6+
+*Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_notice,Perception>> d6+
 
 Un Illusioniste obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de Persuasion.
+Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_persuasion,Persuasion>>.
 
 *Talents de discipline :* <<talent_dead_fall,Fausse mort>>, <<talent_false_sight,Faux semblants>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
@@ -245,11 +277,11 @@ Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de Persu
 [[discipline_swordmaster]]
 === Maître d'armes
 
-*Prérequis :* <<ranks,Novice>>, Combat d6+, Sarcasme d6+
+*Prérequis :* <<ranks,Novice>>, <<skill_melee_weapons,Armes de mêlée>> d6+, <<skill_taunt,Sarcasmes>> d6+
 
 Le Charisme d'un Maître d'armes est augmenté de 2.
 
-Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Combat ou de Sarcasme.
+Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>> ou de <<skill_taunt,Sarcasmes>>.
 
 *Talents de discipline :* <<talent_acrobatic_strike,Attaque acrobatique>>, <<talent_avoid_blow,Esquive>>, <<talent_maneuver,Dérobade>>, <<talent_winning_smile,Sourire ravageur>>
 
@@ -258,13 +290,13 @@ Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de Com
 [[discipline_beastmaster]]
 === Maître des animaux
 
-*Prérequis :* <<ranks,Novice>>, Vigueur d6+, Survie d6+
+*Prérequis :* <<ranks,Novice>>, Vigueur d6+, <<skill_survival,Survie>> d6+
 
 Les animaux n'attaquent pas le personnage, à moins qu'il ne les attaque en premier lieu ou qu'ils ne soient enragés pour une raison quelconque.
 
 De plus, si un Maître des animaux passe un minimum de 10 minutes en compagnie d'un animal dont l'attitude envers lui est Neutre ou meilleure, cet animal peut s'attacher à lui et devenir son compagnon, si le Maître des animaux le désire.
 Un compagnon animal accompagne fidèlement le personnage et a une attitude Serviable envers lui.
-Au même moment, un Maître des animaux peut s'attacher à un nombre d'animaux maximum égal à son Rang.
+Au même moment, un Maître des animaux peut s'attacher à un nombre d'animaux maximum égal à son <<ranks,Rang>>.
 
 Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet effectué par un de ses compagnons animaux.
 
@@ -289,11 +321,11 @@ Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de 
 [[discipline_nethermancer]]
 === Nécromancien
 
-*Prérequis :* <<ranks,Novice>>, Âme d6+, Intimidation d6+
+*Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_intimidation,Intimidation>> d6+
 
 Un Nécromancien obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'Intimidation.
+Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>.
 
 *Talents de discipline :* <<talent_lionheart,Cœur de lion>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
@@ -302,11 +334,11 @@ Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'Intimi
 [[discipline_wizard]]
 === Sorcier
 
-*Prérequis :* <<ranks,Novice>>, Intellect d6+, Recherche d6+
+*Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_investigation,Renseignements>> d6+
 
 Un Sorcier obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
 
-Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de Recherche.
+Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_investigation,Renseignements>>.
 
 *Talents de discipline :* <<talent_evidence_analysis,Analyse des indices>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_book_memory,Mémoire des livres>>, <<talent_astral_sight,Vision astrale>>
 
@@ -315,11 +347,11 @@ Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de Recherche.
 [[discipline_troubadour]]
 === Troubadour
 
-*Prérequis :* <<ranks,Novice>>, Intellect d6+, Persuasion d6+
+*Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_persuasion,Persuasion>> d6+
 
 Le Charisme d'un Troubadour est augmenté de 2.
 
-Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de Persuasion, de Sarcasme ou de Recherche.
+Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de <<skill_persuasion,Persuasion>>, de <<skill_taunt,Sarcasmes>> ou de <<skill_investigation,Renseignements>>.
 
 *Talents de discipline :* <<talent_emotion_song,Chant d'émotion>>, <<talent_speak_language,Glossolalie>>, <<talent_item_history,Histoire des objets>>, <<talent_winning_smile,Sourire ravageur>>
 
@@ -328,11 +360,11 @@ Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de Persuasi
 [[discipline_thief]]
 === Voleur
 
-*Prérequis :* <<ranks,Novice>>, Agilité d6+, Discrétion d6+
+*Prérequis :* <<ranks,Novice>>, Agilité d6+, <<skill_stealth,Discrétion>> d6+
 
-Un Voleur ajoute +2 à tous ses jets de Discrétion.
+Un Voleur ajoute +2 à tous ses jets de <<skill_stealth,Discrétion>>.
 
-Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de Crochetage ou de Discrétion.
+Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_lockpicking,Crochetage>> ou de <<skill_stealth,Discrétion>>.
 
 *Talents de discipline :* <<talent_surprise_strike,Attaque surprise>>, <<talent_avoid_blow,Esquive>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_dead_fall,Fausse mort>>
 
@@ -351,21 +383,21 @@ et qu'il trouve quelqu'un pour le lui apprendre.
 [[talent_evidence_analysis]]
 === Analyse des indices
 
-*Prérequis :* <<ranks,Compagnon>>, Perception d6+
+*Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+
 
-Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de Perception égal à son Rang.
+Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de <<skill_notice,Perception>> égal à son <<ranks,Rang>>.
 
 [[talent_acrobatic_strike]]
 === Attaque acrobatique
 
-*Prérequis :* <<ranks,Compagnon>>, Agilité d8+, Combat d8+
+*Prérequis :* <<ranks,Compagnon>>, Agilité d8+, <<skill_melee_weapons,Armes de mêlée>> d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus de +2 à un jet d'attaque au corps à corps.
 
 [[talent_surprise_strike]]
 === Attaque surprise
 
-*Prérequis :* <<ranks,Gardien>>, Discrétion d10+
+*Prérequis :* <<ranks,Gardien>>, <<skill_stealth,Discrétion>> d10+
 
 Une fois par combat, le personnage peut dépenser un point de Karma pour effectuer une _Attaque surprise_ (_Savage Worlds_ page 120), même si les circonstances ne devraient pas l'y autoriser.
 
@@ -374,7 +406,7 @@ Une fois par combat, le personnage peut dépenser un point de Karma pour effectu
 
 *Prérequis :* <<ranks,Novice>>, Force d6+
 
-Lors d'une course, le personnage peut ajouter un nombre de cases à son Allure égal à son Rang ×2.
+Lors d'une course, le personnage peut ajouter un nombre de cases à son Allure égal à son <<ranks,Rang>> ×2.
 Cette distance supplémentaire peut correspondre à un saut horizontal ou vertical.
 
 [[talent_crushing_blow]]
@@ -383,14 +415,14 @@ Cette distance supplémentaire peut correspondre à un saut horizontal ou vertic
 *Prérequis :* <<ranks,Gardien>>, Force d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus au jet de dégâts d'une attaque au corps à corps.
-Le bonus aux dégâts obtenu est égal au Rang du personnage.
+Le bonus aux dégâts obtenu est égal au <<ranks,Rang>> du personnage.
 
 [[talent_chameleon]]
 === Caméléon
 
-*Prérequis :* <<ranks,Gardien>>, Discrétion d6+, Survie d8+
+*Prérequis :* <<ranks,Gardien>>, <<skill_stealth,Discrétion>> d6+, <<skill_survival,Survie>> d8+
 
-Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de Discrétion égal à son Rang.
+Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de <<skill_stealth,Discrétion>> égal à son <<ranks,Rang>>.
 
 [[talent_emotion_song]]
 === Chant d'émotion
@@ -402,17 +434,17 @@ au cours de laquelle il peut utiliser la (ou les) forme(s) artistique(s) de son 
 Cependant, le personnage doit définir l'objet de la représentation, ainsi que le sentiment qu'il désire faire naître envers celui-ci.
 
 À l'issue de cette représentation, le personnage effectue un jet d'Âme.
-Si ce jet est réussi, le personnage gagne un bonus égal à son Rang à tout jet d'interaction sociale.
+Si ce jet est réussi, le personnage gagne un bonus égal à son <<ranks,Rang>> à tout jet d'interaction sociale.
 Ce bonus n'est valable que contre un spectateur ayant été présent jusqu'à la fin de la représentation,
 et pour un jet faisant entrer en jeu à la fois le sentiment et l'objet de la représentation.
 
 [[talent_fearsome_charge]]
 === Charge terrifiante
 
-*Prérequis :* <<ranks,Gardien>>, Équitation d6, Intimidation d6
+*Prérequis :* <<ranks,Gardien>>, <<skill_riding,Équitation>> d6, <<skill_intimidation,Intimidation>> d6
 
-Alors que sa monture effectue une action de Course en ligne droite, le personnage peut dépenser un point de Karma et une action pour faire un jet d'Intimidation.
-Si le test d'Intimidation est un Succès, chaque adversaire présent la zone d'arrivée de la Course doit faire un test de Terreur (_Savage Worlds_ page 150).
+Alors que sa monture effectue une action de Course en ligne droite, le personnage peut dépenser un point de Karma et une action pour faire un jet d'<<skill_intimidation,Intimidation>>.
+Si le test d'<<skill_intimidation,Intimidation>> est un Succès, chaque adversaire présent la zone d'arrivée de la Course doit faire un test de Terreur (_Savage Worlds_ page 150).
 La zone d'arrivée doit être de taille équivalente à un Grand Gabarit (_Savage Worlds_ page 110) au maximum.
 
 [[talent_lionheart]]
@@ -428,7 +460,7 @@ Le personnage bénéficie d'un bonus de +2 sur ses jets de terreur.
 *Prérequis :* <<ranks,Novice>>, Intellect d6+
 
 Le personnage peut dépenser un point de Karma et une action pour donner un malus à la Parade d'un adversaire.
-Le malus est égal au Rang du personnage, et dure un round.
+Le malus est égal au <<ranks,Rang>> du personnage, et dure un round.
 
 [[talent_enchanting]]
 === Enchantement
@@ -446,8 +478,8 @@ Voir la section <<enchanting,Enchantement>> pour davantage de détails.
 
 Le personnage peut dépenser un certain nombre de points de Karma après avoir effectué un rituel d'une demie-heure.
 Cela lui permet de gagner un bonus d'Armure égal au nombre de point de Karma dépensés,
-avec un maximum égal à son Rang.
-Le bonus d'Armure dure un nombre d'heures égal au Rang du personnage.
+avec un maximum égal à son <<ranks,Rang>>.
+Le bonus d'Armure dure un nombre d'heures égal au <<ranks,Rang>> du personnage.
 
 [[talent_unshakeable_earth]]
 === Enracinement
@@ -464,14 +496,14 @@ Ce bonus perdure alors jusqu'à ce qu'un de ses pieds quitte le sol.
 
 Le personnage peut dépenser un point de Karma pour bénéficier pour un round des effets suivants:
 
-* un bonus de +1 à sa Parade
-* un bonus de +1 à ses jet d'Agilité pour échapper aux effets d'une attaque de zone
-* les ennemis qui le prennent pour cible ont un malus de -1 à leurs jets de Tir
+* un bonus de +1 à sa Parade ;
+* un bonus de +1 à ses jet d'Agilité pour échapper aux effets d'une attaque de zone ;
+* les ennemis qui le prennent pour cible ont un malus de -1 à leurs jets d'<<skill_ranged_weapons,Armes à distance>>.
 
 [[talent_trap_initiative]]
 === Esquive des pièges
 
-*Prérequis :* <<ranks,Compagnon>>, Agilité d6+, Perception d6+
+*Prérequis :* <<ranks,Compagnon>>, Agilité d6+, <<skill_notice,Perception>> d6+
 
 Le personnage peut dépenser un point de Karma pour avoir le droit d'effectuer un jet d'Agilité juste avant de subir les effets d'un piège.
 Si le jet est réussi, le personnage échappe totalement au piège.
@@ -489,7 +521,7 @@ Tant que l'état de Fausse mort dure, le personnage est À terre (_Savage Worlds
 L'état dure jusqu'à ce que le personnage décide d'y mettre fin, ou qu'il se déplace.
 
 Un personnage en état de Fausse mort peut effectuer n'importe quelle action.
-Chaque action entreprise met cependant fin à l'illusion, sauf si le personnage entreprend une action supplémentaire et réussit un jet de Discrétion pour chacune.
+Chaque action entreprise met cependant fin à l'illusion, sauf si le personnage entreprend une action supplémentaire et réussit un jet de <<skill_stealth,Discrétion>> pour chacune.
 
 [[talent_false_sight]]
 === Faux semblants
@@ -505,10 +537,10 @@ Voir la section <<disbelief,Incrédulité>> pour davantage de détails.
 [[talent_direction_arrow]]
 === Flèche de direction
 
-*Prérequis :* <<ranks,Compagnon>>, Recherche d6+
+*Prérequis :* <<ranks,Compagnon>>, <<skill_investigation,Renseignements>> d6+
 
-Le personnage peut dépenser un point de karma pour bénéficier d'un bonus sur un jet de Recherche.
-Ce bonus est égal à son Rang, mais n'est valable que si le personnage cherche à localiser un objet ou une personne dont il possède un élément matériel.
+Le personnage peut dépenser un point de karma pour bénéficier d'un bonus sur un jet de <<skill_investigation,Renseignements>>.
+Ce bonus est égal à son <<ranks,Rang>>, mais n'est valable que si le personnage cherche à localiser un objet ou une personne dont il possède un élément matériel.
 
 [[talent_flame_arrow]]
 === Flèche de feu
@@ -516,22 +548,22 @@ Ce bonus est égal à son Rang, mais n'est valable que si le personnage cherche 
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus au jet de dégâts d'une attaque à distance.
-Le bonus aux dégâts obtenu est égal au Rang du personnage.
+Le bonus aux dégâts obtenu est égal au <<ranks,Rang>> du personnage.
 Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
 
 [[talent_forge_item]]
 === Forgeage
 
-*Prérequis :* <<ranks,Novice>>, Réparation d6+
+*Prérequis :* <<ranks,Novice>>, <<skill_repair,Forge>> d6+
 
 Le personnage gagne le talent <<talent_enchanting,Enchantement>>, même s'il n'en satisfait pas les prérequis.
 Il ne peut cependant s'en servir que pour créer des objets magiques majoritairement en métal.
-Il peut utiliser sa Compétence Réparation pour effectuer son <<enchanting,jet d'enchantement>>.
+Il peut utiliser sa Compétence <<skill_repair,Forge>> pour effectuer son <<enchanting,jet d'enchantement>>.
 
 [[talent_mount_attack]]
 === Fureur animale
 
-*Prérequis :* <<ranks,Gardien>>, Équitation d10+
+*Prérequis :* <<ranks,Gardien>>, <<skill_riding,Équitation>> d10+
 
 La monture du personnage peut attaquer même si son cavalier a effectué une action ce round-ci (_Savage Worlds_ page 246).
 La monture doit évidemment posséder un moyen de porter une attaque.
@@ -550,15 +582,15 @@ Après avoir entendu parler une langue pendant au minimum 1 minute, le personnag
 
 *Prérequis :* <<ranks,Novice>>
 
-Lorsqu'il effectue un jet de Combat à mains nues, le personnage est considéré comme armé.
-De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son Rang.
+Lorsqu'il effectue un jet d'<<skill_melee_weapons,Armes de mêlée>> à mains nues, le personnage est considéré comme armé.
+De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son <<ranks,Rang>>.
 
 [[talent_item_history]]
 === Histoire des objets
 
-*Prérequis :* <<ranks,Compagnon>>, Perception d6+, Recherche d6+
+*Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+, <<skill_investigation,Renseignements>> d6+
 
-Après avoir gardé auprès de lui un objet magique pendant une semaine, le personnage peut dépenser un point de Karma et effectuer un jet de Perception concernant cet objet.
+Après avoir gardé auprès de lui un objet magique pendant une semaine, le personnage peut dépenser un point de Karma et effectuer un jet de <<skill_notice,Perception>> concernant cet objet.
 Le personnage apprend une <<magic_items,connaissance de recherche>> de l'objet par succès et par Relance.
 
 [[talent_summoning]]
@@ -578,7 +610,7 @@ Voir la section <<summoning,Invocation>> pour davantage de détails.
 Le personnage gagne un niveau de blessure supplémentaire.
 Ce niveau impose un malus de blessure spécifique de -1.
 
-Ce talent peut être acquis une fois par Rang au maximum.
+Ce talent peut être acquis une fois par <<ranks,Rang>> au maximum.
 
 Par exemple, un personnage ayant appris Longévité deux fois souffrira des malus de blessure suivants : -1 pour une, deux ou trois blessures encaissées, -2 à la quatrième blessure, et -3 à la cinquième blessure.
 Ce personnage sera au minimum un Gardien de sa discipline.
@@ -586,9 +618,9 @@ Ce personnage sera au minimum un Gardien de sa discipline.
 [[talent_mount_durability]]
 === Longévité (monture)
 
-*Prérequis :* <<ranks,Compagnon>>, Équitation d6+
+*Prérequis :* <<ranks,Compagnon>>, <<skill_riding,Équitation>> d6+
 
-Le personnage peut dépenser un point de Karma pour faire bénéficier à sa monture d'un bonus d'Armure égal à son Rang, pendant un nombre de rounds égal à son Rang.
+Le personnage peut dépenser un point de Karma pour faire bénéficier à sa monture d'un bonus d'Armure égal à son <<ranks,Rang>>, pendant un nombre de rounds égal à son <<ranks,Rang>>.
 
 De plus, la monture obtient le talent de Longévité.
 
@@ -598,14 +630,14 @@ De plus, la monture obtient le talent de Longévité.
 *Prérequis :* <<ranks,Novice>>, Arcanes (magie)
 
 Le personnage acquiert une matrice de sorts supplémentaire.
-Ce talent peut être acheté plusieurs fois, mais un personnage ne peut posséder qu'un nombre maximum de matrices de sorts égal à son Rang.
+Ce talent peut être acheté plusieurs fois, mais un personnage ne peut posséder qu'un nombre maximum de matrices de sorts égal à son <<ranks,Rang>>.
 
 Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 
 [[talent_book_memory]]
 === Mémoire des livres
 
-*Prérequis :* <<ranks,Gardien>>, Intellect d8+, Recherche d8+
+*Prérequis :* <<ranks,Gardien>>, Intellect d8+, <<skill_investigation,Renseignements>> d8+
 
 Le personnage est considéré comme ayant toutes les connaissances existantes.
 Il doit pour cela avoir parcouru au moins une fois un livre renfermant l'information recherchée.
@@ -614,7 +646,7 @@ Le personnage doit néanmoins dépenser un point de Karma pour se rappeler de l'
 [[talent_empathic_command]]
 === Ordre empathique
 
-*Prérequis :* <<ranks,Novice>>, Équitation d6+
+*Prérequis :* <<ranks,Novice>>, <<skill_riding,Équitation>> d6+
 
 Si le personnage chevauche une monture ayant une attitude Serviable envers lui, cavalier et monture bénéficient des effets suivants :
 
@@ -627,7 +659,7 @@ Si le personnage chevauche une monture ayant une attitude Serviable envers lui, 
 
 *Prérequis :* <<ranks,Novice>>, Vigueur d6
 
-Le personnage peut dépenser un point de Karma pour bénéficier d'un bonus à sa Résistance égal à son Rang, pendant un nombre de rounds égal à son Rang.
+Le personnage peut dépenser un point de Karma pour bénéficier d'un bonus à sa Résistance égal à son <<ranks,Rang>>, pendant un nombre de rounds égal à son <<ranks,Rang>>.
 
 [[talent_versatility]]
 === Polyvalence
@@ -645,22 +677,22 @@ Il doit aussi toujours trouver un instructeur possédant ce talent et acceptant 
 *Prérequis :* <<ranks,Compagnon>>, Âme d6+
 
 Le personnage peut dépenser un point de Karma pour posséder un animal ayant une attitude Amicale ou meilleure envers lui.
-La possession a une durée maximale de Rang × 10 minutes.
+La possession a une durée maximale de <<ranks,Rang>> × 10 minutes.
 Pendant tout le temps que dure la possession, le corps du personnage tombe en catatonie.
 
 [[talent_spot_armor_flaw]]
 === Repérage du défaut de la cuirasse
 
-*Prérequis :* <<ranks,Gardien>>, Perception d8+, Réparation d8+
+*Prérequis :* <<ranks,Gardien>>, <<skill_notice,Perception>> d8+, <<skill_repair,Forge>> d8+
 
-Le personnage peut dépenser un point de Karma et une action pour annuler un nombre de points d'Armure d'un adversaire au maximum égal à son Rang, pendant un round.
+Le personnage peut dépenser un point de Karma et une action pour annuler un nombre de points d'Armure d'un adversaire au maximum égal à son <<ranks,Rang>>, pendant un round.
 
 [[talent_bear_mark]]
 === Résistance à la marque
 
 *Prérequis :* <<ranks,Novice>>
 
-Une Horreur tentant de marquer le personnage souffre d'un malus égal au Rang du personnage.
+Une Horreur tentant de marquer le personnage souffre d'un malus égal au <<ranks,Rang>> du personnage.
 
 * Si le jet de marquage est une réussite, le personnage souffre les effets habituels de la marque.
   Cependant, le personnage peut choisir de résister à une Horreur qui tente d'utiliser ses pouvoirs à travers cette marque.
@@ -685,29 +717,29 @@ Il souffre cependant des malus dus au blessures comme d'habitude.
 [[talent_winning_smile]]
 === Sourire ravageur
 
-*Prérequis :* <<ranks,Gardien>>, Persuasion d8+
+*Prérequis :* <<ranks,Gardien>>, <<skill_persuasion,Persuasion>> d8+
 
-Lors d'un jet de Persuasion, le personnage peut dépenser un point de Karma pour affecter un nombre d'Extras égal à son Rang.
+Lors d'un jet de <<skill_persuasion,Persuasion>>, le personnage peut dépenser un point de Karma pour affecter un nombre d'Extras égal à son <<ranks,Rang>>.
 
 [[talent_true_shot]]
 === Tir infaillible
 
-*Prérequis :* <<ranks,Novice>>, Tir d6+
+*Prérequis :* <<ranks,Novice>>, <<skill_ranged_weapons,Armes à distance>> d6+
 
-Le personnage peut dépenser un ou plusieurs points de Karma pour réduire les malus d'un jet de Tir.
+Le personnage peut dépenser un ou plusieurs points de Karma pour réduire les malus d'un jet d'<<skill_ranged_weapons,Armes à distance>>.
 Chaque point de Karma ainsi dépensé réduit le malus qui s'applique au jet de 2 points.
-Plusieurs points de Karma peuvent être dépensés de cette manière, avec un maximum d'un par Rang.
+Plusieurs points de Karma peuvent être dépensés de cette manière, avec un maximum d'un par <<ranks,Rang>>.
 
 Ce talent est une exception à la règle qui ne permet d'utiliser au maximum qu'un seul <<karma,point de Karma>> pour un jet.
 
 [[talent_multishot]]
 === Tir multiple
 
-*Prérequis :* <<ranks,Gardien>>, Tir d10+
+*Prérequis :* <<ranks,Gardien>>, <<skill_ranged_weapons,Armes à distance>> d10+
 
 Le personnage peut dépenser un ou plusieurs points de Karma pour augmenter la CdT de son arme à distance.
 La CdT de l'arme pour le round est égale au nombre de points de Karma dépensés +1.
-Le personnage peut dépenser au maximum un point de Karma par Rang de cette manière.
+Le personnage peut dépenser au maximum un point de Karma par <<ranks,Rang>> de cette manière.
 
 [[talent_life_check]]
 === Ultime sursaut
@@ -722,9 +754,9 @@ Sur une relance, le personnage guérit en plus une de ses blessures.
 [[talent_astral_sight]]
 === Vision astrale
 
-*Prérequis :* <<ranks,Novice>>, Perception d6+
+*Prérequis :* <<ranks,Novice>>, <<skill_notice,Perception>> d6+
 
-Le personnage peut dépenser un point de Karma pour percevoir l'espace astral durant un nombre de minutes égal à son type de dé de Perception.
+Le personnage peut dépenser un point de Karma pour percevoir l'espace astral durant un nombre de minutes égal à son type de dé de <<skill_notice,Perception>>.
 
 [[talent_wind_catcher]]
 === Vol plané
@@ -750,7 +782,7 @@ TODO
 
 Certains sorts sont illusoires : leurs effets sont réels uniquement si leur cible y croit.
 Lorsqu'il est la cible d'un sort, que celui-ci soit réellement illusoire ou non, la cible peut tenter de percer à jour une éventuelle illusion.
-Elle effectue un jet d'incrédulité, qui consiste en un jet de Perception, d'Intellect ou d'Âme, au choix du personnage.
+Elle effectue un jet d'incrédulité, qui consiste en un jet de <<skill_notice,Perception>>, d'Intellect ou d'Âme, au choix du personnage.
 Cela constitue une action.
 
 * Si le jet est réussi et que le sort est illusoire, celui-ci n'a aucun effet.
