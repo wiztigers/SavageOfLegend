@@ -1,34 +1,64 @@
-= Savage Dawns
+= Savage Dawn
 :toc: left
 :toc-title: Table des matières
 :toclevels: 2
 
 
 
-== Progression du personnage
+[[build_your_legend]]
+== Bâtir sa Légende
 
-Tous les 5 XP, un personnage gagne un Cercle.
-Il bénéficie alors d'une Progression (_Savage Worlds_ page 170).
+Les points de Légende permettent d'acheter des améliorations de personnage.
+Les coûts de ces améliorations sont comme-ci :
+
+* Choisir un nouvel Atout (2 points de Légende)
+* Augmenter une Compétence dont la valeur est égale ou supérieure au Trait associé (2 points de Légende)
+* Augmenter une Compétence dont la valeur est inférieure au Trait associé (1 point de Légende)
+* Prendre une nouvelle Compétence à d4 (1 point de Légende)
+* Prendre une nouvelle <<knowledges,Connaissance>> (1 point de Légende)
+* Augmenter un Attribut (2 points de Légende, une seule fois par <<ranks,Rang>>)
+
+=== Création de personnage
+La création du personnage suit la procédure habituelle (_Savage Worlds_ page 72), avec les ajustements suivants :
+
+1. Choix de la race
+2. Choix des Traits
+3. Choix de la <<disciplines,Discipline>>
+4. Choix des Atouts et Handicaps
+** Un Handicap Majeur rapport 2 <<build_your_legend,points de Légende>>
+** Un Handicap Mineur rapport 1 <<build_your_legend,point de Légende>>
+5. Achat de l'équipement
+6. Rédaction de l'histoire personnelle
+
+Un personnage nouvellement créé est de <<ranks,Cercle>> 1.
+
+=== Progression du personnage
+Tous les 5 XP gagnés, un personnage gagne un Cercle.
+Il bénéficie alors de 2 <<build_your_legend,points de Légende>>.
+
+Tous les 20 XP gagnés, le personnage peut passer au Rang supérieur.
+Pour que ce passage de Rang soit validé, un adepte doit trouver un instructeur membre de sa discipline.
+Cet instructeur doit être d'un Cercle plus élevé que celui du personnage, et accepter de l'entraîner pendant une semaine au minimum.
+Cet entraînement n'est pas nécessaire pour les adeptes ayant atteint le Rang de Maître ou de Légende.
 
 [[ranks]]
 .Cercle et Rang
 [width=40%, options="header"]
 |===
-|XP    |Cercle |Rang       |Équivalent
+|Rang|Nom       |XP    |Cercle |Équivalent 
 
-| 0-19 | 1-4   |Novice     |Novice
-|20-39 | 5-8   |Compagnon  |Aguerri
-|40-59 | 9-12  |Gardien    |Vétéran
-|60-79 |13-16  |Maître     |Héroïque
-| 80+  | 17+   |Légende    |Légendaire
+| 1  |Novice     | 0-19 | 1-4   |Novice     
+| 2  |Compagnon  |20-39 | 5-8   |Aguerri    
+| 3  |Gardien    |40-59 | 9-12  |Vétéran    
+| 4  |Maître     |60-79 |13-16  |Héroïque   
+| 5  |Légende    | 80+  | 17+   |Légendaire 
 |===
 
-Pour qu'un adepte puisse passer au Rang supérieur, il lui est nécessaire de trouver un instructeur plus avancé dans sa discipline et qui accepte de l'entraîner.
-Cela n'est pas nécessaire pour les adeptes ayant atteint le Rang de Maître ou de Légende.
-
-Un adepte d'un Rang au moins égal à celui de Compagnon peut invoquer un maître fantôme.
+Un adepte d'un Rang au moins égal à celui de Compagnon peut se passer d'instructeur vivant et invoquer un maître fantôme.
 Chaque rituel du maître fantôme a une durée d'une nuit.
-Pour savoir si le rituel est un succès, le personnage effectue un jet d'Âme.
+Le personnage fait un jet d'Âme.
+Une réussite invoque le maître fantôme pour toute la nuit.
+Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) minutes.
 
 
 
@@ -114,33 +144,16 @@ Fonctionnement inchangé (_Savage Worlds_ page 46).
 Un personnage peut acquérir une Connaissance au prix d'un dé de Compétence, que ce soit à la création de personnage ou lors d'une Progression.
 Une Connaissance n'a pas de dé associé : soit un personnage la possède, soit il ne la possède pas.
 
-Une Connaissance permet au personnage qui la possède de tenter une action qui sort de l'usage habituel d'une Compétence ou d'un Trait donnés.
+Une Connaissance permet au personnage qui la possède de tenter une action qui sort de l'usage habituel d'un Trait donné.
 Voici quelques exemples :
 
 * Une Connaissance pure correspond en quelques sortes à l'ancienne Compétence Connaissance (_Savage Worlds_ page 41). Elle permet de tenter des tests de Culture générale ayant trait à ces sujets (_Savage Worlds_ page 40). +
   Voici une liste non exhaustive de Connaissances que peut posséder un personnage : _Alchimie et potions_, _Animaux et créatures sauvages_, _Armes anciennes_, _Histoire de Barsaive_, _Batailles_, _Botanique_, _Châtiment_, connaissance d'une race, d'une culture ou d'une région au choix, _Horreurs_, _Légendes et héros_, maîtrise d'une langue au choix, _Thérans_.
 * Certaines Compétences du système de base de _Savage Worlds_ ont été reprises en tant que Connaissances. Ce sont : _Conduite_, _Jeu_, _Pistage_, _Natation_, _Navigation_.
-  Les Traits ou Compétences sur lesquels elles sont basées dépendent des circonstances.
-  Par défaut, le Trait de base de l'ancienne Compétence correspondante pourra être utilisé.
+  Les Traits sur lesquels elles sont basées dépendent des circonstances.
+  Par défaut, l'Attribut de base de l'ancienne Compétence correspondante pourra être utilisé.
 
-[[option_skills_made_easy]]
-[NOTE.option,caption="Règle optionnelle"]
-====
-*Compétences facilitées*
 
-Augmenter une Compétence dont la valeur est supérieure ou égale au Trait associé
-ou prendre une nouvelle Compétence à d4 se fait au même prix
-qu'augmenter une compétence dont la valeur est inférieure au Trait associé.
-
-Cette règle est valable lors de la création de personnage
-tout comme lors de sa progression.
-
-Cela signifie qu'à la création de personnage, chaque dé de Compétence coûte un point,
-quel que soit le dé et quelle que soit la valeur du trait associé.
-
-Lorsque le personnage bénéficie d'une Progression, celle-ci permet au personnage d'augmenter deux Compétences,
-et ce, quelle que soit leur nouvelle valeur et quelle que soit la valeur du trait associé.
-====
 
 
 
@@ -160,14 +173,21 @@ Un point de Karma peuvent être dépensé pour :
 Une seule fois par jour, un adepte peut effectuer un rituel karmique propre à sa discipline.
 Ce rituel lui permet de regagner un point de Karma.
 
+
+
+
+
 [[disciplines]]
 == Disciplines
 
 Chaque discipline est un Atout professionel (_Savage Worlds_ page 63).
-Ces atouts sont accessibles dès la création d'un personnage, ou bien plus tard, grâce à une Progression.
+Un personnage obtient une discipline gratuitement à sa création.
+Avec l'accord du MJ, un joueur désirant jouer un non-adepte peut échanger sa discipline contre un autre Atout.
 
-À la discrétion du MJ, un adepte peut posséder plusieurs disciplines, jusqu'à une limite d'une par <<ranks,Rang>>.
-Quel que soit le nombre de disciplines qu'il possède, cela n'accroit pas la taille de sa <<karma,réserve de Karma>>.
+Avec l'accord du MJ, un personnage peut acquérir une Discipline après la création de personnage.
+Il doit l'acheter avec des <<build_your_legend,points de Légende>>.
+Un adepte peut posséder plusieurs disciplines, jusqu'à une limite d'une par <<ranks,Rang>>.
+Posséder plusieurs disciplines n'accroit pas la taille de la <<karma,réserve de Karma>> d'un personnage.
 
 
 
@@ -744,6 +764,7 @@ Le personnage peut apprendre n'importe quel <<talents,talent>>.
 Le talent n'a pas besoin de figurer dans la liste de ses talents de <<disciplines,discipline>>.
 Ceci mis à part, le personnage doit quand même satisfaire tous les prérequis du talent désiré.
 Il doit aussi toujours trouver un instructeur possédant ce talent et acceptant de le lui enseigner.
+
 
 
 
