@@ -906,6 +906,8 @@ Les esprits dont la Puissance est supérieure à d12 existent, mais ne sont pas 
 Tous les traits d'un esprit sont égaux à sa Puissance.
 Les esprits possèdent uniquement les compétences <<skill_melee_weapons,Armes de mêlée>> et <<skill_notice,Perception>>, à un indice égal à leur Puissance.
 
+À noter qu'une région Souillée ou Corrompue compte automatiquement comme un environnement défavorable pour un esprit.
+
 ==== Élémentaire d'air
 
 *Matériau d'invocation :* Vent fort +
@@ -917,6 +919,12 @@ Les esprits possèdent uniquement les compétences <<skill_melee_weapons,Armes d
 *Matériau d'invocation :* Rivière, mare +
 *Environnement favorable :* Lacs, mers +
 *Environnement défavorable :* Sur terre ou dans les airs
+
+==== Élémentaire de bois
+
+*Matériau d'invocation :* Arbre ou meuble en bois +
+*Environnement favorable :* Forêt ou jungle +
+*Environnement défavorable :* Incendie, intérieurs, dans les airs, sur l'eau, sous terre
 
 ==== Élémentaire de feu
 
