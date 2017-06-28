@@ -63,6 +63,14 @@ Fonctionnement inchangé (_Savage Worlds_ page 43).
 === Forge (Intellect)
 Nouveau nom de la Compétence *Réparation* (_Savage Worlds_ page 45), son usage est en tout point identique.
 
+[[skill_spellcasting]]
+=== Incantation (Intellect)
+*Prérequis :* <<edge_arcane_magic,Arcanes (magie)>>
+
+Cette compétence permet de lancer des sorts.
+
+Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
+
 [[skill_intimidation]]
 === Intimidation (Âme)
 Fonctionnement inchangé (_Savage Worlds_ page 43).
@@ -156,7 +164,6 @@ Quel que soit le nombre de disciplines qu'il possède, cela n'accroit pas la tai
 
 [[discipline_archer]]
 === Archer
-
 *Prérequis :* <<ranks,Novice>>, <<skill_ranged_weapons,Armes à distance>> d8+
 
 Un Archer acquiert l'atout Vigilance.
@@ -169,7 +176,6 @@ Un Archer peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_range
 
 [[discipline_weaponsmith]]
 === Armurier
-
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_repair,Forge>> d6+
 
 Le Charisme d'un Armurier est augmenté de 2.
@@ -183,7 +189,6 @@ Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_re
 
 [[discipline_cavalryman]]
 === Cavalier
-
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_riding,Équitation>> d6+
 
 Quand un Cavalier combat sur sa monture, il utilise sa Compétence la plus haute entre <<skill_melee_weapons,Armes de mêlée>> et <<skill_riding,Équitation>>, au lieu de la plus basse (_Savage Worlds_ pages 43,122).
@@ -196,13 +201,11 @@ Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_rid
 
 [[discipline_horror_stalker]]
 === Chasseur d'Horreurs
-
 *Prérequis :* <<ranks,Novice>>, Âme d10+, Vigueur d8+, <<skill_melee_weapons,Armes de mêlée>> d8+
 
 Un Chasseur d'Horreurs obtient le talent <<talent_bear_mark,Résistance à la marque>>.
 
 Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>> ou de dégats effectués au cours d'un combat contre une Horreur ou une création d'Horreur.
-
 
 *Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_spot_armor_flaw,Repérage du défaut de la cuirasse>>, <<talent_life_check,Ultime sursaut>>, <<talent_astral_sight,Vision astrale>>
 
@@ -210,7 +213,6 @@ Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet d'
 
 [[discipline_scout]]
 === Éclaireur
-
 *Prérequis :* <<ranks,Novice>>, <<skill_notice,Perception>> d6+
 
 Un Éclaireur ajoute +2 à ses jets de <<skill_stealth,Discrétion>>, <<skill_notice,Perception>>, <<skill_investigation,Renseignements>> et <<skill_survival,Survie>>.
@@ -224,7 +226,6 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_
 
 [[discipline_sky_raider]]
 === Écumeur du ciel
-
 *Prérequis :* <<ranks,Novice>>, Force d6+, <<skill_intimidation,Intimidation>> d6+
 
 Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de Manœuvre aérienne.
@@ -237,10 +238,9 @@ Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'<<skill_
 
 [[discipline_elementalist]]
 === Élémentaliste
-
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_survival,Survie>> d6+
 
-Un Élémentaliste obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
+Un Élémentaliste obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
 
 Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_survival,Survie>>.
 
@@ -250,7 +250,6 @@ Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<s
 
 [[discipline_warrior]]
 === Guerrier
-
 *Prérequis :* <<ranks,Novice>>, <<skill_melee_weapons,Armes de mêlée>> d8+
 
 Un Guerrier obtient un bonus de +1 à tous ses jets de dégâts au corps à corps.
@@ -263,10 +262,9 @@ Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_mel
 
 [[discipline_illusionist]]
 === Illusionniste
-
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_notice,Perception>> d6+
 
-Un Illusioniste obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
+Un Illusioniste obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
 
 Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_persuasion,Persuasion>>.
 
@@ -306,7 +304,6 @@ Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet ef
 
 [[discipline_air_sailor]]
 === Navigateur aérien
-
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, Manœuvre aérienne d6+
 
 Un Navigateur aérien obtient un bonus de +2 à tous ses jets de Manœuvre aérienne.
@@ -320,10 +317,9 @@ Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de 
 
 [[discipline_nethermancer]]
 === Nécromancien
-
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_intimidation,Intimidation>> d6+
 
-Un Nécromancien obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
+Un Nécromancien obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
 
 Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>.
 
@@ -333,10 +329,9 @@ Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skil
 
 [[discipline_wizard]]
 === Sorcier
-
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_investigation,Renseignements>> d6+
 
-Un Sorcier obtient le talent <<talent_spell_matrix,Matrice de Sorts>>.
+Un Sorcier obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
 
 Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_investigation,Renseignements>>.
 
@@ -346,7 +341,6 @@ Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_inv
 
 [[discipline_troubadour]]
 === Troubadour
-
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_persuasion,Persuasion>> d6+
 
 Le Charisme d'un Troubadour est augmenté de 2.
@@ -359,7 +353,6 @@ Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de <<skill_
 
 [[discipline_thief]]
 === Voleur
-
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, <<skill_stealth,Discrétion>> d6+
 
 Un Voleur ajoute +2 à tous ses jets de <<skill_stealth,Discrétion>>.
@@ -382,28 +375,24 @@ et qu'il trouve quelqu'un pour le lui apprendre.
 
 [[talent_evidence_analysis]]
 === Analyse des indices
-
 *Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de <<skill_notice,Perception>> égal à son <<ranks,Rang>>.
 
 [[talent_acrobatic_strike]]
 === Attaque acrobatique
-
 *Prérequis :* <<ranks,Compagnon>>, Agilité d8+, <<skill_melee_weapons,Armes de mêlée>> d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus de +2 à un jet d'attaque au corps à corps.
 
 [[talent_surprise_strike]]
 === Attaque surprise
-
 *Prérequis :* <<ranks,Gardien>>, <<skill_stealth,Discrétion>> d10+
 
 Une fois par combat, le personnage peut dépenser un point de Karma pour effectuer une _Attaque surprise_ (_Savage Worlds_ page 120), même si les circonstances ne devraient pas l'y autoriser.
 
 [[talent_great_leap]]
 === Bondissement
-
 *Prérequis :* <<ranks,Novice>>, Force d6+
 
 Lors d'une course, le personnage peut ajouter un nombre de cases à son Allure égal à son <<ranks,Rang>> ×2.
@@ -411,7 +400,6 @@ Cette distance supplémentaire peut correspondre à un saut horizontal ou vertic
 
 [[talent_crushing_blow]]
 === Broyage
-
 *Prérequis :* <<ranks,Gardien>>, Force d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus au jet de dégâts d'une attaque au corps à corps.
@@ -419,14 +407,12 @@ Le bonus aux dégâts obtenu est égal au <<ranks,Rang>> du personnage.
 
 [[talent_chameleon]]
 === Caméléon
-
 *Prérequis :* <<ranks,Gardien>>, <<skill_stealth,Discrétion>> d6+, <<skill_survival,Survie>> d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de <<skill_stealth,Discrétion>> égal à son <<ranks,Rang>>.
 
 [[talent_emotion_song]]
 === Chant d'émotion
-
 *Prérequis :* <<ranks,Novice>>, Âme d6+
 
 Le personnage peut dépenser un point de Karma après avoir donné une représentation d'une durée d'une demie heure minimum,
@@ -440,7 +426,6 @@ et pour un jet faisant entrer en jeu à la fois le sentiment et l'objet de la re
 
 [[talent_fearsome_charge]]
 === Charge terrifiante
-
 *Prérequis :* <<ranks,Gardien>>, <<skill_riding,Équitation>> d6, <<skill_intimidation,Intimidation>> d6
 
 Alors que sa monture effectue une action de Course en ligne droite, le personnage peut dépenser un point de Karma et une action pour faire un jet d'<<skill_intimidation,Intimidation>>.
@@ -449,14 +434,12 @@ La zone d'arrivée doit être de taille équivalente à un Grand Gabarit (_Savag
 
 [[talent_lionheart]]
 === Cœur de lion
-
 *Prérequis :* <<ranks,Novice>>, Âme d6+
 
 Le personnage bénéficie d'un bonus de +2 sur ses jets de terreur.
 
 [[talent_maneuver]]
 === Dérobade
-
 *Prérequis :* <<ranks,Novice>>, Intellect d6+
 
 Le personnage peut dépenser un point de Karma et une action pour donner un malus à la Parade d'un adversaire.
@@ -464,8 +447,7 @@ Le malus est égal au <<ranks,Rang>> du personnage, et dure un round.
 
 [[talent_enchanting]]
 === Enchantement
-
-*Prérequis :* <<ranks,Gardien>>, Arcanes: magie
+*Prérequis :* <<ranks,Gardien>>, <<edge_arcane_magic,Arcanes (magie)>>
 
 Le personnage peut enchanter des objets magiques.
 
@@ -473,7 +455,6 @@ Voir la section <<enchanting,Enchantement>> pour davantage de détails.
 
 [[talent_temper_self]]
 === Endurcissement
-
 *Prérequis :* <<ranks,Gardien>>, Âme d8+, Vigueur d8+
 
 Le personnage peut dépenser un certain nombre de points de Karma après avoir effectué un rituel d'une demie-heure.
@@ -483,7 +464,6 @@ Le bonus d'Armure dure un nombre d'heures égal au <<ranks,Rang>> du personnage.
 
 [[talent_unshakeable_earth]]
 === Enracinement
-
 *Prérequis :* <<ranks,Novice>>, Force d6+
 
 Le personnage peut dépenser un point de Karma pour gagner un bonus de +2 pour éviter d'être mis à terre.
@@ -491,7 +471,6 @@ Ce bonus perdure alors jusqu'à ce qu'un de ses pieds quitte le sol.
 
 [[talent_avoid_blow]]
 === Esquive
-
 *Prérequis :* <<ranks,Compagnon>>, Agilité d8+
 
 Le personnage peut dépenser un point de Karma pour bénéficier pour un round des effets suivants:
@@ -502,7 +481,6 @@ Le personnage peut dépenser un point de Karma pour bénéficier pour un round d
 
 [[talent_trap_initiative]]
 === Esquive des pièges
-
 *Prérequis :* <<ranks,Compagnon>>, Agilité d6+, <<skill_notice,Perception>> d6+
 
 Le personnage peut dépenser un point de Karma pour avoir le droit d'effectuer un jet d'Agilité juste avant de subir les effets d'un piège.
@@ -510,7 +488,6 @@ Si le jet est réussi, le personnage échappe totalement au piège.
 
 [[talent_dead_fall]]
 === Fausse mort
-
 *Prérequis :* <<ranks,Compagnon>>, Intellect d6+
 
 Ce talent est une illusion.
@@ -525,7 +502,6 @@ Chaque action entreprise met cependant fin à l'illusion, sauf si le personnage 
 
 [[talent_false_sight]]
 === Faux semblants
-
 *Prérequis :* <<ranks,Novice>>, Intellect d6+
 
 Lorsqu'il lance un sort, le personnage peut choisir d'en faire un sort illusoire.
@@ -533,10 +509,8 @@ Un sort illusoire coûte 1 point de pouvoir de moins à lancer, mais ses cibles 
 
 Voir la section <<disbelief,Incrédulité>> pour davantage de détails.
 
-
 [[talent_direction_arrow]]
 === Flèche de direction
-
 *Prérequis :* <<ranks,Compagnon>>, <<skill_investigation,Renseignements>> d6+
 
 Le personnage peut dépenser un point de karma pour bénéficier d'un bonus sur un jet de <<skill_investigation,Renseignements>>.
@@ -544,7 +518,6 @@ Ce bonus est égal à son <<ranks,Rang>>, mais n'est valable que si le personnag
 
 [[talent_flame_arrow]]
 === Flèche de feu
-
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus au jet de dégâts d'une attaque à distance.
@@ -553,7 +526,6 @@ Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
 
 [[talent_forge_item]]
 === Forgeage
-
 *Prérequis :* <<ranks,Novice>>, <<skill_repair,Forge>> d6+
 
 Le personnage gagne le talent <<talent_enchanting,Enchantement>>, même s'il n'en satisfait pas les prérequis.
@@ -562,7 +534,6 @@ Il peut utiliser sa Compétence <<skill_repair,Forge>> pour effectuer son <<ench
 
 [[talent_mount_attack]]
 === Fureur animale
-
 *Prérequis :* <<ranks,Gardien>>, <<skill_riding,Équitation>> d10+
 
 La monture du personnage peut attaquer même si son cavalier a effectué une action ce round-ci (_Savage Worlds_ page 246).
@@ -570,7 +541,6 @@ La monture doit évidemment posséder un moyen de porter une attaque.
 
 [[talent_speak_language]]
 === Glossolalie
-
 *Prérequis :* <<ranks,Gardien>>, Intellect d6+
 
 Après avoir entendu parler une langue pendant au minimum 1 minute, le personnage peut dépenser un point de Karma pour apprendre cette langue de manière permanente.
@@ -579,7 +549,6 @@ Après avoir entendu parler une langue pendant au minimum 1 minute, le personnag
 
 [[talent_claw_shape]]
 === Griffes
-
 *Prérequis :* <<ranks,Novice>>
 
 Lorsqu'il effectue un jet d'<<skill_melee_weapons,Armes de mêlée>> à mains nues, le personnage est considéré comme armé.
@@ -587,7 +556,6 @@ De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son 
 
 [[talent_item_history]]
 === Histoire des objets
-
 *Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+, <<skill_investigation,Renseignements>> d6+
 
 Après avoir gardé auprès de lui un objet magique pendant une semaine, le personnage peut dépenser un point de Karma et effectuer un jet de <<skill_notice,Perception>> concernant cet objet.
@@ -595,7 +563,6 @@ Le personnage apprend une <<magic_items,connaissance de recherche>> de l'objet p
 
 [[talent_summoning]]
 === Invocation
-
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
 Le personnage peut invoquer des esprits.
@@ -604,7 +571,6 @@ Voir la section <<summoning,Invocation>> pour davantage de détails.
 
 [[talent_durability]]
 === Longévité
-
 *Prérequis :* <<ranks,Compagnon>>
 
 Le personnage gagne un niveau de blessure supplémentaire.
@@ -617,7 +583,6 @@ Ce personnage sera au minimum un Gardien de sa discipline.
 
 [[talent_mount_durability]]
 === Longévité (monture)
-
 *Prérequis :* <<ranks,Compagnon>>, <<skill_riding,Équitation>> d6+
 
 Le personnage peut dépenser un point de Karma pour faire bénéficier à sa monture d'un bonus d'Armure égal à son <<ranks,Rang>>, pendant un nombre de rounds égal à son <<ranks,Rang>>.
@@ -626,8 +591,7 @@ De plus, la monture obtient le talent de Longévité.
 
 [[talent_spell_matrix]]
 === Matrice de sorts
-
-*Prérequis :* <<ranks,Novice>>, Arcanes (magie)
+*Prérequis :* <<ranks,Novice>>, <<edge_arcane_magic,Arcanes (magie)>>
 
 Le personnage acquiert une matrice de sorts supplémentaire.
 Ce talent peut être acheté plusieurs fois, mais un personnage ne peut posséder qu'un nombre maximum de matrices de sorts égal à son <<ranks,Rang>>.
@@ -636,7 +600,6 @@ Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 
 [[talent_book_memory]]
 === Mémoire des livres
-
 *Prérequis :* <<ranks,Gardien>>, Intellect d8+, <<skill_investigation,Renseignements>> d8+
 
 Le personnage est considéré comme ayant toutes les connaissances existantes.
@@ -645,7 +608,6 @@ Le personnage doit néanmoins dépenser un point de Karma pour se rappeler de l'
 
 [[talent_empathic_command]]
 === Ordre empathique
-
 *Prérequis :* <<ranks,Novice>>, <<skill_riding,Équitation>> d6+
 
 Si le personnage chevauche une monture ayant une attitude Serviable envers lui, cavalier et monture bénéficient des effets suivants :
@@ -656,24 +618,12 @@ Si le personnage chevauche une monture ayant une attitude Serviable envers lui, 
 
 [[talent_wood_skin]]
 === Peau de bois
-
 *Prérequis :* <<ranks,Novice>>, Vigueur d6
 
 Le personnage peut dépenser un point de Karma pour bénéficier d'un bonus à sa Résistance égal à son <<ranks,Rang>>, pendant un nombre de rounds égal à son <<ranks,Rang>>.
 
-[[talent_versatility]]
-=== Polyvalence
-
-*Prérequis :* <<ranks,Novice>>, <<race_human,Humain>>
-
-Le personnage peut apprendre n'importe quel talent.
-Le talent n'a pas besoin de figurer dans la liste de ses talents de discipline.
-Cela mis à part, le personnage doit satisfaire tous les prérequis du talent désiré.
-Il doit aussi toujours trouver un instructeur possédant ce talent et acceptant de le lui enseigner.
-
 [[talent_animal_possession]]
 === Possession animale
-
 *Prérequis :* <<ranks,Compagnon>>, Âme d6+
 
 Le personnage peut dépenser un point de Karma pour posséder un animal ayant une attitude Amicale ou meilleure envers lui.
@@ -682,14 +632,12 @@ Pendant tout le temps que dure la possession, le corps du personnage tombe en ca
 
 [[talent_spot_armor_flaw]]
 === Repérage du défaut de la cuirasse
-
 *Prérequis :* <<ranks,Gardien>>, <<skill_notice,Perception>> d8+, <<skill_repair,Forge>> d8+
 
 Le personnage peut dépenser un point de Karma et une action pour annuler un nombre de points d'Armure d'un adversaire au maximum égal à son <<ranks,Rang>>, pendant un round.
 
 [[talent_bear_mark]]
 === Résistance à la marque
-
 *Prérequis :* <<ranks,Novice>>
 
 Une Horreur tentant de marquer le personnage souffre d'un malus égal au <<ranks,Rang>> du personnage.
@@ -706,7 +654,6 @@ Une Horreur tentant de marquer le personnage souffre d'un malus égal au <<ranks
 
 [[talent_fireblood]]
 === Sang de feu
-
 *Prérequis :* <<ranks,Compagnon>>, Vigueur d6+
 
 Le personnage peut dépenser un point de Karma pour effectuer un jet de guérison naturelle.
@@ -716,14 +663,12 @@ Il souffre cependant des malus dus au blessures comme d'habitude.
 
 [[talent_winning_smile]]
 === Sourire ravageur
-
 *Prérequis :* <<ranks,Gardien>>, <<skill_persuasion,Persuasion>> d8+
 
 Lors d'un jet de <<skill_persuasion,Persuasion>>, le personnage peut dépenser un point de Karma pour affecter un nombre d'Extras égal à son <<ranks,Rang>>.
 
 [[talent_true_shot]]
 === Tir infaillible
-
 *Prérequis :* <<ranks,Novice>>, <<skill_ranged_weapons,Armes à distance>> d6+
 
 Le personnage peut dépenser un ou plusieurs points de Karma pour réduire les malus d'un jet d'<<skill_ranged_weapons,Armes à distance>>.
@@ -734,7 +679,6 @@ Ce talent est une exception à la règle qui ne permet d'utiliser au maximum qu'
 
 [[talent_multishot]]
 === Tir multiple
-
 *Prérequis :* <<ranks,Gardien>>, <<skill_ranged_weapons,Armes à distance>> d10+
 
 Le personnage peut dépenser un ou plusieurs points de Karma pour augmenter la CdT de son arme à distance.
@@ -743,7 +687,6 @@ Le personnage peut dépenser au maximum un point de Karma par <<ranks,Rang>> de 
 
 [[talent_life_check]]
 === Ultime sursaut
-
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+, Vigueur d8+
 
 Lorsque le personnage sombre dans un État critique (_Savage Worlds_ page 116), mais avant d'effectuer le jet de Vigueur correspondant, il peut dépenser un point de Karma pour effectuer un jet d'Âme.
@@ -753,14 +696,12 @@ Sur une relance, le personnage guérit en plus une de ses blessures.
 
 [[talent_astral_sight]]
 === Vision astrale
-
 *Prérequis :* <<ranks,Novice>>, <<skill_notice,Perception>> d6+
 
 Le personnage peut dépenser un point de Karma pour percevoir l'espace astral durant un nombre de minutes égal à son type de dé de <<skill_notice,Perception>>.
 
 [[talent_wind_catcher]]
 === Vol plané
-
 *Prérequis :* <<ranks,Gardien>>, Âme d6+
 
 Le personnage peut dépenser un point de Karma pour annuler les dégâts dus à une chute.
@@ -772,10 +713,134 @@ Chaque round durant son vol plané, le personnage peut utiliser une action pour 
 
 
 
+[[edges]]
+== Atouts
+
+[[edge_arcane_magic]]
+=== Arcanes (magie)
+*Compétence :* <<skill_spellcasting,Incantation>> +
+*Points de pouvoir :* Aucun +
+*Pouvoirs :* 3 +
+
+Les magiciens sont capables de lancer des sorts.
+
+Voir la section <<thread_magic,Magie des sorts>> pour plus de détails.
+
+[[edge_versatility]]
+=== Polyvalence
+*Prérequis :* <<ranks,Novice>>, <<race_human,Humain>>
+
+Le personnage peut apprendre n'importe quel <<talents,talent>>.
+Le talent n'a pas besoin de figurer dans la liste de ses talents de <<disciplines,discipline>>.
+Ceci mis à part, le personnage doit quand même satisfaire tous les prérequis du talent désiré.
+Il doit aussi toujours trouver un instructeur possédant ce talent et acceptant de le lui enseigner.
+
+
+
+
 [[thread_magic]]
 == Magie des sorts
 
-TODO
+Un magicien n'a aucun point de Pouvoir, et il peut lancer autant de sorts qu'il le désire chaque jour.
+Un sort se lance lorsque le magicien l'_incante_ en réussissant un jet d'<<skill_spellcasting,Incantation>>.
+Ce jet souffre cependant d'un malus égal au nombre de points de Pouvoir requis par le sort.
+Le magicien peut réduire ce malus grâce à une ou plusieurs actions de <<thread_weaving,tissage>> préalables à l'incantation.
+
+[[spell_casting]]
+1. Choix de la méthode de lancement de sorts :
+** utilisation d'une <<matrix_casting,matrice de sorts>>
+** lancement <<grimoire_casting,à travers un grimoire>>
+** utilisation de la <<raw_magic,magie brute>>
+2. Choix du sort à lancer et calcul du _malus d'incantation_.
+   Ce malus est égal au nombre de points de Pouvoirs requis par le sort.
+3. Réduction du _malus d'incantation_ grâce à un ou plusieurs <<thread_weaving,tests de tissage>>.
+   Cette étape est facultative.
+4. Incantation du sort : le magicien effectue un jet d'<<skill_spellcasting,Incantation>>.
+** Si c'est une réussite, le sort fonctionne normalement.
+** Si c'est un échec, rien ne se passe.
+
+[[thread_weaving]]
+=== Tissage de filaments
+Le tissage de filaments de sorts est une action qui permet de réduire le _<<spell_casting,malus d'incantation>> d'un sort en cours de lancement.
+Le magicien effectue un test de Tissage (un jet d'<<skill_spellcasting,Incantation>>, différent du jet de celui nécessaire pour le sort).
+Chaque succès et Relance réduit le <<spell_casting,malus d'incantation>> de 2 points.
+
+Le Tissage ne permet jamais d'obtenir des bonus au jet d'incantation.
+Il ne permet pas non plus de réduire les malus autres que le _malus d'incantation_.
+
+[[spell_matrix]]
+=== Matrice de sorts
+
+==== Réharmonisation
+Une Matrice de sorts peut contenir un seul sort à la fois.
+Tout magicien peut à tout moment _réharmoniser_ ses matrices en méditant 10 minutes.
+Cela lui permet de redéfinir quel sort est contenu dans quelle matrice.
+
+S'il n'a pas le temps d'attendre ces 10 minutes, il peut choisir de _réharmoniser à la va-vite_.
+Le magicien dépense une action et effectue un jet d'<<skill_spellcasting,Incantation>>.
+Chaque réussite et Relance lui permet de placer un nouveau sort dans une de ses matrices.
+Un échec « vide » toutes ses matrices de sorts.
+
+[[matrix_casting]]
+==== Lancement de sorts
+Le magicien doit <<learn_spell,connaître personnellement>> le sort à lancer.
+
+Lancer un sort contenu dans une matrice se fait selon la <<spell_casting,procédure normale>>.
+
+*Contrecoup :*
+Hormis échouer à lancer son sort, le magicien ne peut souffrir d'aucun effet indésirable supplémentaire, quel que soit le résultat de son dé d'<<skill_spellcasting,Incantation>>.
+
+[[grimoire]]
+=== Grimoires
+
+[[learn_spell]]
+==== Apprendre un nouveau sort
+Apprendre un nouveau sort se fait en achetant l'Atout Nouveau pouvoir.
+
+[[grimoire_casting]]
+==== Lancement de sorts à travers un grimoire
+Un magicien peut lancer un sort à travers un grimoire, que ce grimoire soit le sien ou appartienne à quelqu'un d'autre.
+Il n'a pas besoin de <<learn_spell,connaître personnellement>> le sort à lancer, mais celui-ci doit figurer dans le grimoire.
+
+Lancer un sort à travers un grimoire se fait selon la <<spell_casting,procédure normale>>, mais le malus d'incantation est augmenté de 2.
+
+*Contrecoup :*
+Si le magicien obtient un 1 sur son dé d'<<skill_spellcating,Incantation>> (peu importe le dé Joker), il est automatiquement Secoué.
+S'il était déjà Secoué, il subit une blessure.
+Le sort qu'il tentait de lancer est effacé du grimoire de manière permanente.
+
+[[raw_magic]]
+=== Magie brute
+Le magicien doit <<learn_spell,connaître personnellement>> le sort à lancer.
+Cependant, le sort n'a pas besoin d'être actuellement contenu dans une de ses matrices.
+
+Lancer un sort contenu dans une matrice se fait selon la <<spell_casting,procédure normale>>.
+
+*Contrecoup :*
+Immédiatement après avoir utilisé la magie brute pour lancer un sort, un personnage a toujours une probabilité de subir un contrecoup,
+quel que soit le résultat du lancement du sort ou de son dé d'<<skill_spellcasting,Incantation>>.
+
+Pour connaître le détail du contrecoup, il faut effectuer un test de Distorsion.
+Le dé à lançer dépend de la nature de l'espace astral à l'endroit où se trouve le personnage, comme indiqué sur la <<warping,table de Magie brute>>.
+
+[[warping]]
+.Magie brute
+[width=40%, options="header"]
+|===
+|Région    |Type |Dégâts
+
+|Saine     |d4   |1d6
+|Dégagée   |d6   |2d6
+|Souillée  |d8   |3d6
+|Corrompue |d10  |4d6
+|===
+
+Le test de Distorsion bénéficie d'un bonus égal au <<ranks,Rang>> du sort lancé.
+
+* Si le test est un échec, rien ne se passe.
+* Si le test est réussi, le personnage subit des dégâts, comme indiqué sur la <<warping,table de Magie brute>>.
+* Si test obtient une Relance, le personnage est en outre marqué par l'Horreur la plus proche.
+
 
 [[disbelief]]
 === Incrédulité
