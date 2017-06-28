@@ -75,6 +75,15 @@ Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 === Intimidation (Âme)
 Fonctionnement inchangé (_Savage Worlds_ page 43).
 
+[[skill_summoning]]
+=== Invocation (Âme)
+*Prérequis :* <<talent_summoning,Invocation>>
+
+Cette compétence permet d'invoquer des esprits.
+
+Voir la section <<summoning,Invocation>> pour davantage de détails.
+
+
 [[skill_notice]]
 === Perception (Intellect)
 Fonctionnement inchangé (_Savage Worlds_ page 44).
@@ -244,7 +253,7 @@ Un Élémentaliste obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
 
 Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_survival,Survie>>.
 
-*Talents de discipline :* <<talent_unshakeable_earth,Enracinement>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
+*Talents de discipline :* <<talent_unshakeable_earth,Enracinement>>, <<talent_summoning,Invocation (Élémentaires)>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
 
 
@@ -323,7 +332,7 @@ Un Nécromancien obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
 
 Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>.
 
-*Talents de discipline :* <<talent_lionheart,Cœur de lion>>, <<talent_summoning,Invocation>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
+*Talents de discipline :* <<talent_lionheart,Cœur de lion>>, <<talent_summoning,Invocation (Morts)>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
 
 
 
@@ -565,7 +574,8 @@ Le personnage apprend une <<magic_items,connaissance de recherche>> de l'objet p
 === Invocation
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
-Le personnage peut invoquer des esprits.
+Le personnage peut invoquer un type particulier d'esprits.
+Le type d'esprits qu'il peut invoquer est indiqué lorsque le personnage achète ce talent.
 
 Voir la section <<summoning,Invocation>> pour davantage de détails.
 
@@ -862,7 +872,81 @@ Cela constitue une action.
 [[summoning]]
 == Invocation
 
-TODO
+Le personnage peut invoquer un esprit en effectuant un test d'<<skill_summoning,Invocation>>.
+
+* En cas de réussite, l'esprit est invoqué.
+  L'esprit doit au personnage un service, plus un par Relance obtenue.
+* En cas d'échec, le personnage est Sonné.
+* Si le personnage obtient un 1 sur son dé d'<<skill_summoning,Invocation>> (peu importe le dé Joker), l'esprit est invoqué hors de son contrôle.
+
+Le rituel d'invocation prend une minute est est assorti des modificateurs suivants :
+
+[[summoning_modifiers]]
+.Invocation: modificateurs
+[options="header"]
+|===
+|Description                                        |Modificateur
+
+|Puissance de l'esprit                              |-Puissance
+|L'invocateur connaît le nom de l'esprit            |+2
+|Lieu de l'invocation favorable pour l'esprit ^1^   |+2
+|Le rituel d'invocation dure une heure ou plus      |+2
+|L'invocateur désire un pouvoir particulier         |-2
+|Lieu de l'invocation défavorable pour l'esprit ^1^ |-2
+|Le rituel d'invocation ne dure qu'un round         |-2
+|===
+^1^ Voir la <<spirits,description>> de chaque esprit.
+
+[[spirits]]
+=== Esprits
+
+La caractéristique principale d'un esprit est sa Puissance, exprimé comme un dé dont la valeur peut aller de d4-2 à d12.
+Les esprits dont la Puissance est supérieure à d12 existent, mais ne sont pas invocables par la méthode d'<<skill_summoning,invocation>> habituelle.
+
+Tous les traits d'un esprit sont égaux à sa Puissance.
+Les esprits possèdent uniquement les compétences <<skill_melee_weapons,Armes de mêlée>> et <<skill_notice,Perception>>, à un indice égal à leur Puissance.
+
+==== Élémentaire d'air
+
+*Matériau d'invocation :* Vent fort +
+*Environnement favorable :* Tempête ou haute altitude +
+*Environnement défavorable :* Intérieurs
+
+==== Élémentaire d'eau
+
+*Matériau d'invocation :* Rivière, mare +
+*Environnement favorable :* Lacs, mers +
+*Environnement défavorable :* Sur terre ou dans les airs
+
+==== Élémentaire de feu
+
+*Matériau d'invocation :* Grand feu de camp +
+*Environnement favorable :* Incendie ou coulée de lave +
+*Environnement défavorable :* Rivière ou mers
+
+==== Élémentaire de terre
+
+*Matériau d'invocation :* Terre meuble, rochers +
+*Environnement favorable :* Hautes montagnes ou sous terre +
+*Environnement défavorable :* Sur l'eau ou dans les airs
+
+==== Esprit des morts
+
+*Matériau d'invocation :* Miroir ou encens +
+*Environnement favorable :* Cimetière, charnier, meurtre récent, champ de bataille +
+*Environnement défavorable :* Terre consacrée
+
+==== Squelette
+
+*Matériau d'invocation :* Ossements +
+*Environnement favorable :* Cimetière ou charnier +
+*Environnement défavorable :* Terre consacrée
+
+==== Zombie
+
+*Matériau d'invocation :* Cadavre (relativement) intact +
+*Environnement favorable :* Cimetière ou charnier +
+*Environnement défavorable :* Terre consacrée
 
 
 
