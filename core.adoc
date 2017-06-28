@@ -19,10 +19,11 @@ Les coûts de ces améliorations sont comme-ci :
 * Augmenter un Attribut (2 points de Légende, une seule fois par <<ranks,Rang>>)
 
 === Création de personnage
-La création du personnage suit la procédure habituelle (_Savage Worlds_ page 72), avec les ajustements suivants :
+La création du personnage suit la procédure habituelle (_Savage Worlds_ pages 26,72), avec les ajustements suivants :
 
 1. Choix de la race
-2. Choix des Traits
+2. Choix des Traits +
+   Le personnage obtient gratuitement une <<knowledges,Connaissance>> artisanale et artistique de son choix
 3. Choix de la <<disciplines,Discipline>>
 4. Choix des Atouts et Handicaps
 ** Un Handicap Majeur rapport 2 <<build_your_legend,points de Légende>>
@@ -113,6 +114,10 @@ Cette compétence permet d'invoquer des esprits.
 
 Voir la section <<summoning,Invocation>> pour davantage de détails.
 
+[[skill_air_sailing]]
+=== Manœuvre aérienne (Âme)
+Cette Compétence fonctionne de manière similaire aux anciennes Compétences *Navigation* (_Savage Worlds_ page 44) ou *Pilotage* (_Savage Worlds_ page 45).
+Cependant, l'usage est ici de manœuvrer un navire aérien.
 
 [[skill_notice]]
 === Perception (Intellect)
@@ -149,9 +154,11 @@ Voici quelques exemples :
 
 * Une Connaissance pure correspond en quelques sortes à l'ancienne Compétence Connaissance (_Savage Worlds_ page 41). Elle permet de tenter des tests de Culture générale ayant trait à ces sujets (_Savage Worlds_ page 40). +
   Voici une liste non exhaustive de Connaissances que peut posséder un personnage : _Alchimie et potions_, _Animaux et créatures sauvages_, _Armes anciennes_, _Histoire de Barsaive_, _Batailles_, _Botanique_, _Châtiment_, connaissance d'une race, d'une culture ou d'une région au choix, _Horreurs_, _Légendes et héros_, maîtrise d'une langue au choix, _Thérans_.
-* Certaines Compétences du système de base de _Savage Worlds_ ont été reprises en tant que Connaissances. Ce sont : _Conduite_, _Jeu_, _Pistage_, _Natation_, _Navigation_.
+* Certaines Compétences du système de base de _Savage Worlds_ peuvent être reprises en tant que Connaissances. Ce sont : _Conduite_ (d'attelages), _Jeu_, _Pistage_, _Natation_, _Navigation_.
   Les Traits sur lesquels elles sont basées dépendent des circonstances.
   Par défaut, l'Attribut de base de l'ancienne Compétence correspondante pourra être utilisé.
+* Une compétence artisanale et artistique est aussi une Connaissance.
+  Quelques exemples : _Art du conteur_, _Broderie_, _Gravures runiques_, _Peinture_, _Sculpture sur bois_, _Tatouages_, ...
 
 
 
@@ -257,7 +264,7 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_
 === Écumeur du ciel
 *Prérequis :* <<ranks,Novice>>, Force d6+, <<skill_intimidation,Intimidation>> d6+
 
-Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de Manœuvre aérienne.
+Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de <<skill_air_sailing,Manœuvre aérienne>>.
 
 Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>, de Force, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
 
@@ -333,11 +340,11 @@ Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet ef
 
 [[discipline_air_sailor]]
 === Navigateur aérien
-*Prérequis :* <<ranks,Novice>>, Agilité d6+, Manœuvre aérienne d6+
+*Prérequis :* <<ranks,Novice>>, Agilité d6+, <<skill_air_sailing,Manœuvre aérienne>> d6+
 
-Un Navigateur aérien obtient un bonus de +2 à tous ses jets de Manœuvre aérienne.
+Un Navigateur aérien obtient un bonus de +2 à tous ses jets de <<skill_air_sailing,Manœuvre aérienne>>.
 
-Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de Manœuvre aérienne, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de <<skill_air_sailing,Manœuvre aérienne>>, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
 
 *Talents de discipline :* <<talent_acrobatic_strike,Attaque acrobatique>>, <<talent_great_leap,Bondissement>>, <<talent_avoid_blow,Esquive>>, <<talent_wind_catcher,Vol plané>>
 
