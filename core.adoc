@@ -5,6 +5,26 @@
 
 
 
+== Avant propos
+
+Ce document est une conversion du jeu de rôle _Earthdawn_ vers le système de jeu générique de _Savage Worlds_.
+Les licences _Earthdawn_ et _Savage Worlds_ appartiennent à leurs propriétaires respectifs.
+Ce document part du principe que le lecteur connait l'univers et les principes de jeu d'_Earthdawn_,
+et dispose de la VF de _Savage Worlds_ sous la main.
+
+Outre les sources déjà citées, ce document est basé en partie sur
+http://www.rollenspiel-almanach.de/download/Savage_Earthdawn_3.0_public.pdf[Savage Dawn 3.0], de Markus Finster,
+que je n'ai pas repris car j'avais besoin de règles en français, et que je désirais remanier pas mal de points
+(en gros, j'ai pris comme point de départ son interaction entre Karma et les disciplines et talents en tant qu'Atouts).
+Pour davantage de détails sur mes motivations, j'ai planqué ça <<design_notes,tout à la fin>>,
+histoire de pas commencer par vous assomer avec mes états d'âme.
+
+Bonne lecture !
+
+
+
+
+
 [[build_your_legend]]
 == Bâtir sa Légende
 
@@ -1105,3 +1125,33 @@ Ces recherches peuvent aller du simple usage de la Compétence <<skill_investiga
 === Enchantement
 
 TODO
+
+
+
+
+
+[[design_notes]]
+== Notes de conception
+
+L'univers d'Earthdawn est fantastique, mais son système de jeu est lourd et difficile d'accès.
+Savage Worlds est un système plus léger, connu de mes joueurs, dont j'ai le livre de base en français,
+et qui conserve la saveur de pouvoir lancer chaque dé différent, du d4 au d20, au cours d'une partie.
+
+Conserver la « saveur » d'un jeu passe par en reprendre les termes.
+D'autant plus que le système d'_Earthdawn_ est intimement lié à son background.
+On y parle de cercles de disciplines, de rangs de talents, de trames et de filaments, de points de Légende, et ainsi de suite.
+J'ai désiré reprendre un maximum de ces termes, sans trop en faire non plus : il faut que ça reste du _Savage Worlds_.
+
+Il faut conserver le système de jeu rapide (surtout durant les combats) et flexible (pour ne pas limiter les builds de persos).
+
+Chaque discipline doit conserver ses talents et capacités emblématiques, mais pas tout non plus.
+Il y a quand même un max de trucs qui ne servent à rien, ou sont juste ... bof.
+
+Virer les points de Pouvoir pour les magiciens ; la limitation doit venir des matrices de sorts et du temps parfois long pour tisser des effets puissants.
+Comme dans tous les jdr, éviter le syndrôme du magot qui roxe tout et fait tout même le café pendant que les autres PJ en sont réduits à commenter le combat en coulisse.
+Éviter les pièges habituels : les esprits doivent pas être plus puissants que les PJs et faire le boulot à leur place, incanter depuis un grimoire ça peut être pratique mais c'est lourdingue, la magie brute ça fait peur, une Horreur c'est mystérieux, puissant ET ça fait peur.
+
+Garder les objets magiques funs, avec un background et une mécanique moteurs de scénarios.
+Mais les gros roxxeurs doivent rester les adeptes : un om est un plus, mais un adepte doit pouvoir faire sans.
+
+Sublimer l'approche pulp de _Savage Worlds_, et lui rajouter l'épique d'_Earthdawn_ !
