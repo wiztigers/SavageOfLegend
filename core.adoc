@@ -15,20 +15,27 @@ Les coûts de ces améliorations sont comme-ci :
 * Augmenter une Compétence dont la valeur est égale ou supérieure au Trait associé (2 points de Légende)
 * Augmenter une Compétence dont la valeur est inférieure au Trait associé (1 point de Légende)
 * Prendre une nouvelle Compétence à d4 (1 point de Légende)
-* Prendre une nouvelle <<knowledges,Connaissance>> (1 point de Légende)
+* Prendre une nouvelle <<skill_knowledge,Connaissance>> (1 point de Légende)
 * Augmenter un Attribut (2 points de Légende, une seule fois par <<ranks,Rang>>)
 
 === Création de personnage
 La création du personnage suit la procédure habituelle (_Savage Worlds_ pages 26,72), avec les ajustements suivants :
 
 1. Choix de la race
-2. Choix des Traits +
-   Le personnage obtient gratuitement une <<knowledges,Connaissance>> artisanale et artistique de son choix
+2. Choix des Traits
+** Le personnage débute avec un d4 dans chaque Attribut et peut les augmenter 5 fois
+** Le personnage dispose de 15 <<build_your_legend,points de Légende>> à répartir dans ses <<skills,Compétences>>
+** Le personnage obtient gratuitement une <<skill_knowledge,Compétence artisanale et artistique>> de son choix
+** Le personnage parle automatiquement la <<skill_knowledge,Langue (nain)>> +
+   Un personnage <<race_dwarves,nain>> obtient une autre <<skill_knowledge,Connaissance>> de son choix à la place
+** N'oubliez pas de calculer le Charisme, l'Allure, la Parade, la Résistance du personnage,
+   mais aussi sa <<karma,Réserve de Karma>> (égale à son <<ranks,Cercle>>)
+   ainsi que son maximum de <<blood_magic,Dommages permanents>> (égal à sa Résistance)
 3. Choix de la <<disciplines,Discipline>>
 4. Choix des Atouts et Handicaps
 ** Un Handicap Majeur rapport 2 <<build_your_legend,points de Légende>>
 ** Un Handicap Mineur rapport 1 <<build_your_legend,point de Légende>>
-5. Achat de l'équipement
+5. Achat de l'équipement : le personnage dispose de 120 pièces d'argent
 6. Rédaction de l'histoire personnelle
 
 Un personnage nouvellement créé est de <<ranks,Cercle>> 1.
@@ -63,6 +70,70 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 
 
 
+[[races]]
+== Races
+
+[[race_elves]]
+=== Elfes
+*Agile :* Un elfe débute avec d6 en Agilité au lieu de d4. +
+*Vision nocturne :* Un elfe ignore les malus pour les obscurités Légère et Forte.
+
+[[race_humans]]
+=== Humains
+*Atout :* Un humain débute avec un <<edges,Atout>> gratuit de leur choix, qui peut être l'Atout <<edge_versatility,Polyvalence>>. +
+*Potentiel :* Un humain débute avec 1 <<build_your_legend,point de Légende>> supplémentaire.
+
+[[race_dwarves]]
+=== Nains
+*Lent :* Un nain a une Allure de 5. +
+*Robuste :* Un nain débute avec d6 en Vigueur au lieu de d4. +
+*Endurant :* Un nain bénéficie d'un bonus de +2 pour résister aux effets négatifs de l'environnement (chaleur, froid, pression, ...), ainsi que pour résister à la maladie et au poison. +
+*Vision thermographique :* Un nain divise de moitié les malus (arrondir à l'inférieur) pour cause de luminosité faible.
+
+[[race_obsidmens]]
+=== Obsidiens
+*Comportement :* Un obsidien débute avec les Handicaps suivants : Loyal (Mineur) (_Savage Worlds_ page 50), Pacifiste (Mineur) et Prudent (Mineur) (_Savage Worlds_ page 52). +
+*Étrange :* Un obsidien subit un malus de -1 à son Charisme. +
+*Taille :* La Taille d'un obsidien est de +1 (_Savage Worlds_ page 242). +
+*Très lent :* Un obsidien a une Allure de 3 (dé de course d4). +
+*Très puissant :* Un obsidien débute avec d8 en Force, et cet Attribut peut monter à d12+2 de manière habituelle, et jusqu'à d12+4 avec les Atouts Expert et Maître. +
+*Très robuste :* Un obsidien débute avec d8 en Vigueur, et cet Attribut peut monter à d12+2 de manière habituelle, et jusqu'à d12+4 avec les Atouts Expert et Maître.
+
+[[race_orks]]
+=== Orks
+*Puissant :* Un ork débute avec d6 en Force au lieu de d4. +
+*Vision nocturne :* Un ork ignore les malus pour les obscurités Légère et Forte.
+
+[[race_windlings]]
+=== Sylphelins
+*Curieux :* Un sylphelin débute avec le Handicap Curieux (Majeur) (_Savage Worlds_ page 49). +
+*Taille :* La Taille d'un sylphelin est de -1 (_Savage Worlds_ page 242). +
+*Faible :* La Force d'un sylphelin ne peut pas dépasser d6. +
+*Vol :* Un sylphelin peut voler à son Allure normale, et même « courir » lorsqu'il vole (_Savage Worlds_ page 243).
+Il lui coûte 2 points d'Allure pour monter d'une case.
+Un sylphelin peut voler au maximum 15 minutes d'affilée.
+Il doit se reposer 1 minute pour récupérer de chaque minute passée en vol. +
+En vol, l'Allure d'un sylphelin est de 10. +
+Au sol, l'Allure d'un sylphelin est de 4. +
+*Sensibilité astrale :* Un sylphelin peut percevoir l'espace astral, comme décrit par le talent <<talent_astral_sight,Vision astrale>>.
+Un sylphelin n'a pas besoin de dépenser de points de Karma pour activer cette faculté. +
+*Créature magique :* Un sylphelin débute avec l'Atout <<edge_karma_affinity,Régénération de Karma>>.
+
+[[race_trolls]]
+=== Trolls
+*Taille :* La Taille d'un troll est de +1 (_Savage Worlds_ page 242). +
+*Puissant :* Un troll débute avec d6 en Force au lieu de d4. +
+*Robuste :* Un troll débute avec d6 en Vigueur au lieu de d4. +
+*Vision thermographique :* Un troll divise de moitié les malus (arrondir à l'inférieur) pour cause de luminosité faible. +
+*Katorr, kat'ral, katera :* Un troll des montagnes débute avec le Handicap Rancunier (Majeur) (_Savage Worlds_ page 52).
+Un troll des plaines débute avec les Handicaps Deux mains Gauches (_Savage Worlds_ page 49) et Rancunier (Mineur) (_Savage Worlds_ page 52).
+Tous les trolls débutent avec le Handicap Code d'Honneur (Majeur) (_Savage Worlds_ page 49).
+
+[[race_tskrangs]]
+=== T'skrangs
+*Aquatique :* Un t'skrang ne peut pas se noyer dans l'eau, se déplace à une Allure égal à son dé de Natation, et débute avec d6 en <<skill_swimming,Natation>>. +
+*Attaque caudale :* Un t'skrang peut frapper à l'aide de sa queue à For+d6 de dégâts.
+
 [[skills]]
 == Compétences
 
@@ -73,6 +144,25 @@ Nouveau nom de la Compétence *Combat* (_Savage Worlds_ page 40), son usage est 
 [[skill_ranged_weapons]]
 === Armes à distance (Agilité)
 Regroupe tous les usages des anciennes Compétences de *Lancer* (_Savage Worlds_ page 44) et de *Tir* (_Savage Worlds_ page 46).
+
+[[skill_knowledge]]
+=== Connaissance
+
+Une Connaissance n'a pas de dé associé : soit un personnage la possède, soit il ne la possède pas.
+
+Une Connaissance permet au personnage qui la possède de tenter une action qui sort de l'usage habituel d'un Trait donné.
+Voici quelques exemples :
+
+* Une *Connaissance pure* correspond en quelques sortes à l'ancienne Compétence *Connaissance* (_Savage Worlds_ page 41). Elle permet de tenter des tests de Culture générale ayant trait à ces sujets (_Savage Worlds_ page 40). +
+  Voici une liste non exhaustive de Connaissances que peut posséder un personnage : _Alchimie et potions_, _Animaux et créatures sauvages_, _Armes anciennes_, _Histoire de Barsaive_, _Batailles_, _Botanique_, _Châtiment_, connaissance d'une race, d'une culture ou d'une région au choix, _Horreurs_, _Légendes et héros_, _Thérans_.
+* Une *Langue* est aussi une Connaissance.
+  Un personnage qui dispose d'une Connaissance de Langue particulière peut s'exprimer suffisamment clairement dans cette langue pour communiquer via les <<skills,Compétences>> d'<<skill_intimidation,Intimidation>>, de <<skill_persuasion,Persuasion>>, de <<skill_investigation,Renseignements>> et de <<skill_taunt,Sarcasmes>> sans aucun malus.
+* Certaines Compétences du système de base de _Savage Worlds_ peuvent être reprises en tant que *Connaissance générale*. Ce sont : _Conduite_ (d'attelages), _Jeu_, _Pistage_, _Navigation_. +
+  Le Trait dont on se sert pour résoudre une action les concernant dépend des circonstances.
+  Par défaut, l'Attribut de base de l'ancienne Compétence correspondante peut être utilisé.
+* Une *Compétence artisanale et artistique* est aussi une Connaissance.
+  Quelques exemples : _Art du conteur_, _Broderie_, _Chant_, _Danse_, _Gravures runiques_, _Musique_, _Peinture_, _Sculpture sur bois_, _Tatouages_, ... +
+  Le Trait dont on se sert pour décider de la qualité d'une création artistique varie entre Âme, Agilité et Intellect.
 
 [[skill_lockpicking]]
 === Crochetage (Agilité)
@@ -96,7 +186,7 @@ Nouveau nom de la Compétence *Réparation* (_Savage Worlds_ page 45), son usage
 
 [[skill_spellcasting]]
 === Incantation (Intellect)
-*Prérequis :* <<edge_arcane_magic,Arcanes (magie)>>
+*Prérequis :* <<edge_arcane_magic,Arcanes (Magie)>>
 
 Cette compétence permet de lancer des sorts.
 
@@ -119,6 +209,10 @@ Voir la section <<summoning,Invocation>> pour davantage de détails.
 Cette Compétence fonctionne de manière similaire aux anciennes Compétences *Navigation* (_Savage Worlds_ page 44) ou *Pilotage* (_Savage Worlds_ page 45).
 Cependant, l'usage est ici de manœuvrer un navire aérien.
 
+[[skill_swimming]]
+=== Natation (Agilité)
+Fonctionnement inchangé (_Savage Worlds_ page 44).
+
 [[skill_notice]]
 === Perception (Intellect)
 Fonctionnement inchangé (_Savage Worlds_ page 44).
@@ -130,6 +224,7 @@ Fonctionnement inchangé (_Savage Worlds_ page 44).
 [[skill_investigation]]
 === Renseignements (Intellect)
 Regroupe tous les usages des anciennes Compétences de *Recherche* et de *Réseaux* (_Savage Worlds_ page 45).
+Renseignements n'est pas modifiée par le *Charisme* d'un personnage.
 
 [[skill_taunt]]
 === Sarcasmes (Intellect)
@@ -142,23 +237,6 @@ Fonctionnement inchangé (_Savage Worlds_ page 46).
 [[skill_survival]]
 === Survie (Intellect)
 Fonctionnement inchangé (_Savage Worlds_ page 46).
-
-[[knowledges]]
-=== Connaissances
-
-Un personnage peut acquérir une Connaissance au prix d'un dé de Compétence, que ce soit à la création de personnage ou lors d'une Progression.
-Une Connaissance n'a pas de dé associé : soit un personnage la possède, soit il ne la possède pas.
-
-Une Connaissance permet au personnage qui la possède de tenter une action qui sort de l'usage habituel d'un Trait donné.
-Voici quelques exemples :
-
-* Une Connaissance pure correspond en quelques sortes à l'ancienne Compétence Connaissance (_Savage Worlds_ page 41). Elle permet de tenter des tests de Culture générale ayant trait à ces sujets (_Savage Worlds_ page 40). +
-  Voici une liste non exhaustive de Connaissances que peut posséder un personnage : _Alchimie et potions_, _Animaux et créatures sauvages_, _Armes anciennes_, _Histoire de Barsaive_, _Batailles_, _Botanique_, _Châtiment_, connaissance d'une race, d'une culture ou d'une région au choix, _Horreurs_, _Légendes et héros_, maîtrise d'une langue au choix, _Thérans_.
-* Certaines Compétences du système de base de _Savage Worlds_ peuvent être reprises en tant que Connaissances. Ce sont : _Conduite_ (d'attelages), _Jeu_, _Pistage_, _Natation_, _Navigation_.
-  Les Traits sur lesquels elles sont basées dépendent des circonstances.
-  Par défaut, l'Attribut de base de l'ancienne Compétence correspondante pourra être utilisé.
-* Une compétence artisanale et artistique est aussi une Connaissance.
-  Quelques exemples : _Art du conteur_, _Broderie_, _Gravures runiques_, _Peinture_, _Sculpture sur bois_, _Tatouages_, ...
 
 
 
@@ -276,7 +354,7 @@ Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'<<skill_
 === Élémentaliste
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_survival,Survie>> d6+
 
-Un Élémentaliste obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
+Un Élémentaliste obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
 Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_survival,Survie>>.
 
@@ -300,7 +378,7 @@ Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_mel
 === Illusionniste
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_notice,Perception>> d6+
 
-Un Illusioniste obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
+Un Illusioniste obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
 Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_persuasion,Persuasion>>.
 
@@ -355,7 +433,7 @@ Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de 
 === Nécromancien
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_intimidation,Intimidation>> d6+
 
-Un Nécromancien obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
+Un Nécromancien obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
 Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>.
 
@@ -367,7 +445,7 @@ Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skil
 === Sorcier
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_investigation,Renseignements>> d6+
 
-Un Sorcier obtient l'Atout <<edge_arcane_magic,Arcanes (magie)>>.
+Un Sorcier obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
 Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_investigation,Renseignements>>.
 
@@ -483,7 +561,7 @@ Le malus est égal au <<ranks,Rang>> du personnage, et dure un round.
 
 [[talent_enchanting]]
 === Enchantement
-*Prérequis :* <<ranks,Gardien>>, <<edge_arcane_magic,Arcanes (magie)>>
+*Prérequis :* <<ranks,Gardien>>, <<edge_arcane_magic,Arcanes (Magie)>>
 
 Le personnage peut enchanter des objets magiques.
 
@@ -581,7 +659,7 @@ La monture doit évidemment posséder un moyen de porter une attaque.
 
 Après avoir entendu parler une langue pendant au minimum 1 minute, le personnage peut dépenser un point de Karma pour apprendre cette langue de manière permanente.
 
-À la discrétion du MJ, le personnage peut réaffecter différemment les Promotions qu'il a précédement utilisées pour apprendre des langues.
+À la discrétion du MJ, un personnage qui apprend ce talent peut regagner un <<karma,point de Légende>> pour chaque <<skill_knowledge,Langue>> qu'il connait déjà.
 
 [[talent_claw_shape]]
 === Griffes
@@ -628,7 +706,7 @@ De plus, la monture obtient le talent de Longévité.
 
 [[talent_spell_matrix]]
 === Matrice de sorts
-*Prérequis :* <<ranks,Novice>>, <<edge_arcane_magic,Arcanes (magie)>>
+*Prérequis :* <<ranks,Novice>>, <<edge_arcane_magic,Arcanes (Magie)>>
 
 Le personnage acquiert une matrice de sorts supplémentaire.
 Ce talent peut être acheté plusieurs fois, mais un personnage ne peut posséder qu'un nombre maximum de matrices de sorts égal à son <<ranks,Rang>>.
@@ -639,9 +717,10 @@ Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 === Mémoire des livres
 *Prérequis :* <<ranks,Gardien>>, Intellect d8+, <<skill_investigation,Renseignements>> d8+
 
-Le personnage est considéré comme ayant toutes les connaissances existantes.
+Le personnage est considéré comme ayant toutes les <<skill_knowledge,Connaissances pures>> existantes.
 Il doit pour cela avoir parcouru au moins une fois un livre renfermant l'information recherchée.
-Le personnage doit néanmoins dépenser un point de Karma pour se rappeler de l'information.
+
+Si le personnage échoue malgré tout à un jet de <<skill_knowledge,Connaissance>>, il peut dépenser un point de Karma pour se rappeler l'information recherchée de manière fidèle.
 
 [[talent_empathic_command]]
 === Ordre empathique
@@ -754,7 +833,7 @@ Chaque round durant son vol plané, le personnage peut utiliser une action pour 
 == Atouts
 
 [[edge_arcane_magic]]
-=== Arcanes (magie)
+=== Arcanes (Magie)
 *Compétence :* <<skill_spellcasting,Incantation>> +
 *Points de pouvoir :* Aucun +
 *Pouvoirs :* 3 +
@@ -763,9 +842,16 @@ Les magiciens sont capables de lancer des sorts.
 
 Voir la section <<thread_magic,Magie des sorts>> pour plus de détails.
 
+[[edge_karma_affinity]]
+=== Régénération de Karma
+*Prérequis :* <<ranks,Compagnon>>, doit posséder une <<karma,Réserve de Karma>>.
+
+Le personnage regagne un point de <<karma,Karma>> par jour, à son réveil.
+Ce point gagné s'ajoute à celui qu'un adepte peut regagner chaque jour grâce à son rituel karmique.
+
 [[edge_versatility]]
 === Polyvalence
-*Prérequis :* <<ranks,Novice>>, <<race_human,Humain>>
+*Prérequis :* <<ranks,Novice>>, <<race_humans,Humain>>
 
 Le personnage peut apprendre n'importe quel <<talents,talent>>.
 Le talent n'a pas besoin de figurer dans la liste de ses talents de <<disciplines,discipline>>.
