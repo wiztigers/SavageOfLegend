@@ -88,16 +88,17 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 *Lent :* Un nain a une Allure de 5. +
 *Robuste :* Un nain débute avec d6 en Vigueur au lieu de d4. +
 *Endurant :* Un nain bénéficie d'un bonus de +2 pour résister aux effets négatifs de l'environnement (chaleur, froid, pression, ...), ainsi que pour résister à la maladie et au poison. +
-*Vision thermographique :* Un nain divise de moitié les malus (arrondir à l'inférieur) pour cause de luminosité faible.
+*Vision thermographique :* Un nain divise de moitié les malus (arrondir à l'inférieur) dus à une luminosité faible.
 
 [[race_obsidmens]]
 === Obsidiens
 *Comportement :* Un obsidien débute avec les Handicaps suivants : Loyal (Mineur) (_Savage Worlds_ page 50), Pacifiste (Mineur) et Prudent (Mineur) (_Savage Worlds_ page 52). +
-*Étrange :* Un obsidien subit un malus de -1 à son Charisme. +
+*Étranger :* Un obsidien subit un malus de -2 à son Charisme. +
 *Taille :* La Taille d'un obsidien est de +1 (_Savage Worlds_ page 242). +
 *Très lent :* Un obsidien a une Allure de 3 (dé de course d4). +
-*Très puissant :* Un obsidien débute avec d8 en Force, et cet Attribut peut monter à d12+2 de manière habituelle, et jusqu'à d12+4 avec les Atouts Expert et Maître. +
-*Très robuste :* Un obsidien débute avec d8 en Vigueur, et cet Attribut peut monter à d12+2 de manière habituelle, et jusqu'à d12+4 avec les Atouts Expert et Maître.
+*Très puissant :* Un obsidien débute avec d8 en Force. +
+*Très robuste :* Un obsidien débute avec d8 en Vigueur. +
+*Vœu :* Un obsidien ne peut porter que des armures vivantes.
 
 [[race_orks]]
 === Orks
@@ -124,7 +125,7 @@ Un sylphelin n'a pas besoin de dépenser de points de Karma pour activer cette f
 *Taille :* La Taille d'un troll est de +1 (_Savage Worlds_ page 242). +
 *Puissant :* Un troll débute avec d6 en Force au lieu de d4. +
 *Robuste :* Un troll débute avec d6 en Vigueur au lieu de d4. +
-*Vision thermographique :* Un troll divise de moitié les malus (arrondir à l'inférieur) pour cause de luminosité faible. +
+*Vision thermographique :* Un troll divise de moitié les malus (arrondir à l'inférieur) dus à une luminosité faible. +
 *Katorr, kat'ral, katera :* Un troll des montagnes débute avec le Handicap Rancunier (Majeur) (_Savage Worlds_ page 52).
 Un troll des plaines débute avec les Handicaps Deux mains Gauches (_Savage Worlds_ page 49) et Rancunier (Mineur) (_Savage Worlds_ page 52).
 Tous les trolls débutent avec le Handicap Code d'Honneur (Majeur) (_Savage Worlds_ page 49).
@@ -1086,7 +1087,7 @@ Pour utiliser les pouvoirs d'un objet magique, un adepte doit se lier à lui en 
 Un tel filament possède un Rang, et permet d'utiliser les pouvoirs de l'objet d'un Rang égal ou inférieur.
 Un adepte ne peut pas tisser un filament d'un Rang supérieur au <<ranks,sien>>.
 Un adepte peut maintenir en même temps un nombre maximal de filaments égal à son <<ranks,Rang>>.
-Attacher un filament à un objet magique (ou augmenter le Rang d'un filament existant) est une action qui ne requiert aucun test ; l'adepte doit cependant connaître toutes les <<key_knowledge,Connaissances clefs>> de l'objet de Rang inférieur ou égal au Rang du filament désiré.
+Attacher un filament à un objet magique (ou augmenter le Rang d'un filament existant) est une action qui coûte un <<karma,point de karma>> mais ne requiert aucun test ; l'adepte doit cependant connaître toutes les <<key_knowledge,Connaissances clefs>> de l'objet de Rang inférieur ou égal au Rang du filament désiré.
 
 Un adepte peut à tout moment détruire un filament qu'il a lui-même attaché à un objet magique.
 Il ne pourra cependant pas ré-attacher ce filament avant que 24 heures se soient écoulées.
