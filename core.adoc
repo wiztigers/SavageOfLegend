@@ -11,10 +11,10 @@
 Les points de Légende permettent d'acheter des améliorations de personnage.
 Les coûts de ces améliorations sont comme-ci :
 
-* Choisir un nouvel Atout (2 points de Légende)
-* Augmenter une Compétence dont la valeur est égale ou supérieure au Trait associé (2 points de Légende)
-* Augmenter une Compétence dont la valeur est inférieure au Trait associé (1 point de Légende)
-* Prendre une nouvelle Compétence à d4 (1 point de Légende)
+* Choisir un nouvel <<edges,Atout>> (2 points de Légende)
+* Augmenter une <<skills,Compétence>> dont la valeur est égale ou supérieure au Trait associé (2 points de Légende)
+* Augmenter une <<skills,Compétence>> dont la valeur est inférieure au Trait associé (1 point de Légende)
+* Prendre une nouvelle <<skills,Compétence>> à d4 (1 point de Légende)
 * Prendre une nouvelle <<skill_knowledge,Connaissance>> (1 point de Légende)
 * Augmenter un Attribut (2 points de Légende, une seule fois par <<ranks,Rang>>)
 
@@ -46,7 +46,7 @@ Il bénéficie alors de 2 <<build_your_legend,points de Légende>>.
 
 Tous les 20 XP gagnés, le personnage peut passer au Rang supérieur.
 Pour que ce passage de Rang soit validé, un adepte doit trouver un instructeur membre de sa discipline.
-Cet instructeur doit être d'un Cercle plus élevé que celui du personnage, et accepter de l'entraîner pendant une semaine au minimum.
+Cet instructeur doit être d'un Cercle plus élevé que celui du personnage, et accepter de l'entraîner pendant 40H, réparties sur un mois maximum.
 Cet entraînement n'est pas nécessaire pour les adeptes ayant atteint le Rang de Maître ou de Légende.
 
 [[ranks]]
@@ -672,8 +672,9 @@ De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son 
 === Histoire des objets
 *Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+, <<skill_investigation,Renseignements>> d6+
 
-Après avoir gardé auprès de lui un objet magique pendant une semaine, le personnage peut dépenser un point de Karma et effectuer un jet de <<skill_notice,Perception>> concernant cet objet.
-Le personnage apprend une <<magic_items,connaissance de recherche>> de l'objet par succès et par Relance.
+Après avoir gardé auprès de lui un objet magique pendant une semaine, le personnage peut dépenser un point de Karma et effectuer un test d'Identification (un jet de <<skill_notice,Perception>>) de cet objet.
+Le personnage apprend la nature d'une <<key_knowledge,connaissance clef>> de l'objet par succès et par Relance, à commencer par la <<key_knowledge,connaissance clef>> de Rang le plus faible.
+Le personnage bénéficie d'un bonus de +1 à son test d'Identification par semaine supplémentaire pendant laquelle il conserve l'objet magique auprès de lui.
 
 [[talent_summoning]]
 === Invocation
@@ -1077,7 +1078,27 @@ Les esprits possèdent uniquement les compétences <<skill_melee_weapons,Armes d
 [[magic_items]]
 == Objets magiques
 
-TODO
+Il ne faut pas confondre les objets magiques, aussi appelés objets à filaments, et utilisés par les seuls adeptes,
+avec les objets enchantés (allume-feux, bottes sèches, manteaux chauffants, ...), d'un usage beaucoup plus usuel.
+Pour plus de détails sur les objets enchantés, se reporter aux tables d'équipement.
+
+Pour utiliser les pouvoirs d'un objet magique, un adepte doit se lier à lui en lui attachant un filament.
+Un tel filament possède un Rang, et permet d'utiliser les pouvoirs de l'objet d'un Rang égal ou inférieur.
+Un adepte ne peut pas tisser un filament d'un Rang supérieur au <<ranks,sien>>.
+Un adepte peut maintenir en même temps un nombre maximal de filaments égal à son <<ranks,Rang>>.
+Attacher un filament à un objet magique (ou augmenter le Rang d'un filament existant) est une action qui ne requiert aucun test ; l'adepte doit cependant connaître toutes les <<key_knowledge,Connaissances clefs>> de l'objet de Rang égal ou inférieur que le Rang du filament désiré.
+
+Un adepte peut à tout moment détruire un filament qu'il a lui-même attaché à un objet magique.
+Il ne pourra cependant pas ré-attacher ce filament avant que 24 heures se soient écoulées.
+
+[[key_knowledge]]
+=== Connaissances clefs
+
+Chaque Rang d'un objet magique est lié à une _Connaissance clef_.
+Un personnage désirant attacher un filament à l'objet magique doit connaître cette Connaissance clef.
+Pour apprendre la _nature_ de la Connaissance clef à connaître, le personnage doit utiliser le talent <<talent_item_history,Histoire des objets>>, ou faire appel aux services de quelqu'un d'autre qui maîtrise ce talent.
+Une fois qu'il a appris la nature de la Connaissance clef nécessaire, le personnage doit effectuer des recherches pour apprendre la Connaissance clef elle-même.
+Ces recherches peuvent aller du simple usage de la Compétence <<skill_investigation,Renseignements>> jusqu'à mener à son terme une quête épique à l'autre bout du monde.
 
 [[enchanting]]
 === Enchantement
