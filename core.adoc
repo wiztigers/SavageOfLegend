@@ -1086,7 +1086,7 @@ Pour utiliser les pouvoirs d'un objet magique, un adepte doit se lier à lui en 
 Un tel filament possède un Rang, et permet d'utiliser les pouvoirs de l'objet d'un Rang égal ou inférieur.
 Un adepte ne peut pas tisser un filament d'un Rang supérieur au <<ranks,sien>>.
 Un adepte peut maintenir en même temps un nombre maximal de filaments égal à son <<ranks,Rang>>.
-Attacher un filament à un objet magique (ou augmenter le Rang d'un filament existant) est une action qui ne requiert aucun test ; l'adepte doit cependant connaître toutes les <<key_knowledge,Connaissances clefs>> de l'objet de Rang égal ou inférieur que le Rang du filament désiré.
+Attacher un filament à un objet magique (ou augmenter le Rang d'un filament existant) est une action qui ne requiert aucun test ; l'adepte doit cependant connaître toutes les <<key_knowledge,Connaissances clefs>> de l'objet de Rang inférieur ou égal au Rang du filament désiré.
 
 Un adepte peut à tout moment détruire un filament qu'il a lui-même attaché à un objet magique.
 Il ne pourra cependant pas ré-attacher ce filament avant que 24 heures se soient écoulées.
@@ -1097,7 +1097,7 @@ Il ne pourra cependant pas ré-attacher ce filament avant que 24 heures se soien
 Chaque Rang d'un objet magique est lié à une _Connaissance clef_.
 Un personnage désirant attacher un filament à l'objet magique doit connaître cette Connaissance clef.
 Pour apprendre la _nature_ de la Connaissance clef à connaître, le personnage doit utiliser le talent <<talent_item_history,Histoire des objets>>, ou faire appel aux services de quelqu'un d'autre qui maîtrise ce talent.
-Une fois qu'il a appris la nature de la Connaissance clef nécessaire, le personnage doit effectuer des recherches pour apprendre la Connaissance clef elle-même.
+Une fois qu'il a appris la nature de la Connaissance clef nécessaire (par exemple : « le nom du créateur de l'objet », « sa composition exacte », ou encore « la manière dont est mort son dernier possesseur »), le personnage doit effectuer des recherches pour apprendre la Connaissance clef elle-même (en reprenant les exemples précédents : « St. Fu le Muet », « 80% d'acier, 15% de terre élémentaire, et 5% d'orichalque », ou encore « il y a 400 ans, étouffé par son édredon »).
 Ces recherches peuvent aller du simple usage de la Compétence <<skill_investigation,Renseignements>> jusqu'à mener à son terme une quête épique à l'autre bout du monde.
 
 [[enchanting]]
