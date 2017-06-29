@@ -161,7 +161,7 @@ Voici quelques exemples :
   Le Trait dont on se sert pour résoudre une action les concernant dépend des circonstances.
   Par défaut, l'Attribut de base de l'ancienne Compétence correspondante peut être utilisé.
 * Une *Compétence artisanale et artistique* est aussi une Connaissance.
-  Quelques exemples : _Art du conteur_, _Broderie_, _Chant_, _Danse_, _Gravures runiques_, _Musique_, _Peinture_, _Sculpture sur bois_, _Tatouages_, ... +
+  Quelques exemples : _Art du conteur_, _Broderie_, _Chant_, _Danse_, _Gravures runiques_, _Musique_, _Peinture_, _Sculpture_, _Tatouages_, travailler un matériau au choix (tel que le bois, l'os, la pierre ou le cristal vivant) ... +
   Le Trait dont on se sert pour décider de la qualité d'une création artistique varie entre Âme, Agilité et Intellect.
 
 [[skill_lockpicking]]
@@ -643,7 +643,7 @@ Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
 *Prérequis :* <<ranks,Novice>>, <<skill_repair,Forge>> d6+
 
 Le personnage gagne le talent <<talent_enchanting,Enchantement>>, même s'il n'en satisfait pas les prérequis.
-Il ne peut cependant s'en servir que pour créer des objets magiques majoritairement en métal.
+Il ne peut cependant s'en servir que pour créer des objets magiques majoritairement en métal (ou dans un autre matériau qu'il connaît via une <<skill_knowledge,Compétence artisanale et artistique>>).
 Il peut utiliser sa Compétence <<skill_repair,Forge>> pour effectuer son <<enchanting,jet d'enchantement>>.
 
 [[talent_mount_attack]]
