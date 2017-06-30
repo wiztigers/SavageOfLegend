@@ -207,9 +207,12 @@ Nouveau nom de la Compétence *Réparation* (_Savage Worlds_ page 45), son usage
 
 [[skill_spellcasting]]
 === Incantation (Intellect)
-*Prérequis :* <<edge_arcane_magic,Arcanes (Magie)>>
+Cette compétence est indispensable à tout lanceur de sorts.
+Elle est utilisée dans les actions magiques suivantes :
 
-Cette compétence permet de lancer des sorts.
+* tisser des <<thread_weaving,filaments de sorts>>
+* <<spell_casting,incanter>> (lancer) un sort
+* <<reattuning,réharmoniser>> une matrice de sorts à la va-vite
 
 Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 
@@ -917,6 +920,7 @@ Il ne permet pas non plus de réduire les malus autres que le _malus d'incantati
 [[spell_matrix]]
 === Matrice de sorts
 
+[[reattuning]]
 ==== Réharmonisation
 Une Matrice de sorts peut contenir un seul sort à la fois.
 Tout magicien peut à tout moment _réharmoniser_ ses matrices en méditant 10 minutes.
