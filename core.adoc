@@ -7,7 +7,7 @@
 
 == Avant propos
 
-Ce document est une conversion du jeu de rôle _Earthdawn_ vers le système de jeu générique de _Savage Worlds_.
+Ce document est une adaptation du jeu de rôle _Earthdawn_ vers le système de jeu générique de _Savage Worlds_.
 Les licences _Earthdawn_ et _Savage Worlds_ appartiennent à leurs propriétaires respectifs.
 Ce document part du principe que le lecteur connait l'univers et les principes de jeu d'_Earthdawn_,
 et dispose de la VF de _Savage Worlds_ sous la main.
@@ -632,7 +632,7 @@ Ce talent est une illusion.
 
 Le personnage peut dépenser un point de Karma et une action pour simuler sa mort.
 Tous les autres personnages présents se comportent comme s'il avait été mortellement touché.
-Tant que l'état de Fausse mort dure, le personnage est À terre (_Savage Worlds page 118).
+Tant que l'état de Fausse mort dure, le personnage est À terre (_Savage Worlds_ page 118).
 L'état dure jusqu'à ce que le personnage décide d'y mettre fin, ou qu'il se déplace.
 
 Un personnage en état de Fausse mort peut effectuer n'importe quelle action.
@@ -1153,7 +1153,7 @@ Il y a quand même un max de trucs qui ne servent à rien, ou sont juste ... bof
 
 Virer les points de Pouvoir pour les magiciens ; la limitation doit venir des matrices de sorts et du temps parfois long pour tisser des effets puissants.
 Comme dans tous les jdr, éviter le syndrôme du magot qui roxe tout et fait tout même le café pendant que les autres PJ en sont réduits à commenter le combat en coulisse.
-Éviter les pièges habituels : les esprits doivent pas être plus puissants que les PJs et faire le boulot à leur place, incanter depuis un grimoire ça peut être pratique mais c'est lourdingue, la magie brute ça fait peur, une Horreur c'est mystérieux, puissant ET ça fait peur.
+Éviter les pièges habituels : les esprits ne doivent pas être plus puissants que les PJs et faire le boulot à leur place, incanter depuis un grimoire ça peut être pratique mais c'est lourdingue, la magie brute ça fait peur, une Horreur c'est mystérieux, puissant ET ça fait peur.
 
 Garder les objets magiques funs, avec un background et une mécanique moteurs de scénarios.
 Mais les gros roxxeurs doivent rester les adeptes : un om est un plus, mais un adepte doit pouvoir faire sans.
