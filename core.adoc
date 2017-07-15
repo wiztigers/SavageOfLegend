@@ -1128,7 +1128,32 @@ Ces recherches peuvent aller du simple usage de la Compétence <<skill_investiga
 [[enchanting]]
 === Enchantement
 
-TODO
+Il est possible de transformer un objet ordinaire en objet à filaments (ou d'améliorer un objet à filaments existant) de deux manières différentes.
+
+* Tout d'abord, le personnage peut utiliser l'alchimie.
+  Il s'agit d'un processus long et complexe, mais maîtrisé et aux résultats relativement garantis. +
+  C'est la méthode favorite des armuriers pour forger des armes et armures magiques.
+  Les élémentalistes aussi utilisent cette technique lorsqu'il tissent des noyaux de matières élémentaires dans un objet existant.
+  Enfin, les nécromanciens utilisent cette méthode pour forcer un esprit à posséder un objet. +
+  Dans ce cas, le test d'Alchimie est un jet d'Intelligence, et a une durée d'un mois.
+* La seconde méthode est plus instinctive, et offre des résultats variables.
+  Elle consiste à rendre un objet magique, de manière volontaire ou non, suite à l'accomplissement d'un fait particulièrement héroïque.
+  L'objet magique à créer doit avoir été indispensable à la réalisation du Haut Fait par le personnage. +
+  Dans ce cas, le test d'Alchimie est un jet d'Âme, et est instantané.
+
+[[enchanting_modifiers]]
+.Enchantement: modificateurs
+[options="header"]
+|===
+|Description                                        |Modificateur
+
+|Puissance de l'objet à enchanter                   |-2×Rang
+|L'objet a été indispensable à un Haut Fait ou plus |+1 à +4
+|L'objet inclut des matériaux élémentaires ou rares |+1 à +2
+|L'objet a été fabriqué par l'enchanteur lui-même   |+1
+|L'objet est un objet de trame                      |+Rang
+|Le rituel d'enchantement est particulièrement long |+1
+|===
 
 
 
