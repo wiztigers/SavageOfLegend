@@ -1155,6 +1155,32 @@ Il est possible de transformer un objet ordinaire en objet à filaments (ou d'am
 |Le rituel d'enchantement est particulièrement long |+1
 |===
 
+[[magic_item_creation]]
+=== Création
+
+Chaque objet magique peut accorder un ou plusieurs pouvoirs dont les effets correspondent à un nombre de <<build_your_legend,points de Légende>> égal au <<ranks,Rang>> de l'objet.
+La puissance des pouvoirs que peut accorder un objet à filaments est limitée par le <<magic_items,Rang du filament>> qui lui est attaché ; le Rang maximal du filament est lui-même limité par le Rang de l'objet.
+
+.Objets magiques
+[options="header"]
+|===
+|Pouvoir                                      |Coût
+
+|Doubler la portée ^1^                        |1
+|Augmenter le dé de dégâts de 1 ^2^           |1
+|Augmenter l'armure de 1 ^3^                  |1
+
+|Augmenter un Attribut de 1                   |2
+|Augmenter une <<skills,Compétence>> de 1 ^4^ |1
+|Nouvelle <<skill_knowledge,Connaissance>>    |1
+|Nouvel <<edges,Atout>> ^5^                   |2
+|===
+^1^ Armes à distance uniquement. +
+^2^ Armes uniquement. Le bonus de dégâts n'est pas limité par la Force de l'utilisateur. +
+^3^ Armure uniquement. Le bonus d'armure s'applique aussi contre les dégâts magiques. +
+^4^ Si le porteur ne possède pas la Compétence, il l'acquiert à d4. +
+^5^ Le porteur n'a pas besoin d'en satisfaire les prérequis.
+
 
 
 
