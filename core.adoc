@@ -1,4 +1,4 @@
-= Savage Dawn
+= Savage of Legend
 :toc: left
 :toc-title: Table des matières
 :toclevels: 2
