@@ -1019,6 +1019,7 @@ Cela constitue une action.
 * Si un sort est indiqué « MOOT », c'est que ses effets peuvent être improvisés sans difficultés.
   La plupart du temps, les détails chiffrés ne sont pas importants.
 
+[[elementalist_spells]]
 === Sorts d'élémentaliste
 
 ==== Sorts du premier cercle
@@ -1070,20 +1071,94 @@ Cela constitue une action.
 
 
 
+[[illusionist_spells]]
 === Sorts d'illusionniste
 
-TODO
+Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
+
+==== Sorts du premier cercle
+
+*Bonne Figure* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Persuasion>>, uniquement pour convaincre de son identité ou se comporter en fonction de son rôle) +
+*Bourse Plate*: MOOT +
+*Contact Rassurant*: La cible acquiert l'<<eges,Atout>> Brave. +
+*Corde Enchantée*: MOOT +
+*Décalage visuel* +*+: MOOT +
+*Déguisement du Métal* +*+: MOOT +
+*Lumière*: <<spell_light_obscure,Lumière>> ou <<spell_blind,Aveuglement>> (malus de -2 au test d'<<skill_spellcasting>>). +
+*Voix Invisibles* +*+: MOOT +
+
+==== Sorts du second cercle
+*Activité Innocente* +*+: MOOT +
+*Éclair vert* +*+: <<spell_bolt,Éclair>> +
+*Habillage* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Persuasion>>, pour améliorer l'attitude) +
+*Idée fixe* +*+: MOOT +
+*Manteau de pluie*: <<spell_environmental_protection,Adaptation environnementale>> (froid chaud) et <<spell_armor,Armure>> (contre dégâts de pluie naturelle ou magique uniquement) +
+*Manteau monstrueux* +*+: <<spell_smite,Frappe>> +
+*Véritable Éclair vert*: <<spell_bolt,Éclair>> +
+
+==== Sorts du troisième cercle
+*Affaiblissement Karmique* +*+: MOOT (utiliser un <<karma,point de Karma>> ne rajoute que ++1 au lieu de +2+) +
+*Alarme* +*+: MOOT +
+*Faux piège* +*+: MOOT +
+*Serrure Impossible* +*+: MOOT (-2 au test de <<skill_lockpicking,Crochetage>> +
+*Sphère de Non-Présence* +*+: <<spell_invisibility,Invisibilité>> (sphère inamovible uniquement ; toute personne y pénétrant a droit à un <<disbelief,test d'Incrédulité>>) +
+*Suffocation* +*+: <<spell_bolt,Éclair>> (cible unique, plus de PP pour -1 à tous ses tests). +
+*Trou de Mémoire* +*+: <<spell_confusion,Confusion>> +
+
+==== Sorts du quatrième cercle
+*Alarme Améliorée* +*+: Comme *Alarme*, mais dure plus longtemps. +
+*Appel du Devoir* +*+: <<spell_puppet,Marionnette>> (un seul ordre, petit gabarit) +
+*Aveuglement* +*+: <<spell_blind,Aveuglement>> +
+*Cercle de Bien-Être*: MOOT (++2+ aux tests de récupération effectués au sein du cercle) +
+*Immobilisation* +*+: <<spell_puppet,Marionnette>> (immobilisation uniquement) +
+*Multi-Missile* +*+: <<spell_smite,Frappe>> (armes à distance uniquement) +
+
+
+==== Sorts du cinquième cercle
+*Amélioration du Karma* +*+: MOOT (utiliser un <<karma,point de Karma>> rajoute ++3 au lieu de +2+) +
+*Belles Manières* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Persuasion>>, tant que le personnage se comporte en gars de la Haute) +
+*Douce Rêverie* +*+: <<spell_slumber,Sommeil>> +
+*Muraille de Feu* +*+: <<spell_barrier,Barrière>> de feu +
+*Tapis volant*: <<spell_fly,Vol>> (à lancer sur un tapis) +
 
 
 
+[[nethermancer_spells]]
 === Sorts de nécromancien
 
+==== Sorts du premier cercle
+TODO
+
+==== Sorts du second cercle
+TODO
+
+==== Sorts du troisième cercle
+TODO
+
+==== Sorts du quatrième cercle
+TODO
+
+==== Sorts du cinquième cercle
 TODO
 
 
 
+[[wizard_spells]]
 === Sorts de sorcier
 
+==== Sorts du premier cercle
+TODO
+
+==== Sorts du second cercle
+TODO
+
+==== Sorts du troisième cercle
+TODO
+
+==== Sorts du quatrième cercle
+TODO
+
+==== Sorts du cinquième cercle
 TODO
 
 
@@ -1292,6 +1367,7 @@ Mais les gros roxxeurs doivent rester les adeptes : un om est un plus, mais un a
 
 Sublimer l'approche pulp de _Savage Worlds_, et lui rajouter l'épique d'_Earthdawn_ !
 
+[[sw_spells]]
 == Annexe 2: Sorts de Savage Worlds
 
 [[spell_environmental_protection]] N *Adaptation environnementale* (_Savage Worlds_ page 193) +
