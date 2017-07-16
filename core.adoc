@@ -94,16 +94,19 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 == Races
 
 [[race_elves]]
+[role='race']
 === Elfes
 *Agile :* Un elfe débute avec d6 en Agilité au lieu de d4. +
 *Vision nocturne :* Un elfe ignore les malus pour les obscurités Légère et Forte.
 
 [[race_humans]]
+[role='race']
 === Humains
 *Atout :* Un humain débute avec un <<edges,Atout>> gratuit de leur choix, qui peut être l'Atout <<edge_versatility,Polyvalence>>. +
 *Potentiel :* Un humain débute avec 1 <<build_your_legend,point de Légende>> supplémentaire.
 
 [[race_dwarves]]
+[role='race']
 === Nains
 *Lent :* Un nain a une Allure de 5. +
 *Robuste :* Un nain débute avec d6 en Vigueur au lieu de d4. +
@@ -111,6 +114,7 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 *Vision thermographique :* Un nain divise de moitié les malus (arrondir à l'inférieur) dus à une luminosité faible.
 
 [[race_obsidmens]]
+[role='race']
 === Obsidiens
 *Comportement :* Un obsidien débute avec les Handicaps suivants : Loyal (Mineur) (_Savage Worlds_ page 50), Pacifiste (Mineur) et Prudent (Mineur) (_Savage Worlds_ page 52). +
 *Étranger :* Un obsidien subit un malus de -2 à son Charisme. +
@@ -121,11 +125,13 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 *Vœu :* Un obsidien ne peut porter que des armures vivantes.
 
 [[race_orks]]
+[role='race']
 === Orks
 *Puissant :* Un ork débute avec d6 en Force au lieu de d4. +
 *Vision nocturne :* Un ork ignore les malus pour les obscurités Légère et Forte.
 
 [[race_windlings]]
+[role='race']
 === Sylphelins
 *Curieux :* Un sylphelin débute avec le Handicap Curieux (Majeur) (_Savage Worlds_ page 49). +
 *Taille :* La Taille d'un sylphelin est de -1 (_Savage Worlds_ page 242). +
@@ -141,6 +147,7 @@ Un sylphelin n'a pas besoin de dépenser de points de Karma pour activer cette f
 *Créature magique :* Un sylphelin débute avec l'Atout <<edge_karma_affinity,Régénération de Karma>>.
 
 [[race_trolls]]
+[role='race']
 === Trolls
 *Taille :* La Taille d'un troll est de +1 (_Savage Worlds_ page 242). +
 *Puissant :* Un troll débute avec d6 en Force au lieu de d4. +
@@ -151,6 +158,7 @@ Un troll des plaines débute avec les Handicaps Deux mains Gauches (_Savage Worl
 Tous les trolls débutent avec le Handicap Code d'Honneur (Majeur) (_Savage Worlds_ page 49).
 
 [[race_tskrangs]]
+[role='race']
 === T'skrangs
 *Aquatique :* Un t'skrang ne peut pas se noyer dans l'eau, se déplace à une Allure égal à son dé de Natation, et débute avec d6 en <<skill_swimming,Natation>>. +
 *Attaque caudale :* Un t'skrang peut frapper à l'aide de sa queue à For+d6 de dégâts.
@@ -159,14 +167,17 @@ Tous les trolls débutent avec le Handicap Code d'Honneur (Majeur) (_Savage Worl
 == Compétences
 
 [[skill_melee_weapons]]
+[role='skill']
 === Armes de mêlée (Agilité)
 Nouveau nom de la Compétence *Combat* (_Savage Worlds_ page 40), son usage est en tout point identique.
 
 [[skill_ranged_weapons]]
+[role='skill']
 === Armes à distance (Agilité)
 Regroupe tous les usages des anciennes Compétences de *Lancer* (_Savage Worlds_ page 44) et de *Tir* (_Savage Worlds_ page 46).
 
 [[skill_knowledge]]
+[role='skill']
 === Connaissance
 
 Une Connaissance n'a pas de dé associé : soit un personnage la possède, soit il ne la possède pas.
@@ -186,26 +197,32 @@ Voici quelques exemples :
   Le Trait dont on se sert pour décider de la qualité d'une création artistique varie entre Âme, Agilité et Intellect.
 
 [[skill_lockpicking]]
+[role='skill']
 === Crochetage (Agilité)
 Fonctionnement inchangé (_Savage Worlds_ page 42).
 
 [[skill_stealth]]
+[role='skill']
 === Discrétion (Agilité)
 Fonctionnement inchangé (_Savage Worlds_ page 42).
 
 [[skill_riding]]
+[role='skill']
 === Équitation (Agilité)
 Fonctionnement inchangé (_Savage Worlds_ page 43).
 
 [[skill_climbing]]
+[role='skill']
 === Escalade (Force)
 Fonctionnement inchangé (_Savage Worlds_ page 43).
 
 [[skill_repair]]
+[role='skill']
 === Forge (Intellect)
 Nouveau nom de la Compétence *Réparation* (_Savage Worlds_ page 45), son usage est en tout point identique.
 
 [[skill_spellcasting]]
+[role='skill']
 === Incantation (Intellect)
 Cette compétence est indispensable à tout lanceur de sorts.
 Elle est utilisée dans les actions magiques suivantes :
@@ -217,10 +234,12 @@ Elle est utilisée dans les actions magiques suivantes :
 Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 
 [[skill_intimidation]]
+[role='skill']
 === Intimidation (Âme)
 Fonctionnement inchangé (_Savage Worlds_ page 43).
 
 [[skill_summoning]]
+[role='skill']
 === Invocation (Âme)
 *Prérequis :* <<talent_summoning,Invocation>>
 
@@ -229,36 +248,44 @@ Cette compétence permet d'invoquer des esprits.
 Voir la section <<summoning,Invocation>> pour davantage de détails.
 
 [[skill_air_sailing]]
+[role='skill']
 === Manœuvre aérienne (Âme)
 Cette Compétence fonctionne de manière similaire aux anciennes Compétences *Navigation* (_Savage Worlds_ page 44) ou *Pilotage* (_Savage Worlds_ page 45).
 Cependant, l'usage est ici de manœuvrer un navire aérien.
 
 [[skill_swimming]]
+[role='skill']
 === Natation (Agilité)
 Fonctionnement inchangé (_Savage Worlds_ page 44).
 
 [[skill_notice]]
+[role='skill']
 === Perception (Intellect)
 Fonctionnement inchangé (_Savage Worlds_ page 44).
 
 [[skill_persuasion]]
+[role='skill']
 === Persuasion (Âme)
 Fonctionnement inchangé (_Savage Worlds_ page 44).
 
 [[skill_investigation]]
+[role='skill']
 === Renseignements (Intellect)
 Regroupe tous les usages des anciennes Compétences de *Recherche* et de *Réseaux* (_Savage Worlds_ page 45).
 Renseignements n'est pas modifiée par le *Charisme* d'un personnage.
 
 [[skill_taunt]]
+[role='skill']
 === Sarcasmes (Intellect)
 Nouveau nom de la Compétence *Sarcasme* (_Savage Worlds_ page 40), son usage est en tout point identique.
 
 [[skill_healing]]
+[role='skill']
 === Soins (Intellect)
 Fonctionnement inchangé (_Savage Worlds_ page 46).
 
 [[skill_survival]]
+[role='skill']
 === Survie (Intellect)
 Fonctionnement inchangé (_Savage Worlds_ page 46).
 
@@ -301,6 +328,7 @@ Posséder plusieurs disciplines n'accroit pas la taille de la <<karma,réserve d
 
 
 [[discipline_archer]]
+[role='discipline']
 === Archer
 *Prérequis :* <<ranks,Novice>>, <<skill_ranged_weapons,Armes à distance>> d8+
 
@@ -315,6 +343,7 @@ Un Archer acquiert l'atout Vigilance.
 
 
 [[discipline_weaponsmith]]
+[role='discipline']
 === Armurier
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_repair,Forge>> d6+
 
@@ -333,6 +362,7 @@ Il ne doit cependant jamais mentir, et toujours tenir sa parole, sous peine de p
 
 
 [[discipline_cavalryman]]
+[role='discipline']
 === Cavalier
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_riding,Équitation>> d6+
 
@@ -350,6 +380,7 @@ Quand un Cavalier combat sur sa monture, il utilise sa Compétence la plus haute
 
 
 [[discipline_horror_stalker]]
+[role='discipline']
 === Chasseur d'Horreurs
 *Prérequis :* <<ranks,Novice>>, Âme d10+, Vigueur d8+, <<skill_melee_weapons,Armes de mêlée>> d8+
 
@@ -364,6 +395,7 @@ Un Chasseur d'Horreurs obtient le talent <<talent_bear_mark,Résistance à la ma
 
 
 [[discipline_scout]]
+[role='discipline']
 === Éclaireur
 *Prérequis :* <<ranks,Novice>>, <<skill_notice,Perception>> d6+
 
@@ -379,6 +411,7 @@ Ces bonus ne s'appliquent qu'en milieu sauvage.
 
 
 [[discipline_sky_raider]]
+[role='discipline']
 === Écumeur du ciel
 *Prérequis :* <<ranks,Novice>>, Force d6+, <<skill_intimidation,Intimidation>> d6+
 
@@ -399,6 +432,7 @@ Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de <<skill_air_saili
 
 
 [[discipline_elementalist]]
+[role='discipline']
 === Élémentaliste
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_survival,Survie>> d6+
 
@@ -413,6 +447,7 @@ Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<s
 
 
 [[discipline_warrior]]
+[role='discipline']
 === Guerrier
 *Prérequis :* <<ranks,Novice>>, <<skill_melee_weapons,Armes de mêlée>> d8+
 
@@ -427,6 +462,7 @@ Un Guerrier obtient un bonus de +1 à tous ses jets de dégâts au corps à corp
 
 
 [[discipline_illusionist]]
+[role='discipline']
 === Illusionniste
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_notice,Perception>> d6+
 
@@ -441,6 +477,7 @@ Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de <<ski
 
 
 [[discipline_swordmaster]]
+[role='discipline']
 === Maître d'armes
 
 *Prérequis :* <<ranks,Novice>>, <<skill_melee_weapons,Armes de mêlée>> d6+, <<skill_taunt,Sarcasmes>> d6+
@@ -456,6 +493,7 @@ Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de <<s
 
 
 [[discipline_beastmaster]]
+[role='discipline']
 === Maître des animaux
 
 *Prérequis :* <<ranks,Novice>>, Vigueur d6+, <<skill_survival,Survie>> d6+
@@ -476,6 +514,7 @@ Les animaux n'attaquent pas le personnage, à moins qu'il ne les attaque en prem
 
 
 [[discipline_air_sailor]]
+[role='discipline']
 === Navigateur aérien
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, <<skill_air_sailing,Manœuvre aérienne>> d6+
 
@@ -494,6 +533,7 @@ Un Navigateur aérien obtient un bonus de +2 à tous ses jets de <<skill_air_sai
 
 
 [[discipline_nethermancer]]
+[role='discipline']
 === Nécromancien
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_intimidation,Intimidation>> d6+
 
@@ -508,6 +548,7 @@ Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skil
 
 
 [[discipline_wizard]]
+[role='discipline']
 === Sorcier
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_investigation,Renseignements>> d6+
 
@@ -522,6 +563,7 @@ Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_inv
 
 
 [[discipline_troubadour]]
+[role='discipline']
 === Troubadour
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_persuasion,Persuasion>> d6+
 
@@ -542,6 +584,7 @@ Le Charisme d'un Troubadour est augmenté de 2.
 
 
 [[discipline_thief]]
+[role='discipline']
 === Voleur
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, <<skill_stealth,Discrétion>> d6+
 
@@ -569,24 +612,28 @@ que ce talent figure dans la liste de ses talents de <<disciplines,discipline>>,
 et qu'il trouve quelqu'un pour le lui apprendre.
 
 [[talent_evidence_analysis]]
+[role='edge']
 === Analyse des indices
 *Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de <<skill_notice,Perception>> égal à son <<ranks,Rang>>.
 
 [[talent_acrobatic_strike]]
+[role='edge']
 === Attaque acrobatique
 *Prérequis :* <<ranks,Compagnon>>, Agilité d8+, <<skill_melee_weapons,Armes de mêlée>> d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus de +2 à un jet d'attaque au corps à corps.
 
 [[talent_surprise_strike]]
+[role='edge']
 === Attaque surprise
 *Prérequis :* <<ranks,Gardien>>, <<skill_stealth,Discrétion>> d10+
 
 Une fois par combat, le personnage peut dépenser un point de Karma pour effectuer une _Attaque surprise_ (_Savage Worlds_ page 120), même si les circonstances ne devraient pas l'y autoriser.
 
 [[talent_great_leap]]
+[role='edge']
 === Bondissement
 *Prérequis :* <<ranks,Novice>>, Force d6+
 
@@ -594,6 +641,7 @@ Lors d'une course, le personnage peut ajouter un nombre de cases à son Allure �
 Cette distance supplémentaire peut correspondre à un saut horizontal ou vertical.
 
 [[talent_crushing_blow]]
+[role='edge']
 === Broyage
 *Prérequis :* <<ranks,Gardien>>, Force d8+
 
@@ -601,12 +649,14 @@ Le personnage peut dépenser un point de Karma pour obtenir un bonus au jet de d
 Le bonus aux dégâts obtenu est égal au <<ranks,Rang>> du personnage.
 
 [[talent_chameleon]]
+[role='edge']
 === Caméléon
 *Prérequis :* <<ranks,Gardien>>, <<skill_stealth,Discrétion>> d6+, <<skill_survival,Survie>> d8+
 
 Le personnage peut dépenser un point de Karma pour obtenir un bonus à un jet de <<skill_stealth,Discrétion>> égal à son <<ranks,Rang>>.
 
 [[talent_emotion_song]]
+[role='edge']
 === Chant d'émotion
 *Prérequis :* <<ranks,Novice>>, Âme d6+
 
@@ -620,6 +670,7 @@ Ce bonus n'est valable que contre un spectateur ayant été présent jusqu'à la
 et pour un jet faisant entrer en jeu à la fois le sentiment et l'objet de la représentation.
 
 [[talent_fearsome_charge]]
+[role='edge']
 === Charge terrifiante
 *Prérequis :* <<ranks,Gardien>>, <<skill_riding,Équitation>> d6, <<skill_intimidation,Intimidation>> d6
 
@@ -628,12 +679,14 @@ Si le test d'<<skill_intimidation,Intimidation>> est un Succès, chaque adversai
 La zone d'arrivée doit être de taille équivalente à un Grand Gabarit (_Savage Worlds_ page 110) au maximum.
 
 [[talent_lionheart]]
+[role='edge']
 === Cœur de lion
 *Prérequis :* <<ranks,Novice>>, Âme d6+
 
 Le personnage bénéficie d'un bonus de +2 sur ses jets de terreur.
 
 [[talent_maneuver]]
+[role='edge']
 === Dérobade
 *Prérequis :* <<ranks,Novice>>, Intellect d6+
 
@@ -641,6 +694,7 @@ Le personnage peut dépenser un point de Karma et une action pour donner un malu
 Le malus est égal au <<ranks,Rang>> du personnage, et dure un round.
 
 [[talent_enchanting]]
+[role='edge']
 === Enchantement
 *Prérequis :* <<ranks,Gardien>>, <<edge_arcane_magic,Arcanes (Magie)>>
 
@@ -649,6 +703,7 @@ Le personnage peut enchanter des objets magiques.
 Voir la section <<enchanting,Enchantement>> pour davantage de détails.
 
 [[talent_temper_self]]
+[role='edge']
 === Endurcissement
 *Prérequis :* <<ranks,Gardien>>, Âme d8+, Vigueur d8+
 
@@ -658,6 +713,7 @@ avec un maximum égal à son <<ranks,Rang>>.
 Le bonus d'Armure dure un nombre d'heures égal au <<ranks,Rang>> du personnage.
 
 [[talent_unshakeable_earth]]
+[role='edge']
 === Enracinement
 *Prérequis :* <<ranks,Novice>>, Force d6+
 
@@ -665,6 +721,7 @@ Le personnage peut dépenser un point de Karma pour gagner un bonus de +2 pour �
 Ce bonus perdure alors jusqu'à ce qu'un de ses pieds quitte le sol.
 
 [[talent_avoid_blow]]
+[role='edge']
 === Esquive
 *Prérequis :* <<ranks,Compagnon>>, Agilité d8+
 
@@ -675,6 +732,7 @@ Le personnage peut dépenser un point de Karma pour bénéficier pour un round d
 * les ennemis qui le prennent pour cible ont un malus de -1 à leurs jets d'<<skill_ranged_weapons,Armes à distance>>.
 
 [[talent_trap_initiative]]
+[role='edge']
 === Esquive des pièges
 *Prérequis :* <<ranks,Compagnon>>, Agilité d6+, <<skill_notice,Perception>> d6+
 
@@ -682,6 +740,7 @@ Le personnage peut dépenser un point de Karma pour avoir le droit d'effectuer u
 Si le jet est réussi, le personnage échappe totalement au piège.
 
 [[talent_dead_fall]]
+[role='edge']
 === Fausse mort
 *Prérequis :* <<ranks,Compagnon>>, Intellect d6+
 
@@ -696,6 +755,7 @@ Un personnage en état de Fausse mort peut effectuer n'importe quelle action.
 Chaque action entreprise met cependant fin à l'illusion, sauf si le personnage entreprend une action supplémentaire et réussit un jet de <<skill_stealth,Discrétion>> pour chacune.
 
 [[talent_false_sight]]
+[role='edge']
 === Faux semblants
 *Prérequis :* <<ranks,Novice>>, Intellect d6+
 
@@ -705,6 +765,7 @@ Un sort illusoire coûte 1 point de pouvoir de moins à lancer, mais ses cibles 
 Voir la section <<disbelief,Incrédulité>> pour davantage de détails.
 
 [[talent_direction_arrow]]
+[role='edge']
 === Flèche de direction
 *Prérequis :* <<ranks,Compagnon>>, <<skill_investigation,Renseignements>> d6+
 
@@ -712,6 +773,7 @@ Le personnage peut dépenser un point de karma pour bénéficier d'un bonus sur 
 Ce bonus est égal à son <<ranks,Rang>>, mais n'est valable que si le personnage cherche à localiser un objet ou une personne dont il possède un élément matériel.
 
 [[talent_flame_arrow]]
+[role='edge']
 === Flèche de feu
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
@@ -720,6 +782,7 @@ Le bonus aux dégâts obtenu est égal au <<ranks,Rang>> du personnage.
 Si l'arme utilisée est une arme de trait, la flèche tirée est détruite.
 
 [[talent_forge_item]]
+[role='edge']
 === Forgeage
 *Prérequis :* <<ranks,Novice>>, <<skill_repair,Forge>> d6+
 
@@ -728,6 +791,7 @@ Il ne peut cependant s'en servir que pour créer des objets magiques majoritaire
 Il peut utiliser sa Compétence <<skill_repair,Forge>> pour effectuer son <<enchanting,jet d'enchantement>>.
 
 [[talent_mount_attack]]
+[role='edge']
 === Fureur animale
 *Prérequis :* <<ranks,Gardien>>, <<skill_riding,Équitation>> d10+
 
@@ -735,6 +799,7 @@ La monture du personnage peut attaquer même si son cavalier a effectué une act
 La monture doit évidemment posséder un moyen de porter une attaque.
 
 [[talent_speak_language]]
+[role='edge']
 === Glossolalie
 *Prérequis :* <<ranks,Gardien>>, Intellect d6+
 
@@ -743,6 +808,7 @@ Après avoir entendu parler une langue pendant au minimum 1 minute, le personnag
 À la discrétion du MJ, un personnage qui apprend ce talent peut regagner un <<karma,point de Légende>> pour chaque <<skill_knowledge,Langue>> qu'il connait déjà.
 
 [[talent_claw_shape]]
+[role='edge']
 === Griffes
 *Prérequis :* <<ranks,Novice>>
 
@@ -750,6 +816,7 @@ Lorsqu'il effectue un jet d'<<skill_melee_weapons,Armes de mêlée>> à mains nu
 De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son <<ranks,Rang>>.
 
 [[talent_item_history]]
+[role='edge']
 === Histoire des objets
 *Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+, <<skill_investigation,Renseignements>> d6+
 
@@ -758,6 +825,7 @@ Le personnage apprend la nature d'une <<key_knowledge,connaissance clef>> de l'o
 Le personnage bénéficie d'un bonus de +1 à son test d'Identification par semaine supplémentaire pendant laquelle il conserve l'objet magique auprès de lui.
 
 [[talent_summoning]]
+[role='edge']
 === Invocation
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+
 
@@ -767,6 +835,7 @@ Le type d'esprits qu'il peut invoquer est indiqué lorsque le personnage achète
 Voir la section <<summoning,Invocation>> pour davantage de détails.
 
 [[talent_durability]]
+[role='edge']
 === Longévité
 *Prérequis :* <<ranks,Compagnon>>
 
@@ -779,6 +848,7 @@ Par exemple, un personnage ayant appris Longévité deux fois souffrira des malu
 Ce personnage sera au minimum un Gardien de sa discipline.
 
 [[talent_mount_durability]]
+[role='edge']
 === Longévité (monture)
 *Prérequis :* <<ranks,Compagnon>>, <<skill_riding,Équitation>> d6+
 
@@ -787,6 +857,7 @@ Le personnage peut dépenser un point de Karma pour faire bénéficier à sa mon
 De plus, la monture obtient le talent de Longévité.
 
 [[talent_spell_matrix]]
+[role='edge']
 === Matrice de sorts
 *Prérequis :* <<ranks,Novice>>, <<edge_arcane_magic,Arcanes (Magie)>>
 
@@ -796,6 +867,7 @@ Ce talent peut être acheté plusieurs fois, mais un personnage ne peut posséde
 Voir la section <<thread_magic,Magie des sorts>> pour davantage de détails.
 
 [[talent_book_memory]]
+[role='edge']
 === Mémoire des livres
 *Prérequis :* <<ranks,Gardien>>, Intellect d8+, <<skill_investigation,Renseignements>> d8+
 
@@ -805,6 +877,7 @@ Il doit pour cela avoir parcouru au moins une fois un livre renfermant l'informa
 Si le personnage échoue malgré tout à un jet de <<skill_knowledge,Connaissance>>, il peut dépenser un point de Karma pour se rappeler l'information recherchée de manière fidèle.
 
 [[talent_empathic_command]]
+[role='edge']
 === Ordre empathique
 *Prérequis :* <<ranks,Novice>>, <<skill_riding,Équitation>> d6+
 
@@ -815,12 +888,14 @@ Si le personnage chevauche une monture ayant une attitude Serviable envers lui, 
 * Le cavalier ne souffre jamais du malus de plateforme instable.
 
 [[talent_wood_skin]]
+[role='edge']
 === Peau de bois
 *Prérequis :* <<ranks,Novice>>, Vigueur d6
 
 Le personnage peut dépenser un point de Karma pour bénéficier d'un bonus à sa Résistance égal à son <<ranks,Rang>>, pendant un nombre de rounds égal à son <<ranks,Rang>>.
 
 [[talent_animal_possession]]
+[role='edge']
 === Possession animale
 *Prérequis :* <<ranks,Compagnon>>, Âme d6+
 
@@ -829,12 +904,14 @@ La possession a une durée maximale de <<ranks,Rang>> × 10 minutes.
 Pendant tout le temps que dure la possession, le corps du personnage tombe en catatonie.
 
 [[talent_spot_armor_flaw]]
+[role='edge']
 === Repérage du défaut de la cuirasse
 *Prérequis :* <<ranks,Gardien>>, <<skill_notice,Perception>> d8+, <<skill_repair,Forge>> d8+
 
 Le personnage peut dépenser un point de Karma et une action pour annuler un nombre de points d'Armure d'un adversaire au maximum égal à son <<ranks,Rang>>, pendant un round.
 
 [[talent_bear_mark]]
+[role='edge']
 === Résistance à la marque
 *Prérequis :* <<ranks,Novice>>
 
@@ -851,6 +928,7 @@ Une Horreur tentant de marquer le personnage souffre d'un malus égal au <<ranks
   Le personnage, lui, peut dépenser un point de Karma pour savoir dans quelle direction et à quelle distance exactes se trouve l'Horreur la plus proche dont il a isolé la marque.
 
 [[talent_fireblood]]
+[role='edge']
 === Sang de feu
 *Prérequis :* <<ranks,Compagnon>>, Vigueur d6+
 
@@ -860,12 +938,14 @@ Ce jet ne bénéficie d'aucun bonus ou malus du aux conditions de convalescence.
 Il souffre cependant des malus dus au blessures comme d'habitude.
 
 [[talent_incite_mob]]
+[role='edge']
 === Échauffement des foules
 *Prérequis :* <<ranks,Gardien>>, <<skill_persuasion,Persuasion>> d8+
 
 Lors d'un jet de <<skill_persuasion,Persuasion>>, le personnage peut dépenser un point de Karma pour affecter un nombre d'Extras égal à son <<ranks,Rang>>.
 
 [[talent_true_shot]]
+[role='edge']
 === Tir infaillible
 *Prérequis :* <<ranks,Novice>>, <<skill_ranged_weapons,Armes à distance>> d6+
 
@@ -876,6 +956,7 @@ Plusieurs points de Karma peuvent être dépensés de cette manière, avec un ma
 Ce talent est une exception à la règle qui ne permet d'utiliser au maximum qu'un seul <<karma,point de Karma>> pour un jet.
 
 [[talent_multishot]]
+[role='edge']
 === Tir multiple
 *Prérequis :* <<ranks,Gardien>>, <<skill_ranged_weapons,Armes à distance>> d10+
 
@@ -884,6 +965,7 @@ La CdT de l'arme pour le round est égale au nombre de points de Karma dépensé
 Le personnage peut dépenser au maximum un point de Karma par <<ranks,Rang>> de cette manière.
 
 [[talent_life_check]]
+[role='edge']
 === Ultime sursaut
 *Prérequis :* <<ranks,Compagnon>>, Âme d8+, Vigueur d8+
 
@@ -893,12 +975,14 @@ Si ce jet est réussi, il sort de cet État critique, avec son nombre maximal de
 Sur une relance, le personnage guérit en plus une de ses blessures.
 
 [[talent_astral_sight]]
+[role='edge']
 === Vision astrale
 *Prérequis :* <<ranks,Novice>>, <<skill_notice,Perception>> d6+
 
 Le personnage peut dépenser un point de Karma pour percevoir l'espace astral durant un nombre de minutes égal à son type de dé de <<skill_notice,Perception>>.
 
 [[talent_wind_catcher]]
+[role='edge']
 === Vol plané
 *Prérequis :* <<ranks,Gardien>>, Âme d6+
 
@@ -915,6 +999,7 @@ Chaque round durant son vol plané, le personnage peut utiliser une action pour 
 == Atouts
 
 [[edge_arcane_magic]]
+[role='edge']
 === Arcanes (Magie)
 *Compétence :* <<skill_spellcasting,Incantation>> +
 *Points de pouvoir :* Aucun +
@@ -925,6 +1010,7 @@ Les magiciens sont capables de lancer des sorts.
 Voir la section <<thread_magic,Magie des sorts>> pour plus de détails.
 
 [[edge_karma_affinity]]
+[role='edge']
 === Régénération de Karma
 *Prérequis :* <<ranks,Compagnon>>, doit posséder une <<karma,Réserve de Karma>>.
 
@@ -932,6 +1018,7 @@ Le personnage regagne un point de <<karma,Karma>> par jour, à son réveil.
 Ce point gagné s'ajoute à celui qu'un adepte peut regagner chaque jour grâce à son rituel karmique.
 
 [[edge_versatility]]
+[role='edge']
 === Polyvalence
 *Prérequis :* <<ranks,Novice>>, <<race_humans,Humain>>
 
