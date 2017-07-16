@@ -304,9 +304,11 @@ Posséder plusieurs disciplines n'accroit pas la taille de la <<karma,réserve d
 === Archer
 *Prérequis :* <<ranks,Novice>>, <<skill_ranged_weapons,Armes à distance>> d8+
 
-Un Archer acquiert l'atout Vigilance.
-
+*Marque mystique :*
 Un Archer peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_ranged_weapons,Armes à distance>>.
+
+*Œil d'aigle :*
+Un Archer acquiert l'atout Vigilance.
 
 *Talents de discipline :* <<talent_direction_arrow,Flèche de direction>>, <<talent_flame_arrow,Flèche de feu>>, <<talent_true_shot,Tir infaillible>>, <<talent_multishot,Tir multiple>>.
 
@@ -316,10 +318,15 @@ Un Archer peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_range
 === Armurier
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_repair,Forge>> d6+
 
+*Forgeage :*
+Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_repair,Forge>>.
+
+*Lien social :*
+Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_investigation,Renseignements>>.
+
+*Parole d'armurier :*
 Le Charisme d'un Armurier est augmenté de 2.
 Il ne doit cependant jamais mentir, et toujours tenir sa parole, sous peine de perdre ce bénéfice.
-
-Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_repair,Forge>> ou de <<skill_investigation,Renseignements>>.
 
 *Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_forge_item,Forgeage>>, <<talent_item_history,Histoire des objets>>, <<talent_spot_armor_flaw,Repérage du défaut de la cuirasse>>
 
@@ -329,9 +336,14 @@ Un Armurier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_re
 === Cavalier
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_riding,Équitation>> d6+
 
-Quand un Cavalier combat sur sa monture, il utilise sa Compétence la plus haute entre <<skill_melee_weapons,Armes de mêlée>> et <<skill_riding,Équitation>>, au lieu de la plus basse (_Savage Worlds_ pages 43,122).
+*Dressage :*
+Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet effectué par sa monture.
 
-Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_riding,Équitation>>, ou d'un jet effectué par sa monture.
+*Voltige :*
+Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_riding,Équitation>>.
+
+*Attaque tournoyante :*
+Quand un Cavalier combat sur sa monture, il utilise sa Compétence la plus haute entre <<skill_melee_weapons,Armes de mêlée>> et <<skill_riding,Équitation>>, au lieu de la plus basse (_Savage Worlds_ pages 43,122).
 
 *Talents de discipline :* <<talent_fearsome_charge,Charge terrifiante>>, <<talent_mount_attack,Fureur animale>>, <<talent_mount_durability,Longévité (monture)>>, <<talent_empathic_command,Ordre empathique>>
 
@@ -341,9 +353,11 @@ Un Cavalier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_rid
 === Chasseur d'Horreurs
 *Prérequis :* <<ranks,Novice>>, Âme d10+, Vigueur d8+, <<skill_melee_weapons,Armes de mêlée>> d8+
 
-Un Chasseur d'Horreurs obtient le talent <<talent_bear_mark,Résistance à la marque>>.
-
+*Monomaniaque :*
 Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>> ou de dégats effectués au cours d'un combat contre une Horreur ou une création d'Horreur.
+
+*Résistance à la marque :*
+Un Chasseur d'Horreurs obtient le talent <<talent_bear_mark,Résistance à la marque>>.
 
 *Talents de discipline :* <<talent_temper_self,Endurcissement>>, <<talent_spot_armor_flaw,Repérage du défaut de la cuirasse>>, <<talent_life_check,Ultime sursaut>>, <<talent_astral_sight,Vision astrale>>
 
@@ -353,10 +367,12 @@ Un Chasseur d'Horreurs peut utiliser un point de Karma dans le cadre d'un jet d'
 === Éclaireur
 *Prérequis :* <<ranks,Novice>>, <<skill_notice,Perception>> d6+
 
+*Sens développés :*
+Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_notice,Perception>>.
+
+*Guide :*
 Un Éclaireur ajoute +2 à ses jets de <<skill_stealth,Discrétion>>, <<skill_notice,Perception>>, <<skill_investigation,Renseignements>> et <<skill_survival,Survie>>.
 Ces bonus ne s'appliquent qu'en milieu sauvage.
-
-Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_notice,Perception>> ou de <<skill_survival,Survie>>.
 
 *Talents de discipline :* <<talent_chameleon,Caméléon>>, <<talent_avoid_blow,Esquive>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_astral_sight,Vision astrale>>
 
@@ -366,9 +382,17 @@ Un Éclaireur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_
 === Écumeur du ciel
 *Prérequis :* <<ranks,Novice>>, Force d6+, <<skill_intimidation,Intimidation>> d6+
 
-Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de <<skill_air_sailing,Manœuvre aérienne>>.
+*Cri de guerre :*
+Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>.
 
-Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>, de Force, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
+*Force du ciel :*
+Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet de Force.
+
+*Membre d'équipage :*
+Un Écumeur du ciel utiliser un point de Karma dans le cadre de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
+
+*Pied marin :*
+Un Écumeur du ciel obtient un bonus de +2 à tous ses jets de <<skill_air_sailing,Manœuvre aérienne>>.
 
 *Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_crushing_blow,Broyage>>, <<talent_fireblood,Sang de feu>>, <<talent_wind_catcher,Vol plané>>
 
@@ -378,8 +402,10 @@ Un Écumeur du ciel utiliser un point de Karma dans le cadre d'un jet d'<<skill_
 === Élémentaliste
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_survival,Survie>> d6+
 
+*Magicien :*
 Un Élémentaliste obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
+*Piste élémentaire :*
 Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_survival,Survie>>.
 
 *Talents de discipline :* <<talent_unshakeable_earth,Enracinement>>, <<talent_summoning,Invocation (Élémentaires)>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
@@ -390,9 +416,11 @@ Un Élémentaliste peut utiliser un point de Karma dans le cadre d'un jet de <<s
 === Guerrier
 *Prérequis :* <<ranks,Novice>>, <<skill_melee_weapons,Armes de mêlée>> d8+
 
-Un Guerrier obtient un bonus de +1 à tous ses jets de dégâts au corps à corps.
+*Combattant :*
+Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>>.
 
-Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>> ou de Connaissance (Batailles).
+*Anticipation :*
+Un Guerrier obtient un bonus de +1 à tous ses jets de dégâts au corps à corps.
 
 *Talents de discipline :* <<talent_crushing_blow,Broyage>>, <<talent_temper_self,Endurcissement>>, <<talent_wood_skin,Peau de bois>>, <<talent_life_check,Ultime sursaut>>
 
@@ -402,8 +430,10 @@ Un Guerrier peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_mel
 === Illusionniste
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_notice,Perception>> d6+
 
+*Magicien :*
 Un Illusioniste obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
+*Voix de velours :*
 Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de <<skill_persuasion,Persuasion>>.
 
 *Talents de discipline :* <<talent_dead_fall,Fausse mort>>, <<talent_false_sight,Faux semblants>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
@@ -415,11 +445,13 @@ Un Illusionniste peut utiliser un point de Karma dans le cadre d'un jet de <<ski
 
 *Prérequis :* <<ranks,Novice>>, <<skill_melee_weapons,Armes de mêlée>> d6+, <<skill_taunt,Sarcasmes>> d6+
 
-Le Charisme d'un Maître d'armes est augmenté de 2.
+*Combattant :*
+Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>>.
 
-Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_melee_weapons,Armes de mêlée>> ou de <<skill_taunt,Sarcasmes>>.
+*Fort en gueule :*
+Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet de <<skill_taunt,Sarcasmes>>.
 
-*Talents de discipline :* <<talent_acrobatic_strike,Attaque acrobatique>>, <<talent_avoid_blow,Esquive>>, <<talent_maneuver,Dérobade>>, <<talent_winning_smile,Sourire ravageur>>
+*Talents de discipline :* <<talent_acrobatic_strike,Attaque acrobatique>>, <<talent_avoid_blow,Esquive>>, <<talent_maneuver,Dérobade>>, <<talent_incite_mob,Échauffement des foules>>
 
 
 
@@ -428,13 +460,16 @@ Un Maître d'armes peut utiliser un point de Karma dans le cadre d'un jet d'<<sk
 
 *Prérequis :* <<ranks,Novice>>, Vigueur d6+, <<skill_survival,Survie>> d6+
 
-Les animaux n'attaquent pas le personnage, à moins qu'il ne les attaque en premier lieu ou qu'ils ne soient enragés pour une raison quelconque.
-
-De plus, si un Maître des animaux passe un minimum de 10 minutes en compagnie d'un animal dont l'attitude envers lui est Neutre ou meilleure, cet animal peut s'attacher à lui et devenir son compagnon, si le Maître des animaux le désire.
+*Attachement :*
+Si un Maître des animaux passe un minimum de 10 minutes en compagnie d'un animal dont l'attitude envers lui est Neutre ou meilleure, cet animal peut s'attacher à lui et devenir son compagnon, si le Maître des animaux le désire.
 Un compagnon animal accompagne fidèlement le personnage et a une attitude Serviable envers lui.
 Au même moment, un Maître des animaux peut s'attacher à un nombre d'animaux maximum égal à son <<ranks,Rang>>.
 
+*Dressage :*
 Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet effectué par un de ses compagnons animaux.
+
+*Domination :*
+Les animaux n'attaquent pas le personnage, à moins qu'il ne les attaque en premier lieu ou qu'ils ne soient enragés pour une raison quelconque.
 
 *Talents de discipline :* <<talent_great_leap,Bondissement>>, <<talent_chameleon,Caméléon>>, <<talent_claw_shape,Griffes>>, <<talent_animal_possession,Possession animale>>
 
@@ -444,9 +479,14 @@ Un Maître des animaux peut utiliser un point de Karma dans le cadre d'un jet ef
 === Navigateur aérien
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, <<skill_air_sailing,Manœuvre aérienne>> d6+
 
-Un Navigateur aérien obtient un bonus de +2 à tous ses jets de <<skill_air_sailing,Manœuvre aérienne>>.
+*Plus subtil :*
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de <<skill_air_sailing,Manœuvre aérienne>>.
 
-Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de <<skill_air_sailing,Manœuvre aérienne>>, ou de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
+*Membre d'équipage :*
+Un Navigateur aérien peut utiliser un point de Karma dans le cadre de n'importe quel jet effectué durant un combat de masse ayant lieu à bord d'un navire aérien.
+
+*Pied marin :*
+Un Navigateur aérien obtient un bonus de +2 à tous ses jets de <<skill_air_sailing,Manœuvre aérienne>>.
 
 *Talents de discipline :* <<talent_acrobatic_strike,Attaque acrobatique>>, <<talent_great_leap,Bondissement>>, <<talent_avoid_blow,Esquive>>, <<talent_wind_catcher,Vol plané>>
 
@@ -457,8 +497,10 @@ Un Navigateur aérien peut utiliser un point de Karma dans le cadre d'un jet de 
 === Nécromancien
 *Prérequis :* <<ranks,Novice>>, Âme d6+, <<skill_intimidation,Intimidation>> d6+
 
+*Magicien :*
 Un Nécromancien obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
+*Regard noir :*
 Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skill_intimidation,Intimidation>>.
 
 *Talents de discipline :* <<talent_lionheart,Cœur de lion>>, <<talent_summoning,Invocation (Morts)>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_astral_sight,Vision astrale>>
@@ -469,8 +511,10 @@ Un Nécromancien peut utiliser un point de Karma dans le cadre d'un jet d'<<skil
 === Sorcier
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_investigation,Renseignements>> d6+
 
+*Magicien :*
 Un Sorcier obtient l'Atout <<edge_arcane_magic,Arcanes (Magie)>>.
 
+*Rat de bibliothèque :*
 Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_investigation,Renseignements>>.
 
 *Talents de discipline :* <<talent_evidence_analysis,Analyse des indices>>, <<talent_spell_matrix,Matrice de sorts>>, <<talent_book_memory,Mémoire des livres>>, <<talent_astral_sight,Vision astrale>>
@@ -481,11 +525,19 @@ Un Sorcier peut utiliser un point de Karma dans le cadre d'un jet de <<skill_inv
 === Troubadour
 *Prérequis :* <<ranks,Novice>>, Intellect d6+, <<skill_persuasion,Persuasion>> d6+
 
+*Fort en gueule :*
+Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de <<skill_taunt,Sarcasmes>>.
+
+*Lien social :*
+Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de <<skill_investigation,Renseignements>>.
+
+*Voix de velours :*
+Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de <<skill_persuasion,Persuasion>>.
+
+*Sourire ravageur :*
 Le Charisme d'un Troubadour est augmenté de 2.
 
-Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de <<skill_persuasion,Persuasion>>, de <<skill_taunt,Sarcasmes>> ou de <<skill_investigation,Renseignements>>.
-
-*Talents de discipline :* <<talent_emotion_song,Chant d'émotion>>, <<talent_speak_language,Glossolalie>>, <<talent_item_history,Histoire des objets>>, <<talent_winning_smile,Sourire ravageur>>
+*Talents de discipline :* <<talent_emotion_song,Chant d'émotion>>, <<talent_incite_mob,Échauffement des foules>>, <<talent_speak_language,Glossolalie>>, <<talent_item_history,Histoire des objets>>
 
 
 
@@ -493,9 +545,14 @@ Un Troubadour peut utiliser un point de Karma dans le cadre d'un jet de <<skill_
 === Voleur
 *Prérequis :* <<ranks,Novice>>, Agilité d6+, <<skill_stealth,Discrétion>> d6+
 
-Un Voleur ajoute +2 à tous ses jets de <<skill_stealth,Discrétion>>.
+*Examen des serrures :*
+Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_lockpicking,Crochetage>>.
 
-Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_lockpicking,Crochetage>> ou de <<skill_stealth,Discrétion>>.
+*Manteau d'ombres :*
+Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_stealth,Discrétion>>.
+
+*Pas de velours :*
+Un Voleur ajoute +2 à tous ses jets de <<skill_stealth,Discrétion>>.
 
 *Talents de discipline :* <<talent_surprise_strike,Attaque surprise>>, <<talent_avoid_blow,Esquive>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_dead_fall,Fausse mort>>
 
@@ -802,8 +859,8 @@ Dans le cadre de ce talent, ce jet ne lui prend qu'une action.
 Ce jet ne bénéficie d'aucun bonus ou malus du aux conditions de convalescence.
 Il souffre cependant des malus dus au blessures comme d'habitude.
 
-[[talent_winning_smile]]
-=== Sourire ravageur
+[[talent_incite_mob]]
+=== Échauffement des foules
 *Prérequis :* <<ranks,Gardien>>, <<skill_persuasion,Persuasion>> d8+
 
 Lors d'un jet de <<skill_persuasion,Persuasion>>, le personnage peut dépenser un point de Karma pour affecter un nombre d'Extras égal à son <<ranks,Rang>>.
