@@ -945,7 +945,8 @@ Hormis échouer à lancer son sort, le magicien ne peut souffrir d'aucun effet i
 
 [[learn_spell]]
 ==== Apprendre un nouveau sort
-Apprendre un nouveau sort se fait en achetant l'Atout Nouveau pouvoir.
+Apprendre un sort est une action qui coûte un <<karma,point de karma>> mais ne requiert aucun test.
+Un personnage peut apprendre de la sorte un sort d'un <<ranks,cercle>> supérieur au sien, mais il lui en coûte un <<karma,point de karma>> supplémentaire par <<ranks,cercle>> manquant.
 
 [[grimoire_casting]]
 ==== Lancement de sorts à travers un grimoire
@@ -953,6 +954,8 @@ Un magicien peut lancer un sort à travers un grimoire, que ce grimoire soit le 
 Il n'a pas besoin de <<learn_spell,connaître personnellement>> le sort à lancer, mais celui-ci doit figurer dans le grimoire.
 
 Lancer un sort à travers un grimoire se fait selon la <<spell_casting,procédure normale>>, mais le malus d'incantation est augmenté de 2.
+
+Un personnage peut lancer un sort d'un <<ranks,cercle>> supérieur au sien, cependant, son <<spell_casting,Test d'Incantation>> ainsi que son <<thread_weaving,Test de Tissage>> souffrent dans ce cas d'un malus de -1 par <<ranks,Cercle>> manquant.
 
 *Contrecoup :*
 Si le magicien obtient un 1 sur son dé d'<<skill_spellcating,Incantation>> (peu importe le dé Joker), il est automatiquement Secoué.
@@ -1004,6 +1007,84 @@ Cela constitue une action.
   Avec une Relance, le personnage incrédule peut éventuellement entreprendre ses autres actions du round sans que celles-ci souffrent du malus d'actions multiples (_Savage Worlds_ page 112).
 * Si le jet échoue, le personnage subit pleinement les effets du sort illusoire.
 * Si le sort auquel le personnage résiste n'est pas une illusion, le personnage en subit pleinement les effets, que le jet d'incrédulité soit un succès ou non.
+
+
+
+
+
+[[spell_list]]
+== Grimoire
+
+* Le « rang » d'un personnage au sens Earthdawn correspond à son <<ranks,Cercle>>.
+* Si un sort est indiqué « MOOT », c'est que ses effets peuvent être improvisés sans difficultés.
+  La plupart du temps, les détails chiffrés ne sont pas importants.
+
+=== Sorts d'élémentaliste
+
+==== Sorts du premier cercle
+*Arme de Feu*: <<spell_smite,Frappe>> +
+*Camouflage*: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Discrétion>>) +
+*Langage des plantes*: <<spell_speak_language,Compréhension des langues>> (plantes uniquement) +
+*Monte-en-l'Air*: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_climbing,Escalade>>) +
+*Poussière de Cristal*: <<spell_bolt,Éclair>> (cible unique) +
+*Purification de l'eau*: MOOT +
+*Réchauffage des Aliments*: MOOT +
+*Résistance au Feu*: <<spell_armor,Armure>> (vs feu uniquement) +
+*Résistance au Froid*: <<spell_armor,Armure>> (vs froid uniquement) +
+
+==== Sorts du second cercle
+*Branchies*: <<spell_environmental_protection,Adaptation environnementale>> (respiration sous l'eau) +
+*Collage*: <<spell_entangle,Enchevêtrement>> (couple de cibles) +
+*Ébullition*: MOOT +
+*Lance de glace*: Poussière de Cristal en moins bon +
+*Ralentissement du métal*: <<spell_deflection,Déflexion>> (arme unique en métal) +
+*Retour au bercail*: MOOT +
+*Stérilisation*: MOOT +
+*Tapis de glace*: <<spell_pummel,Déluge de coups>> (100m², coté max 20m, cibles: Agilité => à terre, pas repoussées, pas secouées) +
+
+==== Sorts du troisième cercle
+*Création d'Esprit Porteur*: <<spell_summon_ally,Convocation d'allié>> (Force et Vigueur=Incantation, d4-2 partout, n'attaque pas) +
+*Faux fond*: <<spell_entangle,Enchevêtrement>> (à lancer sur une mare) +
+*Festin végétal*: MOOT +
+*Fléau de glace*: <<spell_bolt,Éclair>> +
+*Œil dans le dos*: MOOT +
+*Réparation*: <<skill_repair,Réparation>> instantanée = <<skill_spellcasting,Incantation>> +
+*Treillage Céleste*: MOOT (+2 aux jets d'<<skill_climbing,Escalade>> pour y grimper) +
+*Trône des vents*: <<spell_speed,Vitesse>> +
+
+==== Sorts du quatrième cercle
+*Allègement*: MOOT +
+*Bouclier d'Énergie*: <<spell_damage_field,Zone de dégâts>> (uniquement contre adversaires qui réussissent leur attaque sans Relance) +
+*Bourrasque*: <<spell_pummel,Déluge de coups>> +
+*Ébranlement du sol*: <<spell_entangle,Enchevêtrement>> (rayon:25m, pas de malus Force) +
+*Pâte suffocante*: <<spell_blind,Aveuglement>> +
+*Rappel des armes*: MOOT +
+*Sphère de Blizzard*: <<spell_blast,Explosion>> +
+
+==== Sorts du cinquième cercle
+*Ailes de Métal*: <<spell_fly,Vol>> +
+*Boule de Feu*: <<spell_blast,Explosion>> +
+*Cage de Pierre*: Âme pour dissiper, Résistance 8, vole en éclats à la première blessure +
+*Hurlements Métalliques*: <<spell_fear,Terreur>> (cibles doivent porter du métal) +
+*Tige de Terre*: bâton, Force+d8 (Force+d10 si Relance) +
+
+
+
+=== Sorts d'illusionniste
+
+TODO
+
+
+
+=== Sorts de nécromancien
+
+TODO
+
+
+
+=== Sorts de sorcier
+
+TODO
 
 
 
@@ -1186,7 +1267,7 @@ La puissance des pouvoirs que peut accorder un objet à filaments est limitée p
 
 
 [[design_notes]]
-== Notes de conception
+== Annexe 1: Notes de conception
 
 L'univers d'Earthdawn est fantastique, mais son système de jeu est lourd et difficile d'accès.
 Savage Worlds est un système plus léger, connu de mes joueurs, dont j'ai le livre de base en français,
@@ -1210,3 +1291,56 @@ Garder les objets magiques funs, avec un background et une mécanique moteurs de
 Mais les gros roxxeurs doivent rester les adeptes : un om est un plus, mais un adepte doit pouvoir faire sans.
 
 Sublimer l'approche pulp de _Savage Worlds_, et lui rajouter l'épique d'_Earthdawn_ !
+
+== Annexe 2: Sorts de Savage Worlds
+
+[[spell_environmental_protection]] N *Adaptation environnementale* (_Savage Worlds_ page 193) +
+[[spell_wall_walker]] N *Adhérence* (_Savage Worlds_ page 193) pattes d'araignée auto +
+[[spell_beast_friend]] N *Ami des bêtes* (_Savage Worlds_ page 193) commande animaux +
+[[spell_armor]] N *Armure* (_Savage Worlds_ page 194) +
+[[spell_boost_lower_trait]] N *Augmentation / Diminution de trait* (_Savage Worlds_ page 194) +
+[[spell_blind]] N *Aveuglement* (_Savage Worlds_ page 194) cible(s): Agilité à -2 => -2(-4) Parade +
+[[spell_banish]] V *Banissement* (_Savage Worlds_ page 194) Incantation vs Âme +
+[[spell_barrier]] A *Barrière* (_Savage Worlds_ page 195) solide +
+[[spell_Stun]] N *Choc* (_Savage Worlds_ page 195) cibles g.moyen: Vigueur => Secouées +
+[[spell_speak_language]] N *Compréhension des langues* (_Savage Worlds_ page 195) +
+[[spell_confusion]] N *Confusion* (_Savage Worlds_ page 195) cible: Intellect à -2 => Secouée +
+[[spell_summon_ally]] N *Convocation d'allié* (_Savage Worlds_ page 196) gardien, sentinelle, clone ou autre +
+[[spell_growth_shrink]] A *Croissance* / *Rapetissement* (_Savage Worlds_ page 197) change Taille +
+[[spell_deflection]] N *Déflexion* (_Savage Worlds_ page 197) attaquants: -2(-4) au Combat, Tir +
+[[spell_disguise]] A *Déguisement* (_Savage Worlds_ page 198) alter self +
+[[spell_pummel]] A *Déluge de coups* (_Savage Worlds_ page 198) cibles cône: Force => 2d6m + à terre ou Secouée si contre mur +
+[[spell_detect_conceal_arcana]] N *Détection* / *Dissimulation d'Arcanes* (_Savage Worlds_ page 198) +
+[[spell_dispel]] A *Dissipation* (_Savage Worlds_ page 198) +
+[[spell_divination]] H *Divination* (_Savage Worlds_ page 199) +
+[[spell_warrior_s_gift]] A *Don du guerrier* (_Savage Worlds_ page 199) cible gagne un Atout au choix +
+[[spell_bolt]] N *Éclair* (_Savage Worlds_ page 200) ATK projectile(s) +
+[[spell_entangle]] N *Enchevêtrement* (_Savage Worlds_ page 200) cible: Agilité => -2 Allure, skills Force ou Agilité +
+[[spell_burrow]] N *Enfouissement* (_Savage Worlds_ page 201) +
+[[spell_blast]] A *Explosion* (_Savage Worlds_ page 201) ATK de zone +
+[[spell_smite]] N *Frappe* (_Savage Worlds_ page 201) +2(+4) aux dégâts d'une arme +
+[[spell_greater_healing]] V *Grande guérison* (_Savage Worlds_ page 201) +
+[[spell_healing]] N *Guérison* (_Savage Worlds_ page 202) +
+[[spell_intangibility]] H *Intangibilité* (_Savage Worlds_ page 202) +
+[[spell_invisibility]] A *Invisibilité* (_Savage Worlds_ page 202) +
+[[spell_mind_reading]] N *Lecture des pensées* (_Savage Worlds_ page 203) +
+[[spell_light_obscure]] N *Lumière* / *Ténèbres* (_Savage Worlds_ page 203) annule ou donne -6 d'obscurité +
+[[spell_elemental_manipulation]] N *Manipulation élémentaire* (_Savage Worlds_ page 203) petits effets +
+[[spell_puppet]] V *Marionnette* (_Savage Worlds_ page 204) cible: Âme => control +
+[[spell_burst]] N *Rafale* (_Savage Worlds_ page 204) ATK cône +
+[[spell_slow]] A *Ralentissement* (_Savage Worlds_ page 205) cible: Âme => mvt=action -> malus AMultiples +
+[[spell_quickness]] A *Rapidité* (_Savage Worlds_ page 205) deux rounds d'action +
+[[spell_havoc]] A *Ravage* (_Savage Worlds_ page 205) genre tornade +
+[[spell_succor]] N *Secours* (_Savage Worlds_ page 206) soigne niveaux de fatigue +
+[[spell_drain_power_points]] H *Siphon d'énergie* (_Savage Worlds_ page 206) récup PP +
+[[spell_slumber]] A *Sommeil* (_Savage Worlds_ page 206) cibles gab moyen: Âme => dodo +
+[[spell_telekinesis]] A *Télékinésie* (_Savage Worlds_ page 206) +
+[[spell_teleport]] A *Téléportation* (_Savage Worlds_ page 207) genre 20-30m +
+[[spell_fear]] N *Terreur* (_Savage Worlds_ page 208) cibles grand gab Terreur => jet sur table +
+[[spell_shape_change]] N *Transformation* (_Savage Worlds_ page 208) métamorphose animale +
+[[spell_darksight]] N *Vision dans le noir* (_Savage Worlds_ page 209) réduit(ignore) malus d'obs +
+[[spell_farsight]] A *Vision lointaine* (_Savage Worlds_ page 209) réduit malus de distance +
+[[spell_speed]] N *Vitesse* (_Savage Worlds_ page 209) booste l'Allure +
+[[spell_fly]] V *Vol* (_Savage Worlds_ page 209) +
+[[spell_zombie]] V *Zombi* (_Savage Worlds_ page 209) +
+[[spell_damage_field]] A *Zone de dégâts* (_Savage Worlds_ page 210) cible et/ou adversaires: atk réussie => 2d6(2d8) dégâts
