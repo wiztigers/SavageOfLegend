@@ -674,7 +674,7 @@ div.unbreakable { page-break-inside: avoid; }
 
 @font-face { font-family: "Chelsea"; src: url("../SavageOfLegend/fonts/CHS____.TTF") format("truetype"); }
 @font-face { font-family: "Willow"; src: url("../SavageOfLegend/fonts/WILLOW_.TTF") format("truetype"); }
-h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "Chelsea", sans-serif; }
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "Chelsea", sans-serif; text-transform: uppercase; }
 
 p { margin: 0em; }
 
