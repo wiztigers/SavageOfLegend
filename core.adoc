@@ -1482,20 +1482,64 @@ La puissance des pouvoirs que peut accorder un objet à filaments est limitée p
 
 == Trésors magiques
 
+[[treasure_frost_pouch]]
+[role='treasure']
+=== Bourse de givre
+. *Novice*
+** *Connaissance clef :*
+   Le porteur doit apprendre le nom de la bourse.
+** *Effet :*
+   La bourse autorise le porteur à employer des particules de givre comme arme de jet.
+   Elles occasionnent des dégâts de 2d6 suite à un jet d'<<skill_ranged_weapons,Armes à distance>> réussi.
+. *Compagnon*
+** *Connaissance clef :*
+   Le givre contenu dans la bourse provient d'un sommet neigeux ou d'un glacier dont le porteur doit apprendre le nom.
+** *Haut fait :*
+   Le porteur doit retrouver la montagne ou le glacier d'origine du givre et y remplir la bourse de neige ou de glace.
+** *Effet :*
+   Si le porteur touche sa cible, l'Allure de celle-ci est réduite de 2.
+   En cas de Relance, elle est en plus congelée (Sonnée).
+
+[[treasure_spell_sword]]
+[role='treasure']
+=== Épée de sorts
+. *Novice*
+** *Connaissance clef :*
+   Le porteur doit apprendre le nom de l'épée.
+** *Effet :*
+   Aucun.
+. *Compagnon*
+** *Connaissance clef :*
+   Le porteur doit parvenir à déterminer la proportion exacte d'éléments primordiaux utilisés pour forger l'épée.
+** *Effet :*
+   Le porteur obtient un talent de <<talent_spell_matrix,Matrice de sorts>> supplémentaire.
+. *Gardien*
+** *Connaissance clef :*
+   Le porteur doit apprendre le nom du dernier possesseur de l'épée ainsi que son plus grand Haut Fait accompli avec elle.
+   Il doit ensuite inscrire ce nom et ce Haut Fait sur la lame de l'épée.
+** *Haut fait :*
+   Le porteur doit décider d'un Haut Fait à accomplir grâce à l'épée et déclarer publiquement son intention.
+   Ce Haut Fait n'implique pas forcément un combat ; le porteur peut par exemple jurer de ne pas dégainer son épée avant d'avoir résolu une situation problématique.
+   Une fois son Haut Fait accompli, le porteur peut augmenter son rang de filament sans dépenser de Karma.
+** *Effet :*
+   L'épée occasionne des dégâts de Force+d10.
+
+[[treasure_landis_war_helm]]
 [role='treasure']
 === Heaume de guerre de Landis
 . *Novice*
 ** *Connaissance clef :*
    Le porteur doit apprendre le nom du heaume.
 ** *Haut fait :*
-   Le porteur doit polir et restayrer le heaume.
+   Le porteur doit polir et restaurer le heaume.
 ** *Effet :*
    Le porteur ajoute 1 à son Charisme.
 . *Compagnon*
 ** *Connaissance clef :*
-  Le porteur doit apprendre le nom de l'unité militaire placée autrefois sous le commandement du premier détenteur du heaume.
+   Le porteur doit apprendre le nom de l'unité militaire placée autrefois sous le commandement du premier détenteur du heaume.
 ** *Effet :*
-  Le porteur ajoute 1 à son Armure.
+   Le porteur ajoute 1 à son Armure.
+
 
 
 
