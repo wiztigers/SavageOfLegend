@@ -1,6 +1,6 @@
 ﻿@import "settings/AgeOfLegend";
 @import "components/asciidoc";
-
+/*
 @font-face {
 	font-family: 'CHS';
 	src:
@@ -19,7 +19,7 @@
 		local('WILLOW_'),
 		url('fonts/WILLOW_.TTF', CHS) format('truetype');
 }
-
+*/
 $font-title: 'CHS', sans-serif;
 $font-text: 'Willow', serif;
 $font-color: #000000;
