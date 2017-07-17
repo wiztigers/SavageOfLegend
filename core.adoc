@@ -102,8 +102,9 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 [[race_humans]]
 [role='race']
 === Humains
-*Atout :* Un humain débute avec un <<edges,Atout>> gratuit de leur choix, qui peut être l'Atout <<edge_versatility,Polyvalence>>. +
-*Potentiel :* Un humain débute avec 1 <<build_your_legend,point de Légende>> supplémentaire.
+*Potentiel :* Un humain débute avec 3 <<build_your_legend,points de Légende>> supplémentaire.
+Il ne peut pas se servir de ces points pour augmenter un de ses Attributs.
+Il peut par contre acheter l'Atout de <<edge_versatility,Polyvalence>>, s'il le désire.
 
 [[race_dwarves]]
 [role='race']
@@ -140,7 +141,7 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 Il lui coûte 2 points d'Allure pour monter d'une case.
 Un sylphelin peut voler au maximum 15 minutes d'affilée.
 Il doit se reposer 1 minute pour récupérer de chaque minute passée en vol. +
-En vol, l'Allure d'un sylphelin est de 10. +
+En vol, l'Allure d'un sylphelin est de 8. +
 Au sol, l'Allure d'un sylphelin est de 4. +
 *Sensibilité astrale :* Un sylphelin peut percevoir l'espace astral, comme décrit par le talent <<talent_astral_sight,Vision astrale>>.
 Un sylphelin n'a pas besoin de dépenser de points de Karma pour activer cette faculté. +
@@ -160,7 +161,7 @@ Tous les trolls débutent avec le Handicap Code d'Honneur (Majeur) (_Savage Worl
 [[race_tskrangs]]
 [role='race']
 === T'skrangs
-*Aquatique :* Un t'skrang ne peut pas se noyer dans l'eau, se déplace à une Allure égal à son dé de Natation, et débute avec d6 en <<skill_swimming,Natation>>. +
+*Aquatique :* Un t'skrang ne peut pas se noyer dans l'eau, se déplace à une Allure égal à son dé de <<skill_swimming,Natation>>, et débute avec d6 en <<skill_swimming,Natation>>. +
 *Attaque caudale :* Un t'skrang peut frapper à l'aide de sa queue à For+d6 de dégâts.
 
 [[skills]]
@@ -310,6 +311,16 @@ Une seule fois par jour, un adepte peut effectuer un rituel karmique propre à s
 À l'issue de ce rituel qui dure une demie-heure, il regagne un point de Karma.
 Un joueur peut aussi voir son personnage regagner ses points de Karma comme il regagnerait des Jetons, en fonction de ses actions et de la qualité de son interprétation (_Savage Worlds_ page 224).
 
+
+
+[[blood_magic]]
+== Magie du sang
+
+Chaque personnage possède un _maximum de Dommages Permanents_ égale à sa Résistance.
+
+Chaque fois qu'il a recours à un rituel de magie du sang, ou qu'il se greffe un charme de sang, il augmente son compteur de Dommage Permanents de la valeur correspondante.
+
+Lorsque la valeur actuelle de son compteur de Dommages Permanents dépasse son maximum, il doit réussir un jet d'Âme à chaque fois qu'il a recours à un rituel de magie du sang, ou qu'il se greffe ou qu'il utilise un charme de sang. Si ce jet est un échec, son architrame est détruite, et lui avec, de manière potentiellement spectaculaire.
 
 
 
