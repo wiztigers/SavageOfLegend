@@ -10,8 +10,8 @@ git clone https://github.com/asciidoctor/asciidoctor-stylesheet-factory.git ${st
 cp -R sass ${stylesdir}/
 # compile our stylesheet (and every other stylesheet)
 cd ${stylesdir} && compass compile && cd -
-# copy fonts directory
-cp -R fonts ${stylesdir}/stylesheets/
+# copy fonts to export directory
+cp -R fonts ${exportdir}
 # copy compiled css to export directory
 cp "${stylesdir}/stylesheets/${stylename}.css" "${exportdir}/${stylename}.css"
 # generate HTML
