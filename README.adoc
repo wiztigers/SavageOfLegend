@@ -1,7 +1,7 @@
 Ce dépôt contient les sources de https://wiztigers.github.io/SavageOfLegend[*Savage Of Legend*], mon adaptation du système Savage Worlds à l'univers d'Earthdawn.
 Vous pouvez consulter le résultat en ligne https://wiztigers.github.io/SavageOfLegend[à l'adresse suivante].
 
-Pour toute suggestion, ajout ou modification, n'hésitez pas à me contacter en créen https://github.com/wiztigers/SavageOfLegend/issues/new[une issue] ou https://github.com/wiztigers/SavageOfLegend/compare[une pull request] !
+Pour toute suggestion, ajout ou modification, n'hésitez pas à me contacter en créant https://github.com/wiztigers/SavageOfLegend/issues/new[une issue] ou https://github.com/wiztigers/SavageOfLegend/compare[une pull request] !
 
 image::https://travis-ci.org/wiztigers/SavageOfLegend.svg?branch=master[link=https://travis-ci.org/wiztigers/SavageOfLegend]
 image::https://img.shields.io/badge/license-CC%20BY%20NC%20SA-blue.svg[link=https://creativecommons.org/licenses/by-nc-sa/4.0/]
