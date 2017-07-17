@@ -66,3 +66,15 @@ ol > li:before {
 
 	border-radius: 999px;
 }
+
+
+///
+.treasure ol > li {
+	padding: 0em;
+}
+.treasure ol > li:before {
+	content: none;
+}
+.treasure ul > li {
+	list-style: none;
+}

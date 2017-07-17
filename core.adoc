@@ -1451,7 +1451,6 @@ Il est possible de transformer un objet ordinaire en objet à filaments (ou d'am
 |L'objet a été indispensable à un Haut Fait ou plus |+1 à +4
 |L'objet inclut des matériaux élémentaires ou rares |+1 à +2
 |L'objet a été fabriqué par l'enchanteur lui-même   |+1
-|L'objet est un objet de trame                      |+Rang
 |Le rituel d'enchantement est particulièrement long |+1
 |===
 
@@ -1481,6 +1480,22 @@ La puissance des pouvoirs que peut accorder un objet à filaments est limitée p
 ^4^ Si le porteur ne possède pas la Compétence, il l'acquiert à d4. +
 ^5^ Le porteur n'a pas besoin d'en satisfaire les prérequis.
 
+== Trésors magiques
+
+[role='treasure']
+=== Heaume de guerre de Landis
+. *Novice*
+** *Connaissance clef :*
+   Le porteur doit apprendre le nom du heaume.
+** *Haut fait :*
+   Le porteur doit polir et restayrer le heaume.
+** *Effet :*
+   Le porteur ajoute 1 à son Charisme.
+. *Compagnon*
+** *Connaissance clef :*
+  Le porteur doit apprendre le nom de l'unité militaire placée autrefois sous le commandement du premier détenteur du heaume.
+** *Effet :*
+  Le porteur ajoute 1 à son Armure.
 
 
 
