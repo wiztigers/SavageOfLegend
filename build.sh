@@ -6,5 +6,5 @@ stylename="AgeOfLegend"
 
 cp -R sass ${stylesdir}/
 cd ${stylesdir} && compass compile && cd -
-cp -R fonts ${stylesdir}/stylesheets/
-asciidoctor     core.adoc -a linkcss -a stylesheet=${stylesdir}/stylesheets/${stylename}.css -o ${exportdir}/index.html
+#cp -R fonts ${stylesdir}/stylesheets/
+asciidoctor     core.adoc -a stylesheet=${stylesdir}/stylesheets/${stylename}.css -o ${exportdir}/index.html
