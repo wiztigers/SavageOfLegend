@@ -689,3 +689,9 @@ ul, ol { counter-reset: numList; }
 ol > li { position: relative; list-style: none; padding-left: 0.2875em; }
 
 ol > li:before { counter-increment: numList; content: counter(numList); position: absolute; left: -1.15em; margin-top: 0.2875em; width: 1.15em; height: 1.15em; background: #000000; font: bold 0.8625em sans-serif; line-height: 1.15em; text-align: center; color: #fff; border-radius: 999px; }
+
+.treasure ol > li { padding: 0em; }
+
+.treasure ol > li:before { content: none; }
+
+.treasure ul > li { list-style: none; }
