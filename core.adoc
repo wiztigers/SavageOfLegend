@@ -307,8 +307,8 @@ Un point de Karma peuvent être dépensé pour :
   Pour un jet donné, un maximum d'un seul point de Karma peut être utilisé de cette manière.
 
 Une seule fois par jour, un adepte peut effectuer un rituel karmique propre à sa discipline.
-Ce rituel lui permet de regagner un point de Karma.
-
+À l'issue de ce rituel qui dure une demie-heure, il regagne un point de Karma.
+Un joueur peut aussi voir son personnage regagner ses points de Karma comme il regagnerait des Jetons, en fonction de ses actions et de la qualité de son interprétation (_Savage Worlds_ page 224).
 
 
 
