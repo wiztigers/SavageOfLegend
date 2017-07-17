@@ -744,7 +744,7 @@ Si le jet est réussi, le personnage échappe totalement au piège.
 === Fausse mort
 *Prérequis :* <<ranks,Compagnon>>, Intellect d6+
 
-Ce talent est une illusion.
+Ce talent est une <<disbelief,illusion>>.
 
 Le personnage peut dépenser un point de Karma et une action pour simuler sa mort.
 Tous les autres personnages présents se comportent comme s'il avait été mortellement touché.
