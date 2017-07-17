@@ -26,10 +26,10 @@ Bonne lecture !
 
 
 [[build_your_legend]]
-== Bâtir sa Légende
+== Écrire sa propre légende
 
 Les points de Légende permettent d'acheter des améliorations de personnage.
-Les coûts de ces améliorations sont comme-ci :
+Les coûts de ces améliorations sont les suivants :
 
 * Choisir un nouvel <<edges,Atout>> (2 points de Légende)
 * Augmenter une <<skills,Compétence>> dont la valeur est égale ou supérieure au Trait associé (2 points de Légende)
@@ -38,8 +38,8 @@ Les coûts de ces améliorations sont comme-ci :
 * Prendre une nouvelle <<skill_knowledge,Connaissance>> (1 point de Légende)
 * Augmenter un Attribut (2 points de Légende, une seule fois par <<ranks,Rang>>)
 
-=== Création de personnage
-La création du personnage suit la procédure habituelle (_Savage Worlds_ pages 26,72), avec les ajustements suivants :
+=== Création d'un héros
+La création de personnage suit la procédure habituelle (_Savage Worlds_ pages 26,72), avec les ajustements suivants :
 
 1. Choix de la race
 2. Choix des Traits
@@ -60,7 +60,7 @@ La création du personnage suit la procédure habituelle (_Savage Worlds_ pages 
 
 Un personnage nouvellement créé est de <<ranks,Cercle>> 1.
 
-=== Progression du personnage
+=== Progression d'un héros
 Tous les 5 XP gagnés, un personnage gagne un Cercle.
 Il bénéficie alors de 2 <<build_your_legend,points de Légende>>.
 
@@ -83,9 +83,9 @@ Cet entraînement n'est pas nécessaire pour les adeptes ayant atteint le Rang d
 |===
 
 Un adepte d'un Rang au moins égal à celui de Compagnon peut se passer d'instructeur vivant et invoquer un maître fantôme.
-Chaque rituel du maître fantôme a une durée d'une nuit.
+Chaque rituel du maître fantôme nécessite une pièce d'orichalque et dure toute une nuit.
 Le personnage fait un jet d'Âme.
-Une réussite invoque le maître fantôme pour toute la nuit.
+Une réussite invoque le maître fantôme pour le reste de la nuit.
 Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) minutes.
 
 
