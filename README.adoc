@@ -1,0 +1,3 @@
+image::https://travis-ci.org/wiztigers/SavageOfLegend.svg?branch=master[link=https://travis-ci.org/wiztigers/SavageOfLegend]
+image::https://img.shields.io/badge/license-CC%20BY%20NC%20SA-blue.svg[link=https://creativecommons.org/licenses/by-nc-sa/4.0/]
+image::https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png[Creative Commons License, link="http://creativecommons.org/licenses/by-nc-sa/4.0/"]
