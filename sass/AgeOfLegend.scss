@@ -2,30 +2,13 @@
 @import "components/asciidoc";
 
 @font-face {
-	font-family: 'CHS';
-	src:
-		local('CHS____'),
-		url('fonts/CHS____.otf', CHS) format('opentype');
-	src:
-		local('CHS____'),
-		url('fonts/CHS____.TTF', CHS) format('truetype');
+	font-family: $font-chelsea;
+	src: url("../SavageOfLegend/fonts/CHS____.TTF") format('truetype');
 }
 @font-face {
-	font-family: 'Willow';
-	src:
-		local('WILLOW_'),
-		url('fonts/WILLOW_.otf', CHS) format('opentype');
-	src:
-		local('WILLOW_'),
-		url('fonts/WILLOW_.TTF', CHS) format('truetype');
+	font-family: $font-willow;
+	src: url("../SavageOfLegend/fonts/WILLOW_.TTF") format('truetype');
 }
-
-$font-title: 'CHS', sans-serif;
-$font-text: 'Willow', serif;
-$font-color: #000000;
-$bullet-number-size: 1.15em;
-$bullet-number-font-size: $bullet-number-size*0.75;
-$bullet-number-offset: 0.25*$bullet-number-size;
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-title;
