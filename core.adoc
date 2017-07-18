@@ -1282,19 +1282,50 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 === Sorts de nécromancien
 
 ==== Sorts du premier cercle
-TODO
+*Affrontement des Morts-Vivants*: MOOT (test d'Âme opposé avec le MV, le gagnant inflige des dégâts égaux à son jet, dé Joker inclus) +
+*Cercle Froid:* MOOT (1d4 de dégats) +
+*Chasse-Insectes:* MOOT (les insectes ont besoin test d'Âme pour s'en prendre à la cible) +
+*Danse des Os:* cible <<spell_entangle,Enchevêtrée>> ou Secouée si Relance +
+*Détection des Morts-Vivants:* MOOT (portée: 25m) +
+*Emprise spectrale:* <<spell_bolt,Éclair>> (cibles au contact uniquement) +
+*Expérience de la mort:* MOOT (le perso dispose de 1 reserve de blessure +1 autre si Relance) +
+*Mouillage & Séchage:* MOOT +
+*Putréfaction:* MOOT (10kgs de nourriture) +
+*Voix des Oiseaux de Nuit:* <<spell_beast_friend,Ami des bêtes>> (volants nocturnes uniquement) +
 
 ==== Sorts du second cercle
-TODO
+*Bouclier de Brume:* <<spell_deflection,Déflexion>> +
+*Cercle de Protection contre les Animaux:* MOOT (les animaux ont besoin d'un test d'Âme pour y entrer) +
+*Cercle de Vie:* MOOT (les MV/H/CH ont besoin d'un test d'Âme pour y entrer, un seul ennemi repoussé par round) +
+*Cercle d'Ossements:* MOOT (traits de l'esprit des os égal au dé d'<<skill_spellcasting,Incantation>> +
+*Fantôme de Brume:* MOOT (traits du fantôme égal à d6) +
+*Gardien de Poche:* MOOT (rafut, dégâts 1d4 sans jet pour toucher) +
+*Ténèbres Éthérées:* <<spell_light_obscure,Ténèbres>> (uniquement) +
 
 ==== Sorts du troisième cercle
-TODO
+*Brume de Peur:* <<spell_fear,Terreur>> +
+*Double Spectral:* MOOT clone grossier (Force, Vigueur et Agilité identiques, échoue à tous ses jets d'Âme ou d'Intellect, 10+rang rounds) +
+*Douleur:* <<spell_confusion,Confusion>> +
+*Empaquetage:* MOOT +
+*Message d'Outre-Tombe:* MOOT (portée 150km, Relance nécessaire si >40km) +
+*Tête de Mort:* <<spell_fear,Terreur>> +
 
 ==== Sorts du quatrième cercle
-TODO
+*Animation de Squelettes:* <<skill_summoning,Invocation>> limitée aux squelettes sans posséder le <<talent_summoning,talent correspondant>> +
+*Flamboiement Astral:* <<spell_blind,Aveuglement>> (cibles en perception astrale uniquement) +
+*Lorgnette:* MOOT +
+*Mauvais Œil:* cible: -1 à tous ses tests, jet d'Âme à chaque round pour annuler +
+*Nourriture Mortelle:* <<spell_blast,Explosion>> lorsque 3 aliments mélangés +
+*Serviteur spectral:* MOOT (majordome non combattant) +
+*Visions de Mort:* <<spell_stun,Choc>> (la cible résiste avec l'Âme) +
 
 ==== Sorts du cinquième cercle
-TODO
+*Animation d'Objet:* MOOT (Force, Vigueur et Agilité de l'objet suivant sa taille (peigne:d4 chaise:d6 armoire:d8), dé augmenté si Relance, Âme et Intellect toujours d6) +
+*Cercle de Protection Astrale:* MOOT +
+*Faille Astrale:* MOOT (cible: Âme à -2, sinon portée des sorts non «toucher» passe à 1km) +
+*Flétrissement:* <<spell_bolt,Éclair>> (membre flétri si blessure infligée) +
+*Horreur Astrale:* +*+ MOOT (un *Fantôme de brume* qui attaque 2×) +
+*Sceau de Garde:* MOOT (3d10 de dégâts si approche quand même) +
 
 
 
@@ -1592,7 +1623,7 @@ Sublimer l'approche pulp de _Savage Worlds_, et lui rajouter l'épique d'_Earthd
 [[spell_blind]] N *Aveuglement* (_Savage Worlds_ page 194) cible(s): Agilité à -2 => -2(-4) Parade +
 [[spell_banish]] V *Banissement* (_Savage Worlds_ page 194) Incantation vs Âme +
 [[spell_barrier]] A *Barrière* (_Savage Worlds_ page 195) solide +
-[[spell_Stun]] N *Choc* (_Savage Worlds_ page 195) cibles g.moyen: Vigueur => Secouées +
+[[spell_stun]] N *Choc* (_Savage Worlds_ page 195) cibles g.moyen: Vigueur => Secouées +
 [[spell_speak_language]] N *Compréhension des langues* (_Savage Worlds_ page 195) +
 [[spell_confusion]] N *Confusion* (_Savage Worlds_ page 195) cible: Intellect à -2 => Secouée +
 [[spell_summon_ally]] N *Convocation d'allié* (_Savage Worlds_ page 196) gardien, sentinelle, clone ou autre +
