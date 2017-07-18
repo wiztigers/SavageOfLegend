@@ -673,11 +673,9 @@ div.unbreakable { page-break-inside: avoid; }
 
 .yellow-background { background-color: #fafa00; }
 
-h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "AlbertText", sans-serif; }
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: "AlbertText", sans-serif; margin: 0em; margin-top: 1em; }
 
 p { margin: 0em; }
-
-.race h3, .race #toctitle, .race .sidebarblock > .content > .title, .skill h3, .skill #toctitle, .skill .sidebarblock > .content > .title, .discipline h3, .discipline #toctitle, .discipline .sidebarblock > .content > .title, .edge h3, .edge #toctitle, .edge .sidebarblock > .content > .title { margin: 0em; margin-top: 1em; }
 
 ul, .ulist, ul > li p, ol, .olist, ol > li p, .ulist .ulist, .ulist .olist, .olist .olist, .olist .ulist { margin: 0em; padding: 0em; }
 
