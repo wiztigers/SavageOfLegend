@@ -1361,7 +1361,7 @@ Cela constitue une action.
 *Dague Mentale*: <<spell_bolt,Éclair>> (dégâts 2d6 sur cible unique uniquement) +
 *Divination d'Aura*: <<spell_mind_reading,Lecture des pensées>> (un type de sentiment uniquement) +
 *Éclair de Feu*: <<spell_bolt,Éclair>> (dégâts 2d6 de feu sur cible unique uniquement) +
-*Embrasement*: MOOT +
+*Embrasement*: MOOT (_Savage Worlds_ page 155) +
 *Main de Fer*: <<spell_smite,Frappe>> +
 *Pattes d'Araignée*: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_climbing,Escalade>>) +
 *Sensation Astrale*: <<talent_astral_sight,Vision astrale>> progressive mais discrète +
@@ -1574,8 +1574,8 @@ La puissance des pouvoirs que peut accorder un objet à filaments est limitée p
 |Nouvel <<edges,Atout>> ^5^                   |2
 |===
 ^1^ Armes à distance uniquement. +
-^2^ Armes uniquement. Le bonus de dégâts n'est pas limité par la Force de l'utilisateur. +
-^3^ Armure uniquement. Le bonus d'armure s'applique aussi contre les dégâts magiques. +
+^2^ Armes uniquement. Le bonus de dégâts n'est pas limité par la Force de l'utilisateur (_Savage Worlds_ page 83). +
+^3^ Armures uniquement. Le bonus d'armure s'applique aussi contre les dégâts magiques. +
 ^4^ Si le porteur ne possède pas la Compétence, il l'acquiert à d4. +
 ^5^ Le porteur n'a pas besoin d'en satisfaire les prérequis.
 
