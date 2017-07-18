@@ -1233,7 +1233,7 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 
 ==== Sorts du premier cercle
 
-*Bonne Figure* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Persuasion>>, uniquement pour convaincre de son identité ou se comporter en fonction de son rôle) +
+*Bonne Figure* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, uniquement pour convaincre de son identité ou se comporter en fonction de son rôle) +
 *Bourse Plate*: MOOT +
 *Contact Rassurant*: La cible acquiert l'<<eges,Atout>> Brave. +
 *Corde Enchantée*: MOOT +
@@ -1245,7 +1245,7 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 ==== Sorts du second cercle
 *Activité Innocente* +*+: MOOT +
 *Éclair vert* +*+: <<spell_bolt,Éclair>> +
-*Habillage* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Persuasion>>, pour améliorer l'attitude) +
+*Habillage* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, pour améliorer l'attitude) +
 *Idée fixe* +*+: MOOT +
 *Manteau de pluie*: <<spell_environmental_protection,Adaptation environnementale>> (froid chaud) et <<spell_armor,Armure>> (contre dégâts de pluie naturelle ou magique uniquement) +
 *Manteau monstrueux* +*+: <<spell_smite,Frappe>> +
@@ -1271,7 +1271,7 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 
 ==== Sorts du cinquième cercle
 *Amélioration du Karma* +*+: MOOT (utiliser un <<karma,point de Karma>> rajoute ++3 au lieu de +2+) +
-*Belles Manières* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Persuasion>>, tant que le personnage se comporte en gars de la Haute) +
+*Belles Manières* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, tant que le personnage se comporte en gars de la Haute) +
 *Douce Rêverie* +*+: <<spell_slumber,Sommeil>> +
 *Muraille de Feu* +*+: <<spell_barrier,Barrière>> de feu +
 *Tapis volant*: <<spell_fly,Vol>> (à lancer sur un tapis) +
@@ -1333,19 +1333,49 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 === Sorts de sorcier
 
 ==== Sorts du premier cercle
-TODO
+*Attaque Mentale:* <<spell_bolt,Éclair>> (dégâts 2d6 sur cible unique uniquement) +
+*Contremagie:* <<spell_dispel,Dissipation>> +
+*Dague Mentale:* <<spell_bolt,Éclair>> (dégâts 2d6 sur cible unique uniquement) +
+*Divination d'Aura:* <<spell_mind_reading,Lecture des pensées>> (un type de sentiment uniquement) +
+*Éclair de Feu:* <<spell_bolt,Éclair>> (dégâts 2d6 de feu sur cible unique uniquement) +
+*Embrasement:* MOOT +
+*Main de Fer:* <<spell_smite,Frappe>> +
+*Pattes d'Araignée:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_climbing,Escalade>>) +
+*Sensation Astrale:* <<talent_astral_sight,Vision astrale>> progressive mais discrète +
 
 ==== Sorts du second cercle
-TODO
+*Bouclier Astral:* MOOT +
+*Échelle de Corde:* MOOT (+1 aux jets d'<<skill_climbing,Escalade>> pour y grimper) +
+*Grande Esquive:* <<spell_deflection,Deflexion>> +
+*Nettoyage:* MOOT +
+*Plumage:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, marchandage uniquement) +
+*Racines:* <<spell_entangle,Enchevêtrement>> +
+*Réveil:* MOOT +
 
 ==== Sorts du troisième cercle
-TODO
+*Accélération:* <<spell_speed,Vitesse>> +
+*Bris de Serrure:* MOOT (serrure brisée, serrure de qualité brisée si Relance) +
+*Effacement:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Discrétion>>, marchandage uniquement) +
+*Fureur Guerrière:* <<spell_smite,Frappe>> +
+*Lévitation:* MOOT (zone de 3×3×3m) +
+*Pas de Géant:* <<spell_speed,Vitesse>> +
+*Point de Mire:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_distance_weapons,Armes à distance>>) +
 
 ==== Sorts du quatrième cercle
-TODO
+*Barrière de Ronces:* MOOT (cible: Agilité => 2d6 de dégâts et ne peut se déplacer) +
+*Confiance:* MOOT +
+*Inventaire:* MOOT +
+*Pelote Magique:* MOOT (se brise sur un 1 sur 1d10) +
+*Relaxation:* MOOT (++2+ aux tests de récupération effectués au sein du cercle, test immédiat si Relance) +
+*Tempête de Poussière:* <<spell_entangle,Enchevêtrement>> +
 
 ==== Sorts du cinquième cercle
-TODO
+*Contresort:* MOOT +
+*Enchantement d'Armure:* <<spell_armor,Armure>> +
+*Projectile de Fortune:* <<spell_bolt,Éclair>> +
+*Ralentissement:* <<spell_slow,Ralentissement>> +
+*Vivification:* MOOT (++2+ aux tests de récupération de la cible) +
+*Vol:* <<spell_fly,Vol>> +
 
 
 
