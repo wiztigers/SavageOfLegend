@@ -1,5 +1,10 @@
 sudo: required
 
+addons:
+  apt:
+    packages:
+    - wkhtmltopdf
+
 before_install:
   - gem install compass zurb-foundation # CSS stylesheets generation
   - gem install prawn -v 2.1.0
