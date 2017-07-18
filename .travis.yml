@@ -3,6 +3,8 @@ sudo: required
 addons:
   apt:
     packages:
+    # xvfb is a « virtual » X server needed by wkhtmltopdf on Travis VMs
+    - xvfb
     - wkhtmltopdf
 
 before_install:
