@@ -21,6 +21,8 @@ histoire de pas commencer par vous assomer avec mes états d'âme.
 
 Bonne lecture !
 
+<<<
+
 
 
 
@@ -87,6 +89,8 @@ Chaque rituel du maître fantôme nécessite une pièce d'orichalque et dure tou
 Le personnage fait un jet d'Âme.
 Une réussite invoque le maître fantôme pour le reste de la nuit.
 Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) minutes.
+
+<<<
 
 
 
@@ -163,6 +167,12 @@ Tous les trolls débutent avec le Handicap Code d'Honneur (Majeur) (_Savage Worl
 === T'skrangs
 *Aquatique :* Un t'skrang ne peut pas se noyer dans l'eau, se déplace à une Allure égal à son dé de <<skill_swimming,Natation>>, et débute avec d6 en <<skill_swimming,Natation>>. +
 *Attaque caudale :* Un t'skrang peut frapper à l'aide de sa queue à For+d6 de dégâts.
+
+<<<
+
+
+
+
 
 [[skills]]
 == Compétences
@@ -290,6 +300,8 @@ Fonctionnement inchangé (_Savage Worlds_ page 46).
 === Survie (Intellect)
 Fonctionnement inchangé (_Savage Worlds_ page 46).
 
+<<<
+
 
 
 
@@ -321,6 +333,10 @@ Chaque personnage possède un _maximum de Dommages Permanents_ égale à sa Rés
 Chaque fois qu'il a recours à un rituel de magie du sang, ou qu'il se greffe un charme de sang, il augmente son compteur de Dommage Permanents de la valeur correspondante.
 
 Lorsque la valeur actuelle de son compteur de Dommages Permanents dépasse son maximum, il doit réussir un jet d'Âme à chaque fois qu'il a recours à un rituel de magie du sang, ou qu'il se greffe ou qu'il utilise un charme de sang. Si ce jet est un échec, son architrame est détruite, et lui avec, de manière potentiellement spectaculaire.
+
+<<<
+
+
 
 
 
@@ -609,6 +625,8 @@ Un Voleur peut utiliser un point de Karma dans le cadre d'un jet de <<skill_stea
 Un Voleur ajoute +2 à tous ses jets de <<skill_stealth,Discrétion>>.
 
 *Talents de discipline :* <<talent_surprise_strike,Attaque surprise>>, <<talent_avoid_blow,Esquive>>, <<talent_trap_initiative,Esquive des pièges>>, <<talent_dead_fall,Fausse mort>>
+
+<<<
 
 
 
@@ -1002,6 +1020,8 @@ Cela fonctionne quelle que soit la distance de laquelle tombe le personnage.
 
 Chaque round durant son vol plané, le personnage peut utiliser une action pour se déplacer horizontalement d'une distance maximale égale à la moitié de la distance chutée ce round-ci.
 
+<<<
+
 
 
 
@@ -1038,6 +1058,8 @@ Le talent n'a pas besoin de figurer dans la liste de ses talents de <<discipline
 Ceci mis à part, le personnage doit quand même satisfaire tous les prérequis du talent désiré.
 Il doit aussi toujours trouver un instructeur possédant ce talent et acceptant de le lui enseigner.
 
+<<<
+
 
 
 
@@ -1055,7 +1077,7 @@ Le magicien peut réduire ce malus grâce à une ou plusieurs actions de <<threa
 ** utilisation d'une <<matrix_casting,matrice de sorts>>
 ** lancement <<grimoire_casting,à travers un grimoire>>
 ** utilisation de la <<raw_magic,magie brute>>
-2. Choix du sort à lancer et calcul du _malus d'incantation_.
+2. Choix du <<spell_list,sort à lancer>> et calcul du _malus d'incantation_.
    Ce malus est égal au nombre de points de Pouvoirs requis par le sort.
 3. Réduction du _malus d'incantation_ grâce à un ou plusieurs <<thread_weaving,tests de tissage>>.
    Cette étape est facultative.
@@ -1162,6 +1184,8 @@ Cela constitue une action.
   Avec une Relance, le personnage incrédule peut éventuellement entreprendre ses autres actions du round sans que celles-ci souffrent du malus d'actions multiples (_Savage Worlds_ page 112).
 * Si le jet échoue, le personnage subit pleinement les effets du sort illusoire.
 * Si le sort auquel le personnage résiste n'est pas une illusion, le personnage en subit pleinement les effets, que le jet d'incrédulité soit un succès ou non.
+
+<<<
 
 
 
@@ -1377,6 +1401,8 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 *Vivification:* MOOT (++2+ aux tests de récupération de la cible) +
 *Vol:* <<spell_fly,Vol>> +
 
+<<<
+
 
 
 
@@ -1468,6 +1494,8 @@ Les esprits possèdent uniquement les compétences <<skill_melee_weapons,Armes d
 *Environnement favorable :* Cimetière ou charnier +
 *Environnement défavorable :* Terre consacrée
 
+<<<
+
 
 
 
@@ -1552,6 +1580,12 @@ La puissance des pouvoirs que peut accorder un objet à filaments est limitée p
 ^4^ Si le porteur ne possède pas la Compétence, il l'acquiert à d4. +
 ^5^ Le porteur n'a pas besoin d'en satisfaire les prérequis.
 
+<<<
+
+
+
+
+
 == Trésors magiques
 
 [[treasure_frost_pouch]]
@@ -1612,6 +1646,8 @@ La puissance des pouvoirs que peut accorder un objet à filaments est limitée p
 ** *Effet :*
    Le porteur ajoute 1 à son Armure.
 
+<<<
+
 
 
 
@@ -1641,6 +1677,12 @@ Garder les objets magiques funs, avec un background et une mécanique moteurs de
 Mais les gros roxxeurs doivent rester les adeptes : un om est un plus, mais un adepte doit pouvoir faire sans.
 
 Sublimer l'approche pulp de _Savage Worlds_, et lui rajouter l'épique d'_Earthdawn_ !
+
+<<<
+
+
+
+
 
 [[sw_spells]]
 == Annexe 2: Sorts de Savage Worlds
