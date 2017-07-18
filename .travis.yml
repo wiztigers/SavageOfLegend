@@ -16,8 +16,10 @@ before_install:
 script:
   # create export dir from website branch
   - git clone "https://${GITHUB_REPOSITORY}" -b gh-pages gh-pages
-  # generate stylesheets and output documents
+  # generate HTML document from source
   - ./build.sh gh-pages
+  # generate PDF document from HTML
+  - ./build-pdf.sh gh-pages
   # commit the new website version and push it
   - cd gh-pages; git config user.name "travis-ci"; git config user.email "this@is-not.travis"
   - git add .; git commit --author="${GITHUB_USER_NAME} <${GITHUB_USER_EMAIL}>" -m "Deploy ${TRAVIS_COMMIT_RANGE} to github pages"
