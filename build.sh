@@ -15,8 +15,12 @@ cp -R fonts ${exportdir}
 # copy compiled css to export directory
 cp "${stylesdir}/stylesheets/${stylename}.css" "${exportdir}/${stylename}.css"
 # generate HTML
+echo "Generating HTML ..."
 asciidoctor     core.adoc -a linkcss -a stylesheet="${stylename}.css" -o ${exportdir}/index.html
 # generate PDF
-xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf ${exportdir}/index.html ${exportdir}/SavageOfLegend.pdf
+echo "Generating PDF ..."
+cd ${exportdir}
+xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf index.html SavageOfLegend.pdf
+cd -
 # cleanup what was cloned
 rm -rf ${stylesdir}
