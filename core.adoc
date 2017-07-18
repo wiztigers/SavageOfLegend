@@ -1197,6 +1197,7 @@ Cela constitue une action.
 * Le « rang » d'un personnage au sens Earthdawn correspond à son <<ranks,Cercle>>.
 * Si un sort est indiqué « MOOT », c'est que ses effets peuvent être improvisés sans difficultés.
   La plupart du temps, les détails chiffrés ne sont pas importants.
+* Les sorts marqués d'un ^I^ sont des <<disbelief,illusions>>.
 
 [[elementalist_spells]]
 === Sorts d'élémentaliste
@@ -1253,51 +1254,49 @@ Cela constitue une action.
 [[illusionist_spells]]
 === Sorts d'illusionniste
 
-Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
-
 ==== Sorts du premier cercle
 
-*Bonne Figure* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, uniquement pour convaincre de son identité ou se comporter en fonction de son rôle) +
+*Bonne Figure* ^I^: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, uniquement pour convaincre de son identité ou se comporter en fonction de son rôle) +
 *Bourse Plate*: MOOT +
 *Contact Rassurant*: La cible acquiert l'<<eges,Atout>> Brave. +
 *Corde Enchantée*: MOOT +
-*Décalage visuel* +*+: MOOT +
-*Déguisement du Métal* +*+: MOOT +
+*Décalage visuel* ^I^: MOOT +
+*Déguisement du Métal* ^I^: MOOT +
 *Lumière*: <<spell_light_obscure,Lumière>> ou <<spell_blind,Aveuglement>> (malus de -2 au test d'<<skill_spellcasting>>). +
-*Voix Invisibles* +*+: MOOT +
+*Voix Invisibles* ^I^: MOOT +
 
 ==== Sorts du second cercle
-*Activité Innocente* +*+: MOOT +
-*Éclair vert* +*+: <<spell_bolt,Éclair>> +
-*Habillage* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, pour améliorer l'attitude) +
-*Idée fixe* +*+: MOOT +
+*Activité Innocente* ^I^: MOOT +
+*Éclair vert* ^I^: <<spell_bolt,Éclair>> +
+*Habillage* ^I^: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, pour améliorer l'attitude) +
+*Idée fixe* ^I^: MOOT +
 *Manteau de pluie*: <<spell_environmental_protection,Adaptation environnementale>> (froid chaud) et <<spell_armor,Armure>> (contre dégâts de pluie naturelle ou magique uniquement) +
-*Manteau monstrueux* +*+: <<spell_smite,Frappe>> +
+*Manteau monstrueux* ^I^: <<spell_smite,Frappe>> +
 *Véritable Éclair vert*: <<spell_bolt,Éclair>> +
 
 ==== Sorts du troisième cercle
-*Affaiblissement Karmique* +*+: MOOT (utiliser un <<karma,point de Karma>> ne rajoute que ++1 au lieu de +2+) +
-*Alarme* +*+: MOOT +
-*Faux piège* +*+: MOOT +
-*Serrure Impossible* +*+: MOOT (-2 au test de <<skill_lockpicking,Crochetage>> +
-*Sphère de Non-Présence* +*+: <<spell_invisibility,Invisibilité>> (sphère inamovible uniquement ; toute personne y pénétrant a droit à un <<disbelief,test d'Incrédulité>>) +
-*Suffocation* +*+: <<spell_bolt,Éclair>> (cible unique, plus de PP pour -1 à tous ses tests). +
-*Trou de Mémoire* +*+: <<spell_confusion,Confusion>> +
+*Affaiblissement Karmique* ^I^: MOOT (utiliser un <<karma,point de Karma>> ne rajoute que ++1 au lieu de +2+) +
+*Alarme* ^I^: MOOT +
+*Faux piège* ^I^: MOOT +
+*Serrure Impossible* ^I^: MOOT (-2 au test de <<skill_lockpicking,Crochetage>> +
+*Sphère de Non-Présence* ^I^: <<spell_invisibility,Invisibilité>> (sphère inamovible uniquement ; toute personne y pénétrant a droit à un <<disbelief,test d'Incrédulité>>) +
+*Suffocation* ^I^: <<spell_bolt,Éclair>> (cible unique, plus de PP pour -1 à tous ses tests). +
+*Trou de Mémoire* ^I^: <<spell_confusion,Confusion>> +
 
 ==== Sorts du quatrième cercle
-*Alarme Améliorée* +*+: Comme *Alarme*, mais dure plus longtemps. +
-*Appel du Devoir* +*+: <<spell_puppet,Marionnette>> (un seul ordre, petit gabarit) +
-*Aveuglement* +*+: <<spell_blind,Aveuglement>> +
+*Alarme Améliorée* ^I^: Comme *Alarme*, mais dure plus longtemps. +
+*Appel du Devoir* ^I^: <<spell_puppet,Marionnette>> (un seul ordre, petit gabarit) +
+*Aveuglement* ^I^: <<spell_blind,Aveuglement>> +
 *Cercle de Bien-Être*: MOOT (++2+ aux tests de récupération effectués au sein du cercle) +
-*Immobilisation* +*+: <<spell_puppet,Marionnette>> (immobilisation uniquement) +
-*Multi-Missile* +*+: <<spell_smite,Frappe>> (armes à distance uniquement) +
+*Immobilisation* ^I^: <<spell_puppet,Marionnette>> (immobilisation uniquement) +
+*Multi-Missile* ^I^: <<spell_smite,Frappe>> (armes à distance uniquement) +
 
 
 ==== Sorts du cinquième cercle
-*Amélioration du Karma* +*+: MOOT (utiliser un <<karma,point de Karma>> rajoute ++3 au lieu de +2+) +
-*Belles Manières* +*+: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, tant que le personnage se comporte en gars de la Haute) +
-*Douce Rêverie* +*+: <<spell_slumber,Sommeil>> +
-*Muraille de Feu* +*+: <<spell_barrier,Barrière>> de feu +
+*Amélioration du Karma* ^I^: MOOT (utiliser un <<karma,point de Karma>> rajoute ++3 au lieu de +2+) +
+*Belles Manières* ^I^: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, tant que le personnage se comporte en gars de la Haute) +
+*Douce Rêverie* ^I^: <<spell_slumber,Sommeil>> +
+*Muraille de Feu* ^I^: <<spell_barrier,Barrière>> de feu +
 *Tapis volant*: <<spell_fly,Vol>> (à lancer sur un tapis) +
 
 
@@ -1307,49 +1306,49 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 
 ==== Sorts du premier cercle
 *Affrontement des Morts-Vivants*: MOOT (test d'Âme opposé avec le MV, le gagnant inflige des dégâts égaux à son jet, dé Joker inclus) +
-*Cercle Froid:* MOOT (1d4 de dégats) +
-*Chasse-Insectes:* MOOT (les insectes ont besoin test d'Âme pour s'en prendre à la cible) +
-*Danse des Os:* cible <<spell_entangle,Enchevêtrée>> ou Secouée si Relance +
-*Détection des Morts-Vivants:* MOOT (portée: 25m) +
-*Emprise spectrale:* <<spell_bolt,Éclair>> (cibles au contact uniquement) +
-*Expérience de la mort:* MOOT (le perso dispose de 1 reserve de blessure +1 autre si Relance) +
-*Mouillage & Séchage:* MOOT +
-*Putréfaction:* MOOT (10kgs de nourriture) +
-*Voix des Oiseaux de Nuit:* <<spell_beast_friend,Ami des bêtes>> (volants nocturnes uniquement) +
+*Cercle Froid*: MOOT (1d4 de dégats) +
+*Chasse-Insectes*: MOOT (les insectes ont besoin test d'Âme pour s'en prendre à la cible) +
+*Danse des Os*: cible <<spell_entangle,Enchevêtrée>> ou Secouée si Relance +
+*Détection des Morts-Vivants*: MOOT (portée: 25m) +
+*Emprise spectrale*: <<spell_bolt,Éclair>> (cibles au contact uniquement) +
+*Expérience de la mort*: MOOT (le perso dispose de 1 reserve de blessure +1 autre si Relance) +
+*Mouillage & Séchage*: MOOT +
+*Putréfaction*: MOOT (10kgs de nourriture) +
+*Voix des Oiseaux de Nuit*: <<spell_beast_friend,Ami des bêtes>> (volants nocturnes uniquement) +
 
 ==== Sorts du second cercle
-*Bouclier de Brume:* <<spell_deflection,Déflexion>> +
-*Cercle de Protection contre les Animaux:* MOOT (les animaux ont besoin d'un test d'Âme pour y entrer) +
-*Cercle de Vie:* MOOT (les MV/H/CH ont besoin d'un test d'Âme pour y entrer, un seul ennemi repoussé par round) +
-*Cercle d'Ossements:* MOOT (traits de l'esprit des os égal au dé d'<<skill_spellcasting,Incantation>> +
-*Fantôme de Brume:* MOOT (traits du fantôme égal à d6) +
-*Gardien de Poche:* MOOT (rafut, dégâts 1d4 sans jet pour toucher) +
-*Ténèbres Éthérées:* <<spell_light_obscure,Ténèbres>> (uniquement) +
+*Bouclier de Brume*: <<spell_deflection,Déflexion>> +
+*Cercle de Protection contre les Animaux*: MOOT (les animaux ont besoin d'un test d'Âme pour y entrer) +
+*Cercle de Vie*: MOOT (les MV/H/CH ont besoin d'un test d'Âme pour y entrer, un seul ennemi repoussé par round) +
+*Cercle d'Ossements*: MOOT (traits de l'esprit des os égal au dé d'<<skill_spellcasting,Incantation>> +
+*Fantôme de Brume*: MOOT (traits du fantôme égal à d6) +
+*Gardien de Poche*: MOOT (rafut, dégâts 1d4 sans jet pour toucher) +
+*Ténèbres Éthérées*: <<spell_light_obscure,Ténèbres>> (uniquement) +
 
 ==== Sorts du troisième cercle
-*Brume de Peur:* <<spell_fear,Terreur>> +
-*Double Spectral:* MOOT clone grossier (Force, Vigueur et Agilité identiques, échoue à tous ses jets d'Âme ou d'Intellect, 10+rang rounds) +
-*Douleur:* <<spell_confusion,Confusion>> +
-*Empaquetage:* MOOT +
-*Message d'Outre-Tombe:* MOOT (portée 150km, Relance nécessaire si >40km) +
-*Tête de Mort:* <<spell_fear,Terreur>> +
+*Brume de Peur*: <<spell_fear,Terreur>> +
+*Double Spectral*: MOOT clone grossier (Force, Vigueur et Agilité identiques, échoue à tous ses jets d'Âme ou d'Intellect, 10+rang rounds) +
+*Douleur*: <<spell_confusion,Confusion>> +
+*Empaquetage*: MOOT +
+*Message d'Outre-Tombe*: MOOT (portée 150km, Relance nécessaire si >40km) +
+*Tête de Mort*: <<spell_fear,Terreur>> +
 
 ==== Sorts du quatrième cercle
-*Animation de Squelettes:* <<skill_summoning,Invocation>> limitée aux squelettes sans posséder le <<talent_summoning,talent correspondant>> +
-*Flamboiement Astral:* <<spell_blind,Aveuglement>> (cibles en perception astrale uniquement) +
-*Lorgnette:* MOOT +
-*Mauvais Œil:* cible: -1 à tous ses tests, jet d'Âme à chaque round pour annuler +
-*Nourriture Mortelle:* <<spell_blast,Explosion>> lorsque 3 aliments mélangés +
-*Serviteur spectral:* MOOT (majordome non combattant) +
-*Visions de Mort:* <<spell_stun,Choc>> (la cible résiste avec l'Âme) +
+*Animation de Squelettes*: <<skill_summoning,Invocation>> limitée aux squelettes sans posséder le <<talent_summoning,talent correspondant>> +
+*Flamboiement Astral*: <<spell_blind,Aveuglement>> (cibles en perception astrale uniquement) +
+*Lorgnette*: MOOT +
+*Mauvais Œil*: cible: -1 à tous ses tests, jet d'Âme à chaque round pour annuler +
+*Nourriture Mortelle*: <<spell_blast,Explosion>> lorsque 3 aliments mélangés +
+*Serviteur spectral*: MOOT (majordome non combattant) +
+*Visions de Mort*: <<spell_stun,Choc>> (la cible résiste avec l'Âme) +
 
 ==== Sorts du cinquième cercle
-*Animation d'Objet:* MOOT (Force, Vigueur et Agilité de l'objet suivant sa taille (peigne:d4 chaise:d6 armoire:d8), dé augmenté si Relance, Âme et Intellect toujours d6) +
-*Cercle de Protection Astrale:* MOOT +
-*Faille Astrale:* MOOT (cible: Âme à -2, sinon portée des sorts non «toucher» passe à 1km) +
-*Flétrissement:* <<spell_bolt,Éclair>> (membre flétri si blessure infligée) +
-*Horreur Astrale:* +*+ MOOT (un *Fantôme de brume* qui attaque 2×) +
-*Sceau de Garde:* MOOT (3d10 de dégâts si approche quand même) +
+*Animation d'Objet*: MOOT (Force, Vigueur et Agilité de l'objet suivant sa taille (peigne:d4 chaise:d6 armoire:d8), dé augmenté si Relance, Âme et Intellect toujours d6) +
+*Cercle de Protection Astrale*: MOOT +
+*Faille Astrale*: MOOT (cible: Âme à -2, sinon portée des sorts non «toucher» passe à 1km) +
+*Flétrissement*: <<spell_bolt,Éclair>> (membre flétri si blessure infligée) +
+*Horreur Astrale* ^I^: MOOT (un *Fantôme de brume* qui attaque 2×) +
+*Sceau de Garde*: MOOT (3d10 de dégâts si approche quand même) +
 
 
 
@@ -1357,49 +1356,49 @@ Les sorts marqués d'une astérisque (*) sont des <<disbelief,illusions>>.
 === Sorts de sorcier
 
 ==== Sorts du premier cercle
-*Attaque Mentale:* <<spell_bolt,Éclair>> (dégâts 2d6 sur cible unique uniquement) +
-*Contremagie:* <<spell_dispel,Dissipation>> +
-*Dague Mentale:* <<spell_bolt,Éclair>> (dégâts 2d6 sur cible unique uniquement) +
-*Divination d'Aura:* <<spell_mind_reading,Lecture des pensées>> (un type de sentiment uniquement) +
-*Éclair de Feu:* <<spell_bolt,Éclair>> (dégâts 2d6 de feu sur cible unique uniquement) +
-*Embrasement:* MOOT +
-*Main de Fer:* <<spell_smite,Frappe>> +
-*Pattes d'Araignée:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_climbing,Escalade>>) +
-*Sensation Astrale:* <<talent_astral_sight,Vision astrale>> progressive mais discrète +
+*Attaque Mentale*: <<spell_bolt,Éclair>> (dégâts 2d6 sur cible unique uniquement) +
+*Contremagie*: <<spell_dispel,Dissipation>> +
+*Dague Mentale*: <<spell_bolt,Éclair>> (dégâts 2d6 sur cible unique uniquement) +
+*Divination d'Aura*: <<spell_mind_reading,Lecture des pensées>> (un type de sentiment uniquement) +
+*Éclair de Feu*: <<spell_bolt,Éclair>> (dégâts 2d6 de feu sur cible unique uniquement) +
+*Embrasement*: MOOT +
+*Main de Fer*: <<spell_smite,Frappe>> +
+*Pattes d'Araignée*: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_climbing,Escalade>>) +
+*Sensation Astrale*: <<talent_astral_sight,Vision astrale>> progressive mais discrète +
 
 ==== Sorts du second cercle
-*Bouclier Astral:* MOOT +
-*Échelle de Corde:* MOOT (+1 aux jets d'<<skill_climbing,Escalade>> pour y grimper) +
-*Grande Esquive:* <<spell_deflection,Deflexion>> +
-*Nettoyage:* MOOT +
-*Plumage:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, marchandage uniquement) +
-*Racines:* <<spell_entangle,Enchevêtrement>> +
-*Réveil:* MOOT +
+*Bouclier Astral*: MOOT +
+*Échelle de Corde*: MOOT (+1 aux jets d'<<skill_climbing,Escalade>> pour y grimper) +
+*Grande Esquive*: <<spell_deflection,Deflexion>> +
+*Nettoyage*: MOOT +
+*Plumage*: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_persuasion,Persuasion>>, marchandage uniquement) +
+*Racines*: <<spell_entangle,Enchevêtrement>> +
+*Réveil*: MOOT +
 
 ==== Sorts du troisième cercle
-*Accélération:* <<spell_speed,Vitesse>> +
-*Bris de Serrure:* MOOT (serrure brisée, serrure de qualité brisée si Relance) +
-*Effacement:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Discrétion>>, marchandage uniquement) +
-*Fureur Guerrière:* <<spell_smite,Frappe>> +
-*Lévitation:* MOOT (zone de 3×3×3m) +
-*Pas de Géant:* <<spell_speed,Vitesse>> +
-*Point de Mire:* <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_distance_weapons,Armes à distance>>) +
+*Accélération*: <<spell_speed,Vitesse>> +
+*Bris de Serrure*: MOOT (serrure brisée, serrure de qualité brisée si Relance) +
+*Effacement*: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_stealth,Discrétion>>, marchandage uniquement) +
+*Fureur Guerrière*: <<spell_smite,Frappe>> +
+*Lévitation*: MOOT (zone de 3×3×3m) +
+*Pas de Géant*: <<spell_speed,Vitesse>> +
+*Point de Mire*: <<spell_boost_lower_trait,Augmentation de Trait>> (<<skill_distance_weapons,Armes à distance>>) +
 
 ==== Sorts du quatrième cercle
-*Barrière de Ronces:* MOOT (cible: Agilité => 2d6 de dégâts et ne peut se déplacer) +
-*Confiance:* MOOT +
-*Inventaire:* MOOT +
-*Pelote Magique:* MOOT (se brise sur un 1 sur 1d10) +
-*Relaxation:* MOOT (++2+ aux tests de récupération effectués au sein du cercle, test immédiat si Relance) +
-*Tempête de Poussière:* <<spell_entangle,Enchevêtrement>> +
+*Barrière de Ronces*: MOOT (cible: Agilité => 2d6 de dégâts et ne peut se déplacer) +
+*Confiance*: MOOT +
+*Inventaire*: MOOT +
+*Pelote Magique*: MOOT (se brise sur un 1 sur 1d10) +
+*Relaxation*: MOOT (++2+ aux tests de récupération effectués au sein du cercle, test immédiat si Relance) +
+*Tempête de Poussière*: <<spell_entangle,Enchevêtrement>> +
 
 ==== Sorts du cinquième cercle
-*Contresort:* MOOT +
-*Enchantement d'Armure:* <<spell_armor,Armure>> +
-*Projectile de Fortune:* <<spell_bolt,Éclair>> +
-*Ralentissement:* <<spell_slow,Ralentissement>> +
-*Vivification:* MOOT (++2+ aux tests de récupération de la cible) +
-*Vol:* <<spell_fly,Vol>> +
+*Contresort*: MOOT +
+*Enchantement d'Armure*: <<spell_armor,Armure>> +
+*Projectile de Fortune*: <<spell_bolt,Éclair>> +
+*Ralentissement*: <<spell_slow,Ralentissement>> +
+*Vivification*: MOOT (++2+ aux tests de récupération de la cible) +
+*Vol*: <<spell_fly,Vol>> +
 
 <<<
 
