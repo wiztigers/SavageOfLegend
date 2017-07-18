@@ -1,6 +1,6 @@
 == Albert Text font licensing
 
-'Albert Text' font is used under the termes of 1001Fonts Free For Commercial Use License (FFC).
+'Albert Text' font is used under the terms of 1001Fonts Free For Commercial Use License (FFC).
 
 Its author is user 'Typographer Mediengestaltung' aka Dieter Steffmann:
 

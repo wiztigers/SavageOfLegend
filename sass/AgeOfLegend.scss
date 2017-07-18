@@ -3,15 +3,13 @@
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-title;
+	margin: 0em;
+	margin-top: 1em;
 }
 
 //.race p, .skill p, .discipline p, .edge p {
 p {
 	margin: 0em;
-}
-.race h3, .skill h3, .discipline h3, .edge h3 {
-	margin: 0em;
-	margin-top: 1em;
 }
 
  // lists and nested lists indentation
