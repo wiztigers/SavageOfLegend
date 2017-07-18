@@ -1,15 +1,6 @@
 ﻿@import "settings/AgeOfLegend";
 @import "components/asciidoc";
 
-@font-face {
-	font-family: $font-chelsea;
-	src: url("../SavageOfLegend/fonts/CHS____.TTF") format('truetype');
-}
-@font-face {
-	font-family: $font-willow;
-	src: url("../SavageOfLegend/fonts/WILLOW_.TTF") format('truetype');
-}
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-title;
 }

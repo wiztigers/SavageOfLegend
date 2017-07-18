@@ -1,9 +1,12 @@
 ﻿@import "defaults";
 
-$font-chelsea : 'Chelsea';
-$font-willow : 'Willow';
-$font-title: $font-chelsea, sans-serif;
-$font-text: $font-willow, serif;
+$font-alberttext : 'AlbertText';
+@font-face {
+	font-family: $font-alberttext;
+	src: url("../SavageOfLegend/fonts/AlbertText-Bold.ttf") format('truetype');
+}
+
+$font-title: $font-alberttext, sans-serif;
 $font-color: #000000;
 $bullet-number-size: 1.15em;
 $bullet-number-font-size: $bullet-number-size*0.75;
