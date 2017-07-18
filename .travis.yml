@@ -23,7 +23,7 @@ script:
   - git add .; git commit --author="${GITHUB_USER_NAME} <${GITHUB_USER_EMAIL}>" -m "Deploy ${TRAVIS_COMMIT_RANGE} to github pages"
   - git push --quiet "https://${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" gh-pages > /dev/null 2>&1
   # generate PDF document from HTML
-  - ./build-pdf.sh
+  - ../build-pdf.sh
   - git add .; git commit --author="${GITHUB_USER_NAME} <${GITHUB_USER_EMAIL}>" -m "Deploy PDF corresponding to ${TRAVIS_COMMIT_RANGE} to github pages"
   - git push --quiet "https://${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" gh-pages > /dev/null 2>&1
   - cd ..
