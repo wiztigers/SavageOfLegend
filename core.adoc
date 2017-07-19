@@ -139,7 +139,7 @@ Il peut par contre acheter l'Atout de <<edge_versatility,Polyvalence>>, s'il le 
 [role='race']
 === Sylphelins
 *Curieux :* Un sylphelin débute avec le Handicap Curieux (Majeur) (_Savage Worlds_ page 49). +
-*Taille :* La Taille d'un sylphelin est de -1 (_Savage Worlds_ page 242). +
+*Taille :* La Taille d'un sylphelin est de -2 (_Savage Worlds_ page 242). +
 *Faible :* La Force d'un sylphelin ne peut pas dépasser d6. +
 *Vol :* Un sylphelin peut voler à son Allure normale, et même « courir » lorsqu'il vole (_Savage Worlds_ page 243).
 Il lui coûte 2 points d'Allure pour monter d'une case.
@@ -147,8 +147,8 @@ Un sylphelin peut voler au maximum 15 minutes d'affilée.
 Il doit se reposer 1 minute pour récupérer de chaque minute passée en vol. +
 En vol, l'Allure d'un sylphelin est de 8. +
 Au sol, l'Allure d'un sylphelin est de 4. +
-*Sensibilité astrale :* Un sylphelin peut percevoir l'espace astral, comme décrit par le talent <<talent_astral_sight,Vision astrale>>.
-Un sylphelin n'a pas besoin de dépenser de points de Karma pour activer cette faculté. +
+*Sensibilité astrale :* Un sylphelin acquiert gratuitement le talent <<talent_astral_sight,Vision astrale>>.
+Il n'a cependant pas besoin de dépenser de points de Karma pour activer cette faculté. +
 *Créature magique :* Un sylphelin débute avec l'Atout <<edge_karma_affinity,Régénération de Karma>>.
 
 [[race_trolls]]
