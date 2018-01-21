@@ -332,7 +332,7 @@ Chaque personnage possède un _maximum de Dommages Permanents_ égale à sa Rés
 
 Chaque fois qu'il a recours à un rituel de magie du sang, ou qu'il se greffe un charme de sang, il augmente son compteur de Dommage Permanents de la valeur correspondante.
 
-Lorsque la valeur actuelle de son compteur de Dommages Permanents dépasse son maximum, il doit réussir un jet d'Âme à chaque fois qu'il a recours à un rituel de magie du sang, ou qu'il se greffe ou qu'il utilise un charme de sang. Si ce jet est un échec, son architrame est détruite, et lui avec, de manière potentiellement spectaculaire.
+Lorsque la valeur actuelle de son compteur de Dommages Permanents dépasse son maximum, il doit réussir un jet d'Âme à chaque fois qu'il a recours à un rituel de magie du sang, ou qu'il se greffe ou qu'il utilise un charme de sang. Si ce jet est un échec, son architrame est détruite, et lui avec, de manière potentiellement spectaculaire (_L'Empire Théran_ page 163).
 
 <<<
 
@@ -850,7 +850,7 @@ De plus, il ajoute un bonus à ses jets de dégâts à mains nues égaux à son 
 *Prérequis :* <<ranks,Compagnon>>, <<skill_notice,Perception>> d6+, <<skill_investigation,Renseignements>> d6+
 
 Après avoir gardé auprès de lui un objet magique pendant une semaine, le personnage peut dépenser un point de Karma et effectuer un test d'Identification (un jet de <<skill_notice,Perception>>) de cet objet.
-Le personnage apprend la nature d'une <<key_knowledge,connaissance clef>> de l'objet par succès et par Relance, à commencer par la <<key_knowledge,connaissance clef>> de Rang le plus faible.
+Le personnage apprend la nature d'une <<key_knowledge,connaissance clef>> de l'objet par succès et par Relance, à commencer par la <<key_knowledge,connaissance clef>> de Rang le plus faible, même s'il connait déjà celle-ci.
 Le personnage bénéficie d'un bonus de +1 à son test d'Identification par semaine supplémentaire pendant laquelle il conserve l'objet magique auprès de lui.
 
 [[talent_summoning]]
@@ -1087,7 +1087,7 @@ Le magicien peut réduire ce malus grâce à une ou plusieurs actions de <<threa
 
 [[thread_weaving]]
 === Tissage de filaments
-Le tissage de filaments de sorts est une action qui permet de réduire le _<<spell_casting,malus d'incantation>> d'un sort en cours de lancement.
+Le tissage de filaments de sorts est une action qui permet de réduire le <<spell_casting,malus d'incantation>> d'un sort en cours de lancement.
 Le magicien effectue un test de Tissage (un jet d'<<skill_spellcasting,Incantation>>, différent du jet de celui nécessaire pour le sort).
 Chaque succès et Relance réduit le <<spell_casting,malus d'incantation>> de 2 points.
 
@@ -1197,6 +1197,7 @@ Cela constitue une action.
 * Le « rang » d'un personnage au sens Earthdawn correspond à son <<ranks,Cercle>>.
 * Si un sort est indiqué « MOOT », c'est que ses effets peuvent être improvisés sans difficultés.
   La plupart du temps, les détails chiffrés ne sont pas importants.
+* Sinon, la description du sort mentionne le pouvoir équivalent de Savage Worlds, avec éventuellement certains ajustements.
 * Les sorts marqués d'un ^I^ sont des <<disbelief,illusions>>.
 
 [[elementalist_spells]]
@@ -1278,7 +1279,7 @@ Cela constitue une action.
 *Affaiblissement Karmique* ^I^: MOOT (utiliser un <<karma,point de Karma>> ne rajoute que ++1 au lieu de +2+) +
 *Alarme* ^I^: MOOT +
 *Faux piège* ^I^: MOOT +
-*Serrure Impossible* ^I^: MOOT (-2 au test de <<skill_lockpicking,Crochetage>> +
+*Serrure Impossible* ^I^: MOOT (-2 au test de <<skill_lockpicking,Crochetage>>) +
 *Sphère de Non-Présence* ^I^: <<spell_invisibility,Invisibilité>> (sphère inamovible uniquement ; toute personne y pénétrant a droit à un <<disbelief,test d'Incrédulité>>) +
 *Suffocation* ^I^: <<spell_bolt,Éclair>> (cible unique, plus de PP pour -1 à tous ses tests). +
 *Trou de Mémoire* ^I^: <<spell_confusion,Confusion>> +
@@ -1437,7 +1438,7 @@ Le rituel d'invocation prend une minute est est assorti des modificateurs suivan
 [[spirits]]
 === Esprits
 
-La caractéristique principale d'un esprit est sa Puissance, exprimé comme un dé dont la valeur peut aller de d4-2 à d12.
+La caractéristique principale d'un esprit est sa Puissance, exprimée comme un dé dont la valeur peut aller de d4-2 à d12.
 Les esprits dont la Puissance est supérieure à d12 existent, mais ne sont pas invocables par la méthode d'<<skill_summoning,invocation>> habituelle.
 
 Tous les traits d'un esprit sont égaux à sa Puissance.
@@ -1449,7 +1450,7 @@ Les esprits possèdent uniquement les compétences <<skill_melee_weapons,Armes d
 
 *Matériau d'invocation :* Vent fort +
 *Environnement favorable :* Tempête ou haute altitude +
-*Environnement défavorable :* Intérieurs
+*Environnement défavorable :* Intérieurs ou sous terre
 
 ==== Élémentaire d'eau
 
@@ -1513,7 +1514,7 @@ Un adepte peut maintenir en même temps un nombre maximal de filaments égal à 
 Attacher un filament à un objet magique (ou augmenter le Rang d'un filament existant) est une action qui coûte un <<karma,point de karma>> mais ne requiert aucun test ; l'adepte doit cependant connaître toutes les <<key_knowledge,Connaissances clefs>> de l'objet de Rang inférieur ou égal au Rang du filament désiré.
 
 Un adepte peut à tout moment détruire un filament qu'il a lui-même attaché à un objet magique.
-Il ne pourra cependant pas ré-attacher ce filament avant que 24 heures se soient écoulées.
+Il ne pourra cependant pas ré-attacher ce filament avant que 24 heures ne se soient écoulées.
 
 [[key_knowledge]]
 === Connaissances clefs
@@ -1673,7 +1674,7 @@ Comme dans tous les jdr, éviter le syndrôme du magot qui roxe tout et fait tou
 Éviter les pièges habituels : les esprits ne doivent pas être plus puissants que les PJs et faire le boulot à leur place, incanter depuis un grimoire ça peut être pratique mais c'est lourdingue, la magie brute ça fait peur, une Horreur c'est mystérieux, puissant ET ça fait peur.
 
 Garder les objets magiques funs, avec un background et une mécanique moteurs de scénarios.
-Mais les gros roxxeurs doivent rester les adeptes : un om est un plus, mais un adepte doit pouvoir faire sans.
+Mais les gros roxxeurs doivent rester les adeptes : un OM est un plus, mais un adepte doit pouvoir faire sans.
 
 Sublimer l'approche pulp de _Savage Worlds_, et lui rajouter l'épique d'_Earthdawn_ !
 
