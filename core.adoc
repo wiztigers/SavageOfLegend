@@ -12,7 +12,7 @@ Les licences _Earthdawn_ et _Savage Worlds_ appartiennent à leurs propriétaire
 Ce document part du principe que le lecteur connait l'univers et les principes de jeu d'_Earthdawn_,
 et dispose de la VF de _Savage Worlds_ sous la main.
 
-Outre les sources déjà citées, ce document est basé en partie sur
+Outre les sources déjà citées, ce document est basé en partie sur 
 http://www.rollenspiel-almanach.de/download/Savage_Earthdawn_3.0_public.pdf[Savage Dawn 3.0], de Markus Finster,
 que je n'ai pas repris car j'avais besoin de règles en français, et que je désirais remanier pas mal de points
 (en gros, j'ai pris comme point de départ son interaction entre Karma et les disciplines et talents en tant qu'Atouts).
