@@ -366,9 +366,14 @@ b.button:after { content: "]"; padding: 0 2px 0 3px; }
 
 #footer-text { color: #dddddd; line-height: 1.44; }
 
+#content { margin-bottom: 0.625em; }
+
 .sect1 { padding-bottom: 0.625em; }
 
-@media only screen and (min-width: 768px) { .sect1 { padding-bottom: 1.25em; } }
+@media only screen and (min-width: 768px) { #content { margin-bottom: 1.25em; }
+  .sect1 { padding-bottom: 1.25em; } }
+.sect1:last-child { padding-bottom: 0; }
+
 .sect1 + .sect1 { border-top: 1px solid #ddd; }
 
 #content h1 > a.anchor, h2 > a.anchor, h3 > a.anchor, #toctitle > a.anchor, .sidebarblock > .content > .title > a.anchor, h4 > a.anchor, h5 > a.anchor, h6 > a.anchor { position: absolute; z-index: 1001; width: 1.5ex; margin-left: -1.5ex; display: block; text-decoration: none !important; visibility: hidden; text-align: center; font-weight: normal; }
@@ -389,7 +394,7 @@ table.tableblock #preamble > .sectionbody > .paragraph:first-of-type p { font-si
 
 .admonitionblock > table { border-collapse: separate; border: 0; background: none; width: 100%; }
 .admonitionblock > table td.icon { text-align: center; width: 80px; }
-.admonitionblock > table td.icon img { max-width: initial; }
+.admonitionblock > table td.icon img { max-width: none; }
 .admonitionblock > table td.icon .title { font-weight: bold; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 .admonitionblock > table td.content { padding-left: 1.125em; padding-right: 1.25em; border-left: 1px solid #ddd; color: #555555; }
 .admonitionblock > table td.content > :last-child > :last-child { margin-bottom: 0; }
@@ -535,9 +540,9 @@ ul.checklist li > p:first-child > .fa-square-o:first-child, ul.checklist li > p:
 
 ul.checklist li > p:first-child > input[type="checkbox"]:first-child { margin-right: 0.25em; }
 
-ul.inline { margin: 0 auto 0.625em auto; margin-left: -1.375em; margin-right: 0; padding: 0; list-style: none; overflow: hidden; }
-ul.inline > li { list-style: none; float: left; margin-left: 1.375em; display: block; }
-ul.inline > li > * { display: block; }
+ul.inline { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-flow: row wrap; -webkit-flex-flow: row wrap; flex-flow: row wrap; list-style: none; margin: 0 0 0.625em -1.25em; }
+
+ul.inline > li { margin-left: 1.25em; }
 
 .unstyled dl dt { font-weight: normal; font-style: normal; }
 
@@ -564,9 +569,9 @@ td.hdlist1 { font-weight: bold; padding-bottom: 1.25em; }
 
 .literalblock + .colist, .listingblock + .colist { margin-top: -0.5em; }
 
-.colist > table tr > td:first-of-type { padding: 0.4em 0.75em 0 0.75em; line-height: 1; vertical-align: top; }
-.colist > table tr > td:first-of-type img { max-width: initial; }
-.colist > table tr > td:last-of-type { padding: 0.25em 0; }
+.colist td:not([class]):first-child { padding: 0.4em 0.75em 0 0.75em; line-height: 1; vertical-align: top; }
+.colist td:not([class]):first-child img { max-width: none; }
+.colist td:not([class]):last-child { padding: 0.25em 0; }
 
 .thumb, .th { line-height: 0; display: inline-block; border: solid 4px #fff; -webkit-box-shadow: 0 0 0 1px #ddd; box-shadow: 0 0 0 1px #ddd; }
 
@@ -589,8 +594,8 @@ sup.footnote a:active, sup.footnoteref a:active { text-decoration: underline; }
 
 #footnotes { padding-top: 0.75em; padding-bottom: 0.75em; margin-bottom: 0.625em; }
 #footnotes hr { width: 20%; min-width: 6.25em; margin: -0.25em 0 0.75em 0; border-width: 1px 0 0 0; }
-#footnotes .footnote { padding: 0 0.375em 0 0.225em; line-height: 1.3334; font-size: 0.875em; margin-left: 1.2em; text-indent: -1.05em; margin-bottom: 0.2em; }
-#footnotes .footnote a:first-of-type { font-weight: bold; text-decoration: none; }
+#footnotes .footnote { padding: 0 0.375em 0 0.225em; line-height: 1.3334; font-size: 0.875em; margin-left: 1.2em; margin-bottom: 0.2em; }
+#footnotes .footnote a:first-of-type { font-weight: bold; text-decoration: none; margin-left: -1.05em; }
 #footnotes .footnote:last-of-type { margin-bottom: 0; }
 #content #footnotes { margin-top: -0.625em; margin-bottom: 0; padding: 0.75em 0; }
 
