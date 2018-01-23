@@ -40,6 +40,7 @@ Les coûts de ces améliorations sont les suivants :
 * Prendre une nouvelle <<skill_knowledge,Connaissance>> (1 point de Légende)
 * Augmenter un Attribut (2 points de Légende, une seule fois par <<ranks,Rang>>)
 
+[[character_creation]]
 === Création d'un héros
 La création de personnage suit la procédure habituelle (_Savage Worlds_ pages 26,72), avec les ajustements suivants :
 
@@ -48,8 +49,7 @@ La création de personnage suit la procédure habituelle (_Savage Worlds_ pages 
 ** Le personnage débute avec un d4 dans chaque Attribut et peut les augmenter 5 fois
 ** Le personnage dispose de 15 <<build_your_legend,points de Légende>> à répartir dans ses <<skills,Compétences>>
 ** Le personnage obtient gratuitement une <<skill_knowledge,Compétence artisanale et artistique>> de son choix
-** Le personnage parle automatiquement la <<skill_knowledge,Langue (nain)>> +
-   Un personnage <<race_dwarves,nain>> obtient une autre <<skill_knowledge,Connaissance>> de son choix à la place
+** Le personnage parle automatiquement la <<skill_knowledge,Langue (nain)>> ainsi que la <<skill_knowledge,Langue>> habituelle de sa race ou de sa région. +
 ** N'oubliez pas de calculer le Charisme, l'Allure, la Parade, la Résistance du personnage,
    mais aussi sa <<karma,Réserve de Karma>> (égale à son <<ranks,Cercle>>)
    ainsi que son maximum de <<blood_magic,Dommages permanents>> (égal à sa Résistance)
@@ -62,6 +62,7 @@ La création de personnage suit la procédure habituelle (_Savage Worlds_ pages 
 
 Un personnage nouvellement créé est de <<ranks,Cercle>> 1.
 
+[[character_advancement]]
 === Progression d'un héros
 Tous les 5 XP gagnés, un personnage gagne un Cercle.
 Il bénéficie alors de 2 <<build_your_legend,points de Légende>>.
@@ -106,7 +107,7 @@ Un échec ouvre un portail sur l'espace astral pour une durée de (5 - Rang) min
 [[race_humans]]
 [role='race']
 === Humains
-*Potentiel :* Un humain débute avec 3 <<build_your_legend,points de Légende>> supplémentaire.
+*Potentiel :* Un humain débute avec 3 <<build_your_legend,points de Légende>> supplémentaires.
 Il ne peut pas se servir de ces points pour augmenter un de ses Attributs.
 Il peut par contre acheter l'Atout de <<edge_versatility,Polyvalence>>, s'il le désire.
 
@@ -116,7 +117,8 @@ Il peut par contre acheter l'Atout de <<edge_versatility,Polyvalence>>, s'il le 
 *Lent :* Un nain a une Allure de 5. +
 *Robuste :* Un nain débute avec d6 en Vigueur au lieu de d4. +
 *Endurant :* Un nain bénéficie d'un bonus de +2 pour résister aux effets négatifs de l'environnement (chaleur, froid, pression, ...), ainsi que pour résister à la maladie et au poison. +
-*Vision thermographique :* Un nain divise de moitié les malus (arrondir à l'inférieur) dus à une luminosité faible.
+*Vision thermographique :* Un nain divise de moitié les malus (arrondir à l'inférieur) dus à une luminosité faible. +
+*Barsaivien :* Lors de la <<character_creation,création de personnage>>, le personnage peut choisir n'importe quelle <<skill_knowledge,Connaissance>> de son choix en lieu et place de « la langue habituelle de sa race ou de sa région ».
 
 [[race_obsidmens]]
 [role='race']
